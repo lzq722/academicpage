@@ -20,7 +20,7 @@
           direction="vertical"
         >
           <el-carousel-item v-for="item in 5" :key="item">
-            <img :src="`/image/${item}.png`" alt="" style="width: 100%; height: 100%;">
+            <img :src="`/academicpage/image/${item}.png`" alt="" style="width: 100%; height: 100%;">
           </el-carousel-item>
         </el-carousel>
       </div>
@@ -53,7 +53,7 @@
             NSF for Excellent Young Scientists (Overseas)
           </p>
         </div>
-        <img :src="`/image/2.png`" alt="" class="teacherimg" />
+        <img src="/image/2.png" alt="" class="teacherimg" />
       </div>
       <div class="teacher2">
         <div class="teacherbg">
@@ -63,7 +63,7 @@
             B. Sc. HUST, M. Sc. PKU, Ph. D. AAU (DK)
           </p>
         </div>
-        <img :src="`/image/2.png`" alt="" class="teacherimg" />
+        <img src="/image/2.png" alt="" class="teacherimg" />
       </div>
     </div>
     <div class="recruitment">
@@ -81,7 +81,7 @@
         <span style="color: #0072CB;">(2) dingming.wu@gmail.com (Dr. Dingming Wu).</span>
       </p>
       <p class="rsubtitle">Welcome to the Database Group in Shenzhen University (SZU).</p>
-      <img :src="`/image/sofia.png`" alt="" class="rimg">
+      <img src="/image/sofia.png" alt="" class="rimg">
     </div>
   </div>
 </template>

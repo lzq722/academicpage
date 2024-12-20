@@ -12,7 +12,7 @@
         <el-icon size="23"><Paperclip /></el-icon>
         edisonchan2013928@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disonchan@szu.edu.cn
       </div>
-      <img :src="`/image/2.png`" alt="" class="teacherimg" />
+      <img src="/image/2.png" alt="" class="teacherimg" />
     </div>
     <p class="text">
       Tsz Nam Chan (Edison) is currently a Distinguished Professor 
@@ -67,19 +67,19 @@
       <div class="group">
         <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
-        <img :src="`/image/1.png`" alt="" class="gimg1">
-        <img :src="`/image/1.png`" alt="" class="gimg2">
-        <img :src="`/image/1.png`" alt="" class="gimg3">
+        <img src="/image/1.png" alt="" class="gimg1">
+        <img src="/image/1.png" alt="" class="gimg2">
+        <img src="/image/1.png" alt="" class="gimg3">
       </div>
       <div class="group2">
         <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
-        <img :src="`/image/2.png`" alt="" class="gimg1">
+        <img src="/image/2.png" alt="" class="gimg1">
       </div>
       <div v-if="showGroup2" class="group3">
         <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
-        <img :src="`/image/2.png`" alt="" class="gimg1">
+        <img src="/image/2.png" alt="" class="gimg1">
       </div>
       <p style="display: flex; margin-top: 24px; height: 30px; line-height: 30px; color: #2F81FC; font-weight: 400; font-size: 14px;">
         If you want to view more projects, please click
