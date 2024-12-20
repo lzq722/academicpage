@@ -308,6 +308,11 @@ const foldteaching = () => {
 </script>
 
 <style scoped>
+:global(body) {
+  font-family: Inter, Inter;
+  color: #000000;
+  overflow-x: hidden;
+}
 .bg {
   width: 100%;
   /* height: 6558px; */
