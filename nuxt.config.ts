@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
-    baseURL: '/nuxt-github-pages/',
+    baseURL: '/academicpage/',
     buildAssetsDir: 'nuxt_assets',
   },
 
