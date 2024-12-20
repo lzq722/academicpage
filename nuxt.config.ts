@@ -1,4 +1,4 @@
-import path from 'path';
+// import path from 'path';
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -62,9 +62,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-08-14',
 
   nitro: {
-    output: {
-      publicDir: path.join(__dirname, 'docs')
-    },
+    // output: {
+      // publicDir: path.join(__dirname, 'docs')
+    // },
     esbuild: {
       options: {
         target: 'esnext',
