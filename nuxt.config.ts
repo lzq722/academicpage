@@ -1,3 +1,5 @@
+import path from 'path';
+
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   modules: [
@@ -16,7 +18,7 @@ export default defineNuxtConfig({
   app: {
     // head
     head: {
-      title: 'Element Plus + Nuxt 3',
+      title: 'academicpage',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
@@ -60,6 +62,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-08-14',
 
   nitro: {
+    output: {
+      publicDir: path.join(__dirname, 'docs')
+    },
     esbuild: {
       options: {
         target: 'esnext',
