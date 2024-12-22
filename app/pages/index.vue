@@ -40,7 +40,7 @@
       </p>
     </div>
     <div class="member">
-      <div class="ellipse" />
+      <img src="/image/pic_blue.png" alt="" class="ellipse">
       <p class="mtitle">Faculty Members</p>
       <div class="line1" />
       <div class="line2" />
@@ -240,8 +240,8 @@ const navigateToPage = () => {
   margin-left: 385px;
   width: 42px;
   height: 42px;
-  background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #91C7F5 100%);
-  border-radius: 50px;
+  /* background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #91C7F5 100%); */
+  /* border-radius: 50px; */
 }
 
 .mtitle {

@@ -2,17 +2,19 @@
 <template>
   <div class="bg">
     <div class="top">
-      <div class="tname">Prof. Tsz Nam Chan</div>
-      <div class="tintro">Distinguished Professor<br>College of Computer Science and Software Engineering Shenzhen University</div>
-      <div class="tlocation">
-        <el-icon size="23"><Location /></el-icon>
-        Zhiteng Building 618-3
+      <div class="topcontainer">
+        <div class="tname">Prof. Tsz Nam Chan</div>
+        <div class="tintro">Distinguished Professor<br>College of Computer Science and Software Engineering Shenzhen University</div>
+        <div class="tlocation">
+          <img src="/image/icon_address.png" alt="" class="icon_address">
+          <span class="locationtext">Zhiteng Building 618-3</span>
+        </div>
+        <div class="temail">
+          <img src="/image/icon_email.png" alt="" class="icon_email">
+          <span class="emailtext">edisonchan2013928@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disonchan@szu.edu.cn</span>
+        </div>
+        <img src="/image/2.png" alt="" class="teacherimg" />
       </div>
-      <div class="temail">
-        <el-icon size="23"><Paperclip /></el-icon>
-        edisonchan2013928@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disonchan@szu.edu.cn
-      </div>
-      <img src="/image/2.png" alt="" class="teacherimg" />
     </div>
     <p class="text">
       Tsz Nam Chan (Edison) is currently a Distinguished Professor 
@@ -31,7 +33,7 @@
       in 2019 and 2014, respectively. He is an IEEE senior member, an ACM member, and an AAAI member.</p>
     <div class="research">
       <div class="rtitle">
-        <div class="rellipse" />
+        <img src="/image/pic_blue.png" alt="" class="rellipse">
         <p class="title">Research</p>
         <div class="rline1" />
         <div class="rline2" />
@@ -84,12 +86,14 @@
       <p style="display: flex; margin-top: 24px; height: 30px; line-height: 30px; color: #2F81FC; font-weight: 400; font-size: 14px;">
         If you want to view more projects, please click
         <button class="toggle-button" @click="toggleGroup2" >
-          &nbsp;{{ showGroup2 ? 'LESS ⬆' : 'MORE ⬇' }}
+            &nbsp;{{ showGroup2 ? 'FOLD' : 'MORE' }}
+            <img v-if="showGroup2" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
+            <img v-else src="/image/icon_open.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
         </button>
       </p>
     </div>
     <div class="achievement">
-      <div class="aellipse" />
+      <img src="/image/pic_red.png" alt="" class="aellipse">
       <p class="atitle">Achievements</p>
       <div class="aline1" />
       <div class="aline2" />
@@ -104,7 +108,6 @@
             </div>
             <div class="dblp">[DBLP] [Google Scholar]</div>
           </el-col>
-          <!-- <el-col :span="1" /> -->
           <el-col :span="12">
             <div v-if="activetab === 1" class="atext">
               <p>PI: Shenzhen University Internal Grant 2024 (研究生优秀教材建设项目) "如何调整心态去撰写计算机科学论文？" (How to Change Your Mindset to Write Academic Papers in Computer Science?), 200,000 RMB</p>
@@ -142,7 +145,7 @@
     </div>
     <div class="ps">
       <div class="pstitle">
-        <div class="pellipse" />
+        <img src="/image/pic_green.png" alt="" class="pellipse">
         <p class="ptitle">Professional Services</p>
         <div class="pline1" />
         <div class="pline2" />
@@ -164,7 +167,11 @@
               <span>IEEE Transactions on Computers (TC)</span><br>
               <span>World Wide Web Journal (WWWJ)</span><br>
               <span v-if="showjr">111<br></span>
-              <button class="showjrbutton" @click="showjrfun">{{ showjr ? 'FOLD' : 'MORE'}}</button>
+              <button class="showjrbutton" @click="showjrfun">
+                {{ showjr ? 'FOLD' : 'MORE'}}
+                <img v-if="showjr" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
+                <img v-else src="/image/icon_open.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
+              </button>
             </td>
           </tr>
           <tr>
@@ -201,7 +208,7 @@
     </div>
     <div class="teaching">
       <div class="teachingtitle">
-        <div class="tellipse" />
+        <img src="/image/pic_purple.png" alt="" class="tellipse">
         <p class="ptitle">Teaching</p>
         <div class="pline1" />
         <div class="pline2" />
@@ -216,7 +223,10 @@
           <p>HKBU COMP 7930 Big Data Analytics (Spring 2021, Spring 2022)</p>
           <p>HKBU COMP 4035 Database System Implementation (Fall 2020, Fall 2021, Fall 2022)</p>
         </div>
-        <button class="more" @click="moreteaching(1)">MORE</button>
+        <button class="more" style="display: flex;" @click="moreteaching(1)">
+          MORE
+          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+        </button>
       </div>
       <div class="at">
         <p class="ctitle">Academic Talks</p>
@@ -226,7 +236,10 @@
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2022), Shandong University (China)</p>
           <p>A Complexity-Optimized Solution for Large-scale Kernel Density Visualization (December 2022), Shenzhen University (China)</p>
         </div>
-        <button class="more" @click="moreteaching(2)">MORE</button>
+        <button class="more" style="display: flex;" @click="moreteaching(2)">
+          MORE
+          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+        </button>
       </div>
       <div class="tutorials">
         <p class="ctitle">Tutorials</p>
@@ -235,7 +248,10 @@
           <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
           <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
         </div>
-        <button class="more" @click="moreteaching(3)">MORE</button>
+        <button class="more" style="display: flex;" @click="moreteaching(3)">
+          MORE
+          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+        </button>
       </div>
     </div>
       <div v-if="teachingcard === 1" class="coursebig">
@@ -247,7 +263,10 @@
           <p>HKBU COMP 7930 Big Data Analytics (Spring 2021, Spring 2022)</p>
           <p>HKBU COMP 4035 Database System Implementation (Fall 2020, Fall 2021, Fall 2022)</p>
         </div>
-        <button class="fold" @click="foldteaching">FOLD</button>
+        <button class="fold" style="display: flex;" @click="foldteaching">
+          FOLD
+          <img src="/image/icon_fold2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+        </button>
       </div>
       <div v-if="teachingcard === 2" class="coursebig">
         <p class="titlebig">Academic Talks</p>
@@ -257,7 +276,10 @@
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2022), Shandong University (China)</p>
           <p>A Complexity-Optimized Solution for Large-scale Kernel Density Visualization (December 2022), Shenzhen University (China)</p>
         </div>
-        <button class="fold" @click="foldteaching">FOLD</button>
+        <button class="fold" style="display: flex;" @click="foldteaching">
+          FOLD
+          <img src="/image/icon_fold2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+        </button>
       </div>
       <div v-if="teachingcard === 3" class="coursebig">
         <p class="titlebig">Tutorials</p>
@@ -266,7 +288,10 @@
           <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
           <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
         </div>
-        <button class="fold" @click="foldteaching">FOLD</button>
+        <button class="fold" style="display: flex;" @click="foldteaching">
+          FOLD
+          <img src="/image/icon_fold2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+        </button>
       </div>
     </div>
     <div class="end">
@@ -279,7 +304,6 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import { Location, Paperclip } from '@element-plus/icons-vue';
 
 const showGroup2 = ref(false);
 const showjr = ref(false);
@@ -327,10 +351,15 @@ const foldteaching = () => {
   border-radius: 0px 0px 0px 0px;
   filter: blur(0px);
 }
+.topcontainer {
+  position: relative;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .tname {
   position: absolute;
   top: 104px;
-  left: 144px;
   height: 38px;
   font-weight: 600;
   font-size: 30px;
@@ -339,34 +368,51 @@ const foldteaching = () => {
 .tintro {
   position: absolute;
   top: 170px;
-  left: 144px;
   height: 59px;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
 .tlocation {
-  position: absolute;
+  position: relative;
   top: 291px;
-  left: 144px;
   height: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-.temail {
+.icon_address {
   position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.locationtext {
+  position: absolute;
+  width: 300px;
+  left: 46px;
+}
+.temail {
+  position: relative;
   top: 329px;
-  left: 144px;
   height: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+.icon_email {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+.emailtext {
+  position: absolute;
+  width: 300px;
+  left: 46px;
 }
 .teacherimg {
   position: absolute;
   top: 89px;
-  right: 144px;
+  right: 0;
   width: 276px;
   height: 276px;
   object-fit: cover;
@@ -403,8 +449,8 @@ const foldteaching = () => {
   left: 0;
   width: 42px;
   height: 42px;
-  background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #91C7F5 100%);
-  border-radius: 50%;
+  /* background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #91C7F5 100%); */
+  /* border-radius: 50%; */
 }
 .title {
   position: absolute;
@@ -574,6 +620,7 @@ const foldteaching = () => {
 }
 .toggle-button {
   /* position: relative; */
+  display: flex;
   box-sizing: border-box;
   border-radius: 20px;
   font-weight: 400;
@@ -594,8 +641,8 @@ const foldteaching = () => {
   left: 0;
   width: 42px;
   height: 42px;
-  background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #F59191 100%);
-  border-radius: 50%;
+  /* background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #F59191 100%); */
+  /* border-radius: 50%; */
 }
 .atitle {
   position: absolute;
@@ -701,8 +748,8 @@ const foldteaching = () => {
   left: 0;
   width: 42px;
   height: 42px;
-  background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #6FBD79 100%);
-  border-radius: 50%;
+  /* background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #6FBD79 100%); */
+  /* border-radius: 50%; */
 }
 .ptitle {
   position: absolute;
@@ -743,6 +790,7 @@ td span {
   text-indent: -1em;
 }
 .showjrbutton {
+  display: flex;
   height: 30px;
   font-weight: normal;
   font-size: 14px;
@@ -784,8 +832,8 @@ td span {
   left: 0;
   width: 42px;
   height: 42px;
-  background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #B573FF 100%);
-  border-radius: 50%;
+  /* background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #B573FF 100%); */
+  /* border-radius: 50%; */
 }
 .card {
   position: relative;
@@ -891,6 +939,7 @@ td span {
   line-height: 30px;
 }
 .fold {
+  position: absolute;
   margin-top: 500px;
   margin-left: 85%;
   height: 30px;
