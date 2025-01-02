@@ -3,7 +3,7 @@
   <div class="bg">
     <div class="top">
       <div class="topcontainer">
-        <div class="tname">Prof. Tsz Nam Chan</div>
+        <div class="tname">Prof. Tsz Nam Chan (Edison)</div>
         <div class="tintro">Distinguished Professor<br>College of Computer Science and Software Engineering Shenzhen University</div>
         <div class="tlocation">
           <img src="/image/icon_address.png" alt="" class="icon_address">
@@ -13,7 +13,7 @@
           <img src="/image/icon_email.png" alt="" class="icon_email">
           <span class="emailtext">edisonchan2013928@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disonchan@szu.edu.cn</span>
         </div>
-        <img src="/image/2.png" alt="" class="teacherimg" />
+        <img src="/image/chan.png" alt="" class="teacherimg" />
       </div>
     </div>
     <p class="text">
@@ -69,19 +69,25 @@
       <div class="group">
         <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
-        <img src="/image/1.png" alt="" class="gimg1">
-        <img src="/image/1.png" alt="" class="gimg2">
-        <img src="/image/1.png" alt="" class="gimg3">
+        <div style="display: flex;">
+          <img src="/image/1.png" alt="" class="gimg1">
+          <img src="/image/1.png" alt="" class="gimg2">
+          <img src="/image/1.png" alt="" class="gimg3">
+        </div>
       </div>
       <div class="group2">
         <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
-        <img src="/image/2.png" alt="" class="gimg1">
+        <div style="display: flex;">
+          <img src="/image/2.png" alt="" class="gimg1">
+        </div>
       </div>
       <div v-if="showGroup2" class="group3">
         <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
-        <img src="/image/2.png" alt="" class="gimg1">
+        <div style="display: flex;">
+          <img src="/image/2.png" alt="" class="gimg1">
+        </div>
       </div>
       <p style="display: flex; margin-top: 24px; height: 30px; line-height: 30px; color: #2F81FC; font-weight: 400; font-size: 14px;">
         If you want to view more projects, please click
@@ -110,17 +116,8 @@
           </el-col>
           <el-col :span="12">
             <div v-if="activetab === 1" class="atext">
-              <p>PI: Shenzhen University Internal Grant 2024 (研究生优秀教材建设项目) "如何调整心态去撰写计算机科学论文？" (How to Change Your Mindset to Write Academic Papers in Computer Science?), 200,000 RMB</p>
-              <p>PI: Start-up grant from Shenzhen City (B-grade) 2024 (孔雀计划科研启动经费B档) "快速地理信息系统算法" (Fast Algorithms for Geographic Information Systems), 5,000,000 RMB</p>
-              <p>PI: SZU Additional Start-up Grant 2024 "大时空数据可视化" (Large-scale Spatiotemporal Data Visualization), 700,000 RMB</p>
-              <p>PI: NSFC (Excellent Young Scientists (Overseas)) 2023 "地理时空大数据分析" (Large-scale Spatiotemporal Data Analytics), 1,000,000 - 3,000,000 RMB</p>
-              <p>PI: SZU Start-up Grant 2023 "快速密度估计算法" (Fast Algorithms for Density Estimation), 300,000 RMB</p>
-              <p>PI: NSFC 2022 "基于超快速算法的核密度估计" (Efficient Algorithms for Kernel Density Estimation), 300,000 RMB</p>
-              <p>PI: HKBU Internal Grant, 100,000 HKD</p>
-              <p>PI: HKBU Start-up Grant, 120,000 HKD</p>
-              <p>1</p>
-              <p>2</p>
-              <p>3</p>
+              <p>IEEE Senior Member (Awarded in 2024)</p>
+              <p>National Science Fund for Excellent Young Scientists (Overseas) (国家海外优青) (Awarded in 2023)</p>
             </div>
             <div v-if="activetab === 2" class="atext">
               <p>PI: Shenzhen University Internal Grant 2024 (研究生优秀教材建设项目) "如何调整心态去撰写计算机科学论文？" (How to Change Your Mindset to Write Academic Papers in Computer Science?), 200,000 RMB</p>
@@ -130,14 +127,169 @@
               <p>PI: SZU Start-up Grant 2023 "快速密度估计算法" (Fast Algorithms for Density Estimation), 300,000 RMB</p>
               <p>PI: NSFC 2022 "基于超快速算法的核密度估计" (Efficient Algorithms for Kernel Density Estimation), 300,000 RMB</p>
               <p>PI: HKBU Internal Grant, 100,000 HKD</p>
+              <p>PI: HKBU Start-up Grant, 120,000 HKD</p>
             </div>
             <div v-if="activetab === 3" class="atext">
-              <p>PI: Shenzhen University Internal Grant 2024 (研究生优秀教材建设项目) "如何调整心态去撰写计算机科学论文？" (How to Change Your Mindset to Write Academic Papers in Computer Science?), 200,000 RMB</p>
-              <p>PI: Start-up grant from Shenzhen City (B-grade) 2024 (孔雀计划科研启动经费B档) "快速地理信息系统算法" (Fast Algorithms for Geographic Information Systems), 5,000,000 RMB</p>
-              <p>PI: SZU Additional Start-up Grant 2024 "大时空数据可视化" (Large-scale Spatiotemporal Data Visualization), 700,000 RMB</p>
-              <p>PI: NSFC (Excellent Young Scientists (Overseas)) 2023 "地理时空大数据分析" (Large-scale Spatiotemporal Data Analytics), 1,000,000 - 3,000,000 RMB</p>
-              <p>PI: SZU Start-up Grant 2023 "快速密度估计算法" (Fast Algorithms for Density Estimation), 300,000 RMB</p>
-              <p>PI: NSFC 2022 "基于超快速算法的核密度估计" (Efficient Algorithms for Kernel Density Estimation), 300,000 RMB</p>
+              <p>
+                Tsz Nam Chan, Pak Lon Ip, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
+                Large-scale Spatiotemporal Kernel Density Visualization<br>
+                IEEE International Conference on Data Engineering (ICDE), 2025.
+              </p>
+              <p>
+                Weike Tang, Dingming Wu, Tsz Nam Chan, Kezhong Lu.<br>
+                Spatially Compact Dense Block Mining in Spatial Tensors<br>
+                Proceedings of ACM Conference on Knowledge Discovery and Data Mining (SIGKDD), 2025.
+              </p>
+              <p>
+                Bo Guo, Zhihai Huang, Haitao Luo, Perpetual Hope Akwensi, Ruisheng Wang, Bo Huang, Tsz Nam Chan.<br>
+                An Enhanced Network for Extracting Tunnel Lining Defects using Transformer Encoder and Aggregate Decoder<br>
+                International Journal of Applied Earth Observation and Geoinformation (IJAEOG).
+              </p>
+              <p>
+                Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.
+                LARGE: A Length-Aggregation-based Grid Structure for Line Density Visualization
+                Proceedings of the VLDB Endowment (PVLDB), 2024. (Presented in VLDB 2025)
+              </p>
+              <p>
+                Siyue Wu, Dingming Wu, Junyi Quan, Tsz Nam Chan, Kezhong Lu.<br>
+                Efficient and Accurate PageRank Approximation on Large Graphs<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2025.<br>
+                Appear in the new ACM journal "Proceedings of the ACM on Management of Data (PACMMOD)".
+              </p>
+              <p>
+                Pak Lon Ip, Shenghui Zhang, Xuekai Wei, Tsz Nam Chan, Leong Hou U.<br>
+                HFGNN: Efficient Graph Neural Networks using Hub-Fringe Structures<br>
+                IEEE International Conference on Data Mining (ICDM), 2024.
+              </p>
+              <p>
+                Renchi Yang, Yidu Wu, Xiaoyang Lin, Qichen Wang, Tsz Nam Chan, Jieming Shi.<br>
+                Effective Clustering on Large Attributed Bipartite Graphs<br>
+                Proceedings of ACM Conference on Knowledge Discovery and Data Mining (SIGKDD), 2024.
+              </p>
+              <p>
+                Tsz Nam Chan, Rui Zang, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu.<br>
+                LION: Fast and High-Resolution Network Kernel Density Visualization<br>
+                Proceedings of the VLDB Endowment (PVLDB), 2024. (Code) (Powerpoint Presentation) (Poster Presentation)
+              </p>
+              <p>
+                Shunran Zhang, Xiubo Zhang, Tsz Nam Chan, Shenghui Zhang, Leong Hou U.<br>
+                A Computation-aware Shape Loss Function for Point Cloud Completion<br>
+                Annual AAAI Conference on Artificial Intelligence (AAAI), 2024. (Poster Presentation)
+              </p>
+              <p>
+                Tsz Nam Chan, Zhe Li, Leong Hou U, Reynold Cheng.<br>
+                PLAME: Piecewise-Linear Approximate Measure for Additive Kernel SVM<br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)<br>
+                Extended abstract in IEEE International Conference on Data Engineering (ICDE), 2024. (Poster Presentation)
+              </p>
+              <p>
+                Yun Peng, Byron Choi, Tsz Nam Chan, Jianye Yang, Jianliang Xu.<br>
+                Efficient Approximate Nearest Neighbor Search in Multi-dimensional Databases<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Code) (Short Video)<br>
+                Appear in the new ACM journal "Proceedings of the ACM on Management of Data (PACMMOD)".
+              </p>
+              <p>
+                Tsz Nam Chan, Leong Hou U, Yun Peng, Byron Choi, Jianliang Xu.<br>
+                Fast Network K-function-based Spatial Analysis<br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
+                (Video Presentation) (Powerpoint Presentation) (Technical Report) (Poster Presentation)
+              </p>
+              <p>
+                Jie Chen, Zaifeng Yang, Tsz Nam Chan, Hui Li, Junhui Hou, Lap-Pui Chau.<br>
+                Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration<br>
+                IEEE Transactions on Image Processing (TIP).
+              </p>
+              <p>
+                Yun Peng, Byron Choi, Tsz Nam Chan, Jianliang Xu.<br>
+                LAN: Learning-based Approximate k-Nearest Neighbor Search in Graph Databases<br>
+                IEEE International Conference on Data Engineering (ICDE), 2022. (Code)
+              </p>
+              <p>
+                Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu.<br>
+                SLAM: Efficient Sweep Line Algorithms for Kernel Density Visualization<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2022. (Code)<br>
+                (Video Presentation) (Powerpoint Presentation)
+              </p>
+              <p>
+                Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
+                SWS: A Complexity-Optimized Solution for Spatial-Temporal Kernel Density Visualization<br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
+                (Video Presentation) (Powerpoint Presentation) (Technical Report) (Poster Presentation)
+              </p>
+              <p>
+                Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
+                SAFE: A Share-and-Aggregate Bandwidth Exploration Framework for Kernel Density Visualization<br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
+                (Video Presentation) (Powerpoint Presentation) (Poster Presentation)
+              </p>
+              <p>
+                Zhe Li, Man Lung Yiu, Tsz Nam Chan.<br>
+                PAW: Data Partitioning Meets Workload Variance<br>
+                IEEE International Conference on Data Engineering (ICDE), 2022. (Simulation Code) (Spark Code)
+              </p>
+              <p>
+                Tsz Nam Chan, Zhe Li, Leong Hou U, Jianliang Xu, Reynold Cheng.<br>
+                Fast Augmentation Algorithms for Network Kernel Density Visualization<br>
+                Proceedings of the VLDB Endowment (PVLDB), 2021. (Code)<br>
+                (Video Presentation) (Powerpoint Presentation) (Remark)
+              </p>
+              <p>
+                Zhe Li, Tsz Nam Chan, Man Lung Yiu, Christian S. Jensen.<br>
+                PolyFit: Polynomial-based Indexing Approach for Fast Approximate Range Aggregate Queries<br>
+                Proceedings of International Conference on Extending Database Technology (EDBT), 2021.
+              </p>
+              <p>
+                Hui Li, Tsz Nam Chan, Xianbiao Qi, Wuyuan Xie.<br>
+                Detail-Preserving Multi-Exposure Fusion with Edge-Preserving Structural Patch Decomposition<br>
+                IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). (Code)
+              </p>
+              <p>
+                Zichen Zhu, Tsz Nam Chan, Reynold Cheng, Loc Do, Zhipeng Huang, Haoci Zhang.<br>
+                Effective and Efficient Discovery of Top-k Meta Paths in Heterogeneous Information Networks<br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)
+              </p>
+              <p>
+                Tsz Nam Chan, Leong Hou U, Reynold Cheng, Man Lung Yiu, Shivansh Mittal.<br>
+                Efficient Algorithms for Kernel Aggregation Queries<br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)
+              </p>
+              <p>
+                Tsz Nam Chan, Reynold Cheng, Man Lung Yiu.<br>
+                QUAD: Quadratic-Bound-based Kernel Density Visualization<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2020. (Code)<br>
+                (Video Presentation) (Powerpoint Presentation) (Technical Report)
+              </p>
+              <p>
+                Tsz Nam Chan.<br>
+                Similarity Measures: Algorithms and Applications<br>
+                PhD Thesis.
+              </p>
+              <p>
+                Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
+                The Power of Bounds: Answering Approximate Earth Mover's Distance with Parametric Bounds<br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)<br>
+                Extended abstract in IEEE International Conference on Data Engineering (ICDE), 2020. (Video Presentation)
+              </p>
+              <p>
+                Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
+                KARL: Fast Kernel Aggregation Queries<br>
+                IEEE International Conference on Data Engineering (ICDE), 2019. (Code) (Poster Presentation)
+              </p>
+              <p>
+                Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
+                Efficient Sub-Window Nearest Neighbor Search on Matrix<br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE).
+              </p>
+              <p>
+                Hui Li, Tsz Nam Chan, Man Lung Yiu, Nikos Mamoulis.<br>
+                FEXIPRO: Fast and Exact Inner Product Retrieval in Recommender Systems<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2017. (Code)
+              </p>
+              <p>
+                Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
+                A Progressive Approach for Similarity Search on Matrix<br>
+                International Symposium on Spatial and Temporal Databases (SSTD), 2015.
+              </p>
             </div>
           </el-col>
         </el-row>
@@ -231,6 +383,11 @@
       <div class="at">
         <p class="ctitle">Academic Talks</p>
         <div class="ctext">
+          <p>What Should You Think to Perfectly Present Research Papers? (November 2024), Duke Kunshan University (China)</p>
+          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (November 2024), Hangzhou Dianzi University (China)</p>
+          <p>LION: Fast and High-Resolution Network Kernel Density Visualization (November 2024), Zhejiang University of Science and Technology (China)</p>
+          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Hong Kong University of Science and Technology (Guangzhou) (China)</p>
+          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Guangzhou University (China)</p>
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2023), Zhejiang University of Science and Technology (China)</p>
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (April 2023), Nanyang Technological University (Singapore)</p>
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2022), Shandong University (China)</p>
@@ -244,9 +401,16 @@
       <div class="tutorials">
         <p class="ctitle">Tutorials</p>
         <div class="ctext">
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
+          <p>
+            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+            Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
+            Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.
+          </p>
+          <p>
+            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+            Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
+            IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)
+          </p>
         </div>
         <button class="more" style="display: flex;" @click="moreteaching(3)">
           MORE
@@ -254,6 +418,14 @@
         </button>
       </div>
     </div>
+      <!-- <div class="book"> -->
+        <!-- <p class="booktitle">Book</p> -->
+        <!-- <div class="booktext"> -->
+          <!-- <p>Chan, T. N., & Cheng, R. (2023). Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities. ACM Conference on Management of Data (SIGMOD).</p> -->
+          <!-- <p>Chan, T. N., & Cheng, R. (2023). Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities. ACM Conference on Management of Data (SIGMOD).</p> -->
+          <!-- <p>Chan, T. N., & Cheng, R. (2023). Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities. ACM Conference on Management of Data (SIGMOD).</p> -->
+        <!-- </div> -->
+      <!-- </div> -->
       <div v-if="teachingcard === 1" class="coursebig">
         <p class="titlebig">Course</p>
         <div class="textbig">
@@ -271,6 +443,11 @@
       <div v-if="teachingcard === 2" class="coursebig">
         <p class="titlebig">Academic Talks</p>
         <div class="textbig">
+          <p>What Should You Think to Perfectly Present Research Papers? (November 2024), Duke Kunshan University (China)</p>
+          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (November 2024), Hangzhou Dianzi University (China)</p>
+          <p>LION: Fast and High-Resolution Network Kernel Density Visualization (November 2024), Zhejiang University of Science and Technology (China)</p>
+          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Hong Kong University of Science and Technology (Guangzhou) (China)</p>
+          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Guangzhou University (China)</p>
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2023), Zhejiang University of Science and Technology (China)</p>
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (April 2023), Nanyang Technological University (Singapore)</p>
           <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2022), Shandong University (China)</p>
@@ -284,9 +461,16 @@
       <div v-if="teachingcard === 3" class="coursebig">
         <p class="titlebig">Tutorials</p>
         <div class="textbig">
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Tutorial Slides)</p>
+          <p>
+            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+            Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
+            Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.
+          </p>
+          <p>
+            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+            Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
+            IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)
+          </p>
         </div>
         <button class="fold" style="display: flex;" @click="foldteaching">
           FOLD
@@ -413,7 +597,7 @@ const foldteaching = () => {
   position: absolute;
   top: 89px;
   right: 0;
-  width: 276px;
+  width: 191px;
   height: 276px;
   object-fit: cover;
   mask-image: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 71%);
@@ -566,10 +750,9 @@ const foldteaching = () => {
   position: relative;
   top: 581px;
   width: 100%;
-  height: 586px;
+  /* height: 586px; */
 }
 .gtitle {
-  position: absolute;
   height: 29px;
   font-weight: normal;
   font-size: 16px;
@@ -577,32 +760,27 @@ const foldteaching = () => {
   line-height: 30px;
 }
 .gintro {
-  position: absolute;
-  margin: 53px 0 0 0;
-  height: 239px;
+  margin: 24px 0 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
 }
 .gimg1 {
-  position: absolute;
-  margin-top: 316px;
+  margin-top: 24px;
   left: 0;
   width: 373px;
   height: 270px;
 }
 .gimg2 {
-  position: absolute;
-  margin-top: 316px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 24px;
+  margin-left: 2%;
+  /* transform: translateX(-50%); */
   width: 373px;
   height: 270px;
 }
 .gimg3 {
-  position: absolute;
-  margin-top: 316px;
-  right: 0;
+  margin-top: 24px;
+  margin-left: 2%;
   width: 373px;
   height: 270px;
 }
@@ -610,13 +788,13 @@ const foldteaching = () => {
   position: relative;
   margin: 605px 0 0 0;
   width: 100%;
-  height: 586px;
+  /* height: 586px; */
 }
 .group3 {
   position: relative;
   margin: 24px 0 0 0;
   width: 100%;
-  height: 586px;
+  /* height: 586px; */
 }
 .toggle-button {
   /* position: relative; */
@@ -894,17 +1072,15 @@ td span {
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
 }
-.coursebig {
-  position: relative;
-  width: 83%;
-  margin-top: 40px;
-  height: 554px;
+.book {
+  /* position: absolute; */
+  width: 100%;
+  margin-top: 16px;
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
 }
-.titlebig {
-  position: absolute;
-  margin-top: 40px;
+.booktitle {
+  padding-top: 40px;
   margin-left: 40px;
   height: 36px;
   font-family: Montserrat Alternates, Montserrat Alternates;
@@ -914,11 +1090,38 @@ td span {
   line-height: 36px;
   text-shadow: 5px -3px 0px rgba(47,129,252,0.1);
 }
-.textbig {
-  position: absolute;
-  margin-top: 116px;
+.booktext {
+  padding-top: 116px;
+  padding-bottom: 40px;
   margin-inline: 40px;
-  height: 356px;
+  /* height: 356px; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+.coursebig {
+  position: relative;
+  width: 83%;
+  margin-top: 40px;
+  /* min-height: 554px; */
+  background: #FFFFFF;
+  border-radius: 16px 16px 16px 16px;
+}
+.titlebig {
+  padding-top: 40px;
+  margin-left: 40px;
+  /* height: 36px; */
+  font-family: Montserrat Alternates, Montserrat Alternates;
+  font-weight: bold;
+  font-size: 36px;
+  color: #2F81FC;
+  line-height: 36px;
+  text-shadow: 5px -3px 0px rgba(47,129,252,0.1);
+}
+.textbig {
+  padding-top: 40px;
+  margin-inline: 40px;
+  /* height: 356px; */
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -939,10 +1142,11 @@ td span {
   line-height: 30px;
 }
 .fold {
-  position: absolute;
-  margin-top: 500px;
+  /* position: absolute; */
+  margin-top: 28px;
   margin-left: 85%;
-  height: 30px;
+  padding-bottom: 24px;
+  /* height: 30px; */
   font-weight: normal;
   font-size: 14px;
   color: #2F81FC;

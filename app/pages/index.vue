@@ -5,7 +5,7 @@
   <!-- <div class="bg"> -->
   <div class="home">
     <div class="image-container">
-      <img src="/image/sofia.png" alt="Background Image" class="background-image" />
+      <img src="/image/image.png" alt="Background Image" class="background-image" />
       <div class="overlay">
         <p class="title">SZU</p>
         <p class="subtitle">Database Group</p>
@@ -19,7 +19,7 @@
           height="460px"
           direction="vertical"
         >
-          <el-carousel-item v-for="item in 5" :key="item">
+          <el-carousel-item v-for="item in 2" :key="item">
             <img :src="`/academicpage/image/${item}.png`" alt="" style="width: 100%; height: 100%;">
           </el-carousel-item>
         </el-carousel>
@@ -44,7 +44,7 @@
       <p class="mtitle">Faculty Members</p>
       <div class="line1" />
       <div class="line2" />
-      <div class="teacher1" @click="navigateToPage">
+      <div class="teacher1" @click="navigateTochan">
         <div class="teacherbg">
           <p class="tname">Prof. Tsz Nam Chan</p>
           <p class="tintro">
@@ -53,9 +53,9 @@
             NSF for Excellent Young Scientists (Overseas)
           </p>
         </div>
-        <img src="/image/2.png" alt="" class="teacherimg" />
+        <img src="/image/chan.png" alt="" class="teacherimg" />
       </div>
-      <div class="teacher2">
+      <div class="teacher2" @click="navigateTowu">
         <div class="teacherbg">
           <p class="tname">Dr. Dingming Wu</p>
           <p class="tintro">
@@ -81,15 +81,21 @@
         <span style="color: #0072CB;">(2) dingming.wu@gmail.com (Dr. Dingming Wu).</span>
       </p>
       <p class="rsubtitle">Welcome to the Database Group in Shenzhen University (SZU).</p>
-      <img src="/image/sofia.png" alt="" class="rimg">
+      <img src="/image/pic_recruitment.png" alt="" class="rimg">
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const navigateToPage = () => {
+const navigateTochan = () => {
   const currentUrl = window.location.href;
   const newUrl = currentUrl + 'chan';
+  window.open(newUrl, '_self');
+};
+
+const navigateTowu = () => {
+  const currentUrl = window.location.href;
+  const newUrl = currentUrl + 'wu';
   window.open(newUrl, '_self');
 };
 </script>
@@ -289,9 +295,9 @@ const navigateToPage = () => {
 
 .teacherimg {
   position: absolute;
-  margin-left: 243px;
+  margin-left: 274px;
   margin-right: 48px;
-  width: 228px;
+  width: 158px;
   height: 228px;
   object-fit: cover;
   mask-image: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 71%);
