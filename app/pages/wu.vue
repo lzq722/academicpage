@@ -13,7 +13,7 @@
           <img src="/image/icon_email.png" alt="" class="icon_email">
           <span class="emailtext">dingming@szu.edu.cn</span>
         </div>
-        <img src="/image/2.png" alt="" class="teacherimg" />
+        <img src="/image/sofia.png" alt="" class="teacherimg" />
       </div>
     </div>
     <p class="text">

@@ -63,7 +63,7 @@
             B. Sc. HUST, M. Sc. PKU, Ph. D. AAU (DK)
           </p>
         </div>
-        <img src="/image/2.png" alt="" class="teacherimg" />
+        <img src="/image/sofia.png" alt="" class="teacherimg" />
       </div>
     </div>
     <div class="recruitment">
