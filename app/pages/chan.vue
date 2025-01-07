@@ -375,10 +375,10 @@
           <p>HKBU COMP 7930 Big Data Analytics (Spring 2021, Spring 2022)</p>
           <p>HKBU COMP 4035 Database System Implementation (Fall 2020, Fall 2021, Fall 2022)</p>
         </div>
-        <button class="more" style="display: flex;" @click="moreteaching(1)">
-          MORE
-          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
-        </button>
+        <!-- <button class="more" style="display: flex;" @click="moreteaching(1)"> -->
+          <!-- MORE -->
+          <!-- <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;"> -->
+        <!-- </button> -->
       </div>
       <div class="at">
         <p class="ctitle">Academic Talks</p>
@@ -426,6 +426,7 @@
           <!-- <p>Chan, T. N., & Cheng, R. (2023). Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities. ACM Conference on Management of Data (SIGMOD).</p> -->
         <!-- </div> -->
       <!-- </div> -->
+      <div id="overlay" class="overlay"></div>
       <div v-if="teachingcard === 1" class="coursebig">
         <p class="titlebig">Course</p>
         <div class="textbig">
@@ -508,10 +509,20 @@ const setActiveTab = (id: number) => {
 
 const moreteaching = (id: number) => {
   teachingcard.value = id;
+  document.body.style.overflow = 'hidden';
+  const overlay = document.getElementById("overlay");
+  if (overlay) {
+    overlay.style.display = 'block';
+  }
 };
 
 const foldteaching = () => {
   teachingcard.value = 0;
+  document.body.style.overflow = 'auto';
+  const overlay = document.getElementById("overlay");
+  if (overlay) {
+    overlay.style.display = 'none';
+  }
 };
 </script>
 
@@ -577,7 +588,7 @@ const foldteaching = () => {
 }
 .temail {
   position: relative;
-  top: 329px;
+  top: 309px;
   height: 24px;
   font-weight: 400;
   font-size: 16px;
@@ -754,7 +765,7 @@ const foldteaching = () => {
 }
 .gtitle {
   height: 29px;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 16px;
   color: #2F81FC;
   line-height: 30px;
@@ -770,6 +781,7 @@ const foldteaching = () => {
   left: 0;
   width: 373px;
   height: 270px;
+  border-radius: 16px 16px 16px 16px;
 }
 .gimg2 {
   margin-top: 24px;
@@ -777,12 +789,14 @@ const foldteaching = () => {
   /* transform: translateX(-50%); */
   width: 373px;
   height: 270px;
+  border-radius: 16px 16px 16px 16px;
 }
 .gimg3 {
   margin-top: 24px;
   margin-left: 2%;
   width: 373px;
   height: 270px;
+  border-radius: 16px 16px 16px 16px;
 }
 .group2 {
   position: relative;
@@ -882,7 +896,7 @@ const foldteaching = () => {
   width: 271px;
   margin-top: 119px;
   height: 29px;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   color: #2F81FC;
   line-height: 30px;
@@ -897,7 +911,6 @@ const foldteaching = () => {
   overflow-x: scroll;
   scrollbar-width: thin;
   scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
-  
 }
 .atext p::before {
   content: '·';
@@ -1099,13 +1112,31 @@ td span {
   font-size: 14px;
   line-height: 30px;
 }
+.overlay {
+  display: none;  /* 默认隐藏 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+  z-index: 999;  /* 确保遮罩层在内容层之上 */
+}
 .coursebig {
-  position: relative;
+  /* display: block; */
+  position: fixed;
   width: 83%;
-  margin-top: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-top: 40px; */
   /* min-height: 554px; */
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
+  z-index: 1000;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
 .titlebig {
   padding-top: 40px;

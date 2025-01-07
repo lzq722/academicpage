@@ -196,10 +196,10 @@
           <p>Information Retrieval (Spring 2018-2017)</p>
           <p>Search Engine Technology (Fall 2016)</p>
         </div>
-        <button class="more" style="display: flex;" @click="moreteaching(1)">
-          MORE
-          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
-        </button>
+        <!-- <button class="more" style="display: flex;" @click="moreteaching(1)"> -->
+          <!-- MORE -->
+          <!-- <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;"> -->
+        <!-- </button> -->
       </div>
       <div class="at">
         <p class="ctitle">Awards</p>
@@ -208,10 +208,10 @@
           <p>2023年广东省一流本科课程，算法设计与分析</p>
           <p>2021年深圳大学教育教学成果(高等教育类)，一等奖，产教融合理念下校企双主体协同培养计算机工程硕士的创新与实践</p>
         </div>
-        <button class="more" style="display: flex;" @click="moreteaching(2)">
-          MORE
-          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
-        </button>
+        <!-- <button class="more" style="display: flex;" @click="moreteaching(2)"> -->
+          <!-- MORE -->
+          <!-- <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;"> -->
+        <!-- </button> -->
       </div>
       <div class="tutorials">
         <p class="ctitle">Students</p>
@@ -252,6 +252,7 @@
           <p>《算法设计与分析》，清华大学出版社</p>
         </div>
       </div>
+      <div id="overlay" class="overlay"></div>
       <div v-if="teachingcard === 1" class="coursebig">
         <p class="titlebig">Course</p>
         <div class="textbig">
@@ -341,10 +342,20 @@ const setActiveTab = (id: number) => {
 
 const moreteaching = (id: number) => {
   teachingcard.value = id;
+  document.body.style.overflow = 'hidden';
+  const overlay = document.getElementById("overlay");
+  if (overlay) {
+    overlay.style.display = 'block';
+  }
 };
 
 const foldteaching = () => {
   teachingcard.value = 0;
+  document.body.style.overflow = 'auto';
+  const overlay = document.getElementById("overlay");
+  if (overlay) {
+    overlay.style.display = 'none';
+  }
 };
 </script>
 
@@ -410,7 +421,7 @@ const foldteaching = () => {
 }
 .temail {
   position: relative;
-  top: 329px;
+  top: 309px;
   height: 24px;
   font-weight: 400;
   font-size: 16px;
@@ -587,7 +598,7 @@ const foldteaching = () => {
 }
 .gtitle {
   height: 29px;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 16px;
   color: #2F81FC;
   line-height: 30px;
@@ -603,6 +614,7 @@ const foldteaching = () => {
   left: 0;
   width: 373px;
   height: 270px;
+  border-radius: 16px 16px 16px 16px;
 }
 .gimg2 {
   margin-top: 24px;
@@ -610,12 +622,14 @@ const foldteaching = () => {
   /* transform: translateX(-50%); */
   width: 373px;
   height: 270px;
+  border-radius: 16px 16px 16px 16px;
 }
 .gimg3 {
   margin-top: 24px;
   margin-left: 2%;
   width: 373px;
   height: 270px;
+  border-radius: 16px 16px 16px 16px;
 }
 .group2 {
   position: relative;
@@ -715,7 +729,7 @@ const foldteaching = () => {
   width: 271px;
   margin-top: 119px;
   height: 29px;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 14px;
   color: #2F81FC;
   line-height: 30px;
@@ -932,13 +946,32 @@ td span {
   font-size: 14px;
   line-height: 30px;
 }
+.overlay {
+  display: none;  /* 默认隐藏 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
+  z-index: 999;  /* 确保遮罩层在内容层之上 */
+}
 .coursebig {
-  position: relative;
+  /* display: block; */
+  position: fixed;
   width: 83%;
-  margin-top: 40px;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-top: 40px; */
   /* min-height: 554px; */
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
+  z-index: 1000;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
 .titlebig {
   padding-top: 40px;
