@@ -71,13 +71,13 @@
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
         <div style="display: flex;">
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg1" :preview-src-list="['/image/1.png']"/>
+            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg1" :preview-src-list="['/academicpage/image/1.png']"/>
           </div>
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg2" :preview-src-list="['/image/1.png']"/>
+            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg2" :preview-src-list="['/academicpage/image/1.png']"/>
           </div>
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg3" :preview-src-list="['/image/1.png']"/>
+            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg3" :preview-src-list="['/academicpage/image/1.png']"/>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
         <div style="display: flex;">
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/2.png`" alt="" class="gimg1" :preview-src-list="['/image/2.png']"/>
+            <el-image :src="`/academicpage/image/2.png`" alt="" class="gimg1" :preview-src-list="['/academicpage/image/2.png']"/>
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
         <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
         <div style="display: flex;">
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/2.png`" alt="" class="gimg1" :preview-src-list="['/image/2.png']"/>
+            <el-image :src="`/academicpage/image/2.png`" alt="" class="gimg1" :preview-src-list="['/academicpage/image/2.png']"/>
           </div>
         </div>
       </div>
