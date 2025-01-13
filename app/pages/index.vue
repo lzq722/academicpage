@@ -8,18 +8,19 @@
       <img src="/image/image.png" alt="Background Image" class="background-image" />
       <div class="overlay">
         <p class="title">SZU</p>
-        <p class="subtitle">Database Group</p>
-        <p class="subtitle2">About the Database Group</p>
+        <p class="subtitle">Data Management & Intelligence Group</p>
+        <!-- <p class="subtitle2">About the Database Group</p> -->
       </div>
     </div>
     <div class="about">
+      <p class="asubtitle">About the Database Group</p>
       <div class="dgimg">
         <el-carousel
           width="788px"
           height="460px"
           direction="vertical"
         >
-          <el-carousel-item v-for="item in 2" :key="item">
+          <el-carousel-item v-for="item in 3" :key="item">
             <img :src="`/academicpage/image/${item}.png`" alt="" style="width: 100%; height: 100%;">
           </el-carousel-item>
         </el-carousel>
@@ -63,7 +64,7 @@
             B. Sc. HUST, M. Sc. PKU, Ph. D. AAU (DK)
           </p>
         </div>
-        <img src="/image/sofia.png" alt="" class="teacherimg" />
+        <img src="/image/wu.png" alt="" class="teacherimg2" />
       </div>
     </div>
     <div class="recruitment">
@@ -168,7 +169,7 @@ const navigateTowu = () => {
   font-weight: 400;
   font-size: 40px;
   line-height: 49px;
-  letter-spacing: 20px;
+  letter-spacing: 4px;
   text-align: center;
 }
 
@@ -181,7 +182,8 @@ const navigateTowu = () => {
 
 .subtitle2 {
   position: absolute;
-  margin: 654px 0 24px 144px;
+  margin: 654px 0 24px 0;
+  margin-left: 8%;
   width: auto;
   height: 32px;
   font-weight: 500;
@@ -190,11 +192,23 @@ const navigateTowu = () => {
 }
 
 .about {
+  max-width: 1920px;
   width: 100%;
   height: 460px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 }
-
+.asubtitle {
+  position: absolute;
+  margin-top: -56px;
+  margin-left: 144px;
+  width: auto;
+  height: 32px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
 .dgoverlay{
   position: absolute;
   width: 788px;
@@ -302,7 +316,15 @@ const navigateTowu = () => {
   object-fit: cover;
   mask-image: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 71%);
 }
-
+.teacherimg2 {
+  position: absolute;
+  margin-left: 274px;
+  margin-right: 48px;
+  width: 228px;
+  height: 228px;
+  object-fit: cover;
+  mask-image: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 71%);
+}
 .teacherbg {
   position: absolute;
   margin-top: 102px;

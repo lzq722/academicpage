@@ -13,7 +13,7 @@
           <img src="/image/icon_email.png" alt="" class="icon_email">
           <span class="emailtext">dingming@szu.edu.cn</span>
         </div>
-        <img src="/image/sofia.png" alt="" class="teacherimg" />
+        <img src="/image/wu.png" alt="" class="teacherimg" />
       </div>
     </div>
     <p class="text">
@@ -36,34 +36,26 @@
           My general research area is data management. Recently, much of my research concerns problems from geo-textual, geo-social network, and large graph data, including data analytics, approximation algorithms, data modeling, query languages, query processing, and data mining.
         </p>
       </div>
-      <p class="Long-Term-Goal">Long-Term Goal</p>
-      <p class="ltgtext">
-        My long-term goal aims to develop the GIS, visualization, 
-        statistical, and machine learning software packages, like QGIS, ArcGIS, CrimeStat, 
-        Seaborn, Scikit-learn, Scipy, and LIBSVM, which are based on our theoretically 
-        efficient algorithms (e.g., reduce the time complexity) with non-trivial accuracy guarantees 
-        (e.g., achieve exact results or approximate results with approximation ratio). With the lower 
-        time complexity of our solutions, our software packages should be the fastest in the world.
-      </p>
       <p class="Selected-projects">Selected projects</p>
-      <p class="sptext">
-        My general research area is data management. Recently, much of my research concerns problems 
-        from geo-textual, geo-social network, and knowledge graph data, including data modeling, query 
-        languages, query processing, data mining, and indexing.
-      </p>
       <div class="group">
         <p class="gtitle">Efficient and Accurate PageRank Approximation on Large Graphs</p>
         <p class="gintro">PageRank is a commonly used measurement in a wide range of applications, including search engines, recommendation systems, and social networks. However, this measurement suffers from huge computational overhead, which cannot be scaled to large graphs. Although many approximate algorithms have been proposed for computing PageRank values, these algorithms are either (i) not efficient or (ii) not accurate. Worse still, some of them cannot provide estimated PageRank values for all the vertices. In this paper, we first propose the CUR-Trans algorithm, which can reduce the time complexity for computing PageRank values and has lower error bound than existing matrix approximation-based PageRank algorithms. Then, we develop the T2-Approx algorithm to further reduce the time complexity for computing this measurement. Experiment results on three large-scale graphs show that both the CUR-Trans algorithm and the T2-Approx algorithm achieve the lowest response time for computing PageRank values with the best accuracy (for the CUR-Trans algorithm) or the competitive accuracy (for the T2-Approx algorithm). Besides, the two proposed algorithms are able to provide estimated PageRank values for all the vertices.</p>
-        <div style="display: flex;">
-          <img src="/image/project1.png" alt="" class="gimg1">
+        <div style="display: flex; position: relative;">
+          <div class="image-container" data-text="Click to view">
+            <el-image src="/image/project1.png" alt="" class="gimg1" :preview-src-list="['/image/project1.png']"/>
+          </div>
         </div>
       </div>
       <div class="group2">
         <p class="gtitle">Efficient Skyline Keyword-Based Tree Retrieval on Attributed Graphs</p>
         <p class="gintro">Attributed graphs are graphs, where the vertices have attributes. Such graphs encompass, e.g., social network graph, citation graphs, and knowledge graphs, which have numerous real-world applications. Keyword-based search is a prominent and user-friendly way of querying attributed graphs. One widely used approach to keyword search adopts tree-based query semantics that relies on scoring functions that aggregate distances from a root to keyword-matched vertices. However, it is non-trivial to design scoring functions that capture different users’ keyword preferences. This study defines and solves the skyline KTree retrieval problem that combines keyword querying with skyline functionality on attributed graphs. The result of a skyline KTree query is independent of scoring functions. Hence, no matter which keywords are preferred, users can always find their favorite KTrees in a result. To enable efficient skyline KTree retrieval, we propose algorithm FilterRefine that first identifies candidate results and then uses them for search space pruning. Computing distances between keywords and vertices is expensive and dominates the computational cost of FilterRefine. Inspired by subspace skyline query techniques, we convert the skyline KTree retrieval problem into a multi-dimensional subspace skyline problem and propose algorithm MultiDiSkylineOpt. This algorithm is able to reuse skylines in subspaces and uses bounds on all dimensions to accelerate distance computation. Experimental results on real datasets show that a baseline algorithm cannot report results within a 500 second cut-off time, while the proposed algorithms are able to compute results in reasonable time. In particular, MultiDiSkylineOpt is able to efficiently retrieve skyline KTrees on large graphs with millions of nodes and hundreds of millions of edges.</p>
         <div style="display: flex;">
-          <img src="/image/project2_1.png" alt="" class="gimg1">
-          <img src="/image/project2_2.png" alt="" class="gimg2">
+          <div class="image-container" data-text="Click to view">
+            <el-image src="/image/project2_1.png" alt="" class="gimg1" :preview-src-list="['/image/project2_1.png']"/>
+          </div>
+          <div class="image-container" data-text="Click to view">
+            <el-image src="/image/project2_2.png" alt="" class="gimg2" :preview-src-list="['/image/project2_2.png']"/>
+          </div>
         </div>
       </div>
       <!-- <div v-if="showGroup" class="group3">
@@ -187,7 +179,7 @@
       </div>
       <div class="card">
       <div class="course">
-        <p class="ctitle">Course</p>
+        <p class="ctitle">Courses</p>
         <div class="ctext">
           <p>Design and Analysis of Algorithms (Spring 2024-2019, Fall 2018-2016)</p>
           <p>Data Structures (Fall 2024-2019)</p>
@@ -216,10 +208,11 @@
       <div class="tutorials">
         <p class="ctitle">Students</p>
         <div class="ctext">
-          <p>在读学生</p>
+          <h1>在读学生</h1>
           <p>博士生：伍斯玥</p>
           <p>硕士生：全俊熠，卓仙鸿，黄经研，唐伟科，刘洋，吴浩钊，黄爽怡，王凯涛，熊国伟，李可欣，骆逸文，黄伊桦，廖明申</p>
-          <p>毕业学生</p>
+          <br>
+          <h1>毕业学生</h1>
           <p>赖新颖，华为</p>
           <p>吕华彬，九维数据技术有限公司</p>
           <p>袁楚杰，字节跳动</p>
@@ -246,7 +239,7 @@
       </div>
     </div>
       <div class="book">
-        <p class="booktitle">Book</p>
+        <p class="booktitle">Books</p>
         <div class="booktext">
           <p>《算法设计与分析实践案例解析》，清华大学出版社</p>
           <p>《算法设计与分析》，清华大学出版社</p>
@@ -283,10 +276,11 @@
       <div v-if="teachingcard === 3" class="coursebig">
         <p class="titlebig">Students</p>
         <div class="textbig">
-          <p>在读学生</p>
+          <h1>在读学生</h1>
           <p>博士生：伍斯玥</p>
           <p>硕士生：全俊熠，卓仙鸿，黄经研，唐伟科，刘洋，吴浩钊，黄爽怡，王凯涛，熊国伟，李可欣，骆逸文，黄伊桦，廖明申</p>
-          <p>毕业学生</p>
+          <br>
+          <h1>毕业学生</h1>
           <p>赖新颖，华为</p>
           <p>吕华彬，九维数据技术有限公司</p>
           <p>袁楚杰，字节跳动</p>
@@ -448,7 +442,7 @@ const foldteaching = () => {
 }
 .text {
   max-width: 1152px;
-  height: 179px;
+  /* height: 179px; */
   margin-top: 64px;
   margin-bottom: 64px;
   margin-left: auto;
@@ -576,7 +570,7 @@ const foldteaching = () => {
 }
 .Selected-projects {
   position: absolute;
-  margin: 450px 0 0 0;
+  margin: 285px 0 0 0;
   height: 24px;
   font-weight: bold;
   font-size: 20px;
@@ -592,7 +586,7 @@ const foldteaching = () => {
 }
 .group {
   position: relative;
-  top: 581px;
+  top: 337px;
   width: 100%;
   /* height: 586px; */
 }
@@ -608,6 +602,28 @@ const foldteaching = () => {
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
+}
+.image-container::before {
+  position: absolute;
+  margin-top: 24px;
+  content: attr(data-text); 
+  background: rgba(0, 0, 0, 0.5);
+  width: 373px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  border-radius: 16px 16px 16px 16px;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.image-container:hover::before {
+  opacity: 1;
 }
 .gimg1 {
   margin-top: 24px;
@@ -633,7 +649,7 @@ const foldteaching = () => {
 }
 .group2 {
   position: relative;
-  margin: 605px 0 0 0;
+  margin: 361px 0 0 0;
   width: 100%;
   /* height: 586px; */
 }
@@ -716,14 +732,14 @@ const foldteaching = () => {
   color: #000000;
   background: #FFFFFF;
   border-radius: 32px 32px 32px 32px;
-  border: 4px solid rgba(0,0,0,0);
+  /* border: 4px solid rgba(0,0,0,0); */
   cursor: pointer;
 }
 .selecttab {
-  color: #000000;
-  background: #FFFFFF;
+  color: #000000 !important;
+  background: #FFFFFF !important;
   border-radius: 32px 32px 32px 32px;
-  border: 4px solid #000000;
+  border: 4px solid #000000 !important;
 }
 .dblp {
   width: 271px;
@@ -894,6 +910,11 @@ td span {
   line-height: 30px;
   overflow: hidden;
 }
+.ctext h1 {
+  font-weight: bold;
+  /* font-size: 20px; */
+  /* line-height: 28px; */
+}
 .ctext p::before {
   content: '·';
 }
@@ -991,6 +1012,11 @@ td span {
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
+}
+.textbig h1 {
+  font-weight: bold;
+  /* font-size: 20px; */
+  /* line-height: 28px; */
 }
 .textbig p::before {
   content: '·';
