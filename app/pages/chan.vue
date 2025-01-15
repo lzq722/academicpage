@@ -122,7 +122,10 @@
               <el-button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</el-button>
               <el-button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</el-button>
             </div>
-            <div class="dblp">[DBLP] [Google Scholar]</div>
+            <div class="dblp">
+              <a href="https://dblp.org/pid/166/7652.html" target="_blank" style="color: #2F81FC;">[DBLP]</a>&nbsp;
+              <a href="https://scholar.google.com.hk/citations?user=b2AOUEEAAAAJ&hl=en"  target="_blank" style="color: #2F81FC;">[Google Scholar]</a>
+            </div>
           </el-col>
           <el-col :span="12">
             <div v-if="activetab === 1" class="atext">
@@ -499,6 +502,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import '/d:/VS code/academicpage/app/assets/fonts/fonts.css';
 
 const showGroup2 = ref(false);
 const showjr = ref(false);

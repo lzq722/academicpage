@@ -64,7 +64,7 @@
             B. Sc. HUST, M. Sc. PKU, Ph. D. AAU (DK)
           </p>
         </div>
-        <img src="/image/wu.png" alt="" class="teacherimg2" />
+        <img src="/image/wu.png" alt="" class="teacherimg" />
       </div>
     </div>
     <div class="recruitment">
@@ -308,15 +308,6 @@ const navigateTowu = () => {
 }
 
 .teacherimg {
-  position: absolute;
-  margin-left: 274px;
-  margin-right: 48px;
-  width: 158px;
-  height: 228px;
-  object-fit: cover;
-  mask-image: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 71%);
-}
-.teacherimg2 {
   position: absolute;
   margin-left: 274px;
   margin-right: 48px;
