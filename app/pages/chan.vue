@@ -67,35 +67,53 @@
         languages, query processing, data mining, and indexing.
       </p>
       <div class="group">
-        <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
-        <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
+        <p class="gtitle">A Length-Aggregation-based Grid Structure for Line Density Visualization</p>
+        <p class="gintro">Line Density Visualization (LDV) is an important operation of geospatial analysis, which has been extensively used in many application domains, e.g., urban planning, criminology, and transportation science. However, LDV is computationally demanding. Therefore, existing exact solutions are not scalable (or even not feasible) to support large-scale datasets and high resolution sizes for generating LDV. To handle the efficiency issues, we develop the first solution to approximately compute LDV with an 𝜖-relative error guarantee, which consists of two main parts. First, we develop the new indexing structure, called length-aggregation-based grid structure (LARGE). Second, based on LARGE, we develop two types of fast bound functions, namely (1) square-shaped lower and upper bound functions and (2) arbitrary-shaped lower and upper bound functions, which can filter a large portion of unnecessary computations. By theoretically analyzing the tightness of our bound functions and experimentally comparing our solution with existing exact solutions on four large-scale datasets, we demonstrate that our solution can be scalable to generate high-resolution LDVs using large-scale datasets. In particular, our solution achieves up to 291.8x speedups over the state-of-the-art solutions. </p>
         <div style="display: flex;">
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg1" :preview-src-list="['/academicpage/image/1.png']"/>
+            <el-image :src="`/academicpage/image/pro1_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro1_1.png']"/>
           </div>
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg2" :preview-src-list="['/academicpage/image/1.png']"/>
-          </div>
-          <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/1.png`" alt="" class="gimg3" :preview-src-list="['/academicpage/image/1.png']"/>
+            <el-image :src="`/academicpage/image/pro1_2.png`" fit="cover" alt="" class="gimg2" :preview-src-list="['/academicpage/image/pro1_2.png']"/>
           </div>
         </div>
       </div>
       <div class="group2">
-        <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
-        <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
+        <p class="gtitle">LION: Fast and High-Resolution Network Kernel Density Visualization</p>
+        <p class="gintro">Network Kernel Density Visualization (NKDV) has often been used in a wide range of applications, e.g., criminology, transportation science, and urban planning. However, NKDV is computationally expensive, which cannot be scalable to large-scale datasets and high resolution sizes. Although a recent work, called aggregate distance augmentation (ADA), has been developed for improving the efficiency to generate NKDV, this method is still slow and does not take the resolution size into account for optimizing the efficiency. In this paper, we develop a new solution, called LION, which can reduce the worst-case time complexity for generating high-resolution NKDV, without increasing the space complexity. Experiment results on four large-scale location datasets verify that LION can achieve 2.86x to 35.36x speedup compared with the stateof-the-art ADA method. </p>
         <div style="display: flex;">
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/2.png`" alt="" class="gimg1" :preview-src-list="['/academicpage/image/2.png']"/>
+            <el-image :src="`/academicpage/image/pro2_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro2_1.png']"/>
+          </div>
+          <div class="image-container" data-text="Click to view">
+            <el-image :src="`/academicpage/image/pro2_2.png`" fit="cover" alt="" class="gimg2" :preview-src-list="['/academicpage/image/pro2_2.png']"/>
           </div>
         </div>
       </div>
       <div v-if="showGroup2" class="group3">
-        <p class="gtitle">Density-Based Top-K Spatial Textual Clusters Retrieval</p>
-        <p class="gintro">So-called spatial web queries retrieve web content representing points of interest, such that the points of interest have descriptions that are relevant to query keywords and are located close to a query location. Two broad categories of such queries exist. The first encompasses queries that retrieve single spatial web objects that each satisfy the query arguments. Most proposals belong to this category. The second category, to which this paper's proposal belongs, encompasses queries that support exploratory user behavior and retrieve sets of objects that represent regions of space that may be of interest to the user. Specifically, the paper proposes a new type of query, the top-k spatial textual cluster retrieval (k-STC) query that returns the top-k clusters that (i) are located close to a query location, (ii) contain objects that are relevant with regard to given query keywords, and (iii) have an object density that exceeds a given threshold. To compute this query, we propose a DBSCAN-based approach and an OPTICS-based approach that rely on on-line density-based clustering and that exploit early stop conditions. Empirical studies on real data sets offer evidence that the paper's proposals can find good quality clusters and are capable of excellent performance.</p>
+        <p class="gtitle">Fast Network K-function-based Spatial Analysis</p>
+        <p class="gintro">Network K-function has been the de facto operation for analyzing point patterns in spatial networks, which is widely used in many communities, including geography, ecology, transportation science, social science, and criminology. To analyze a location dataset, domain experts need to generate a network K-function plot that involves computing multiple network K-functions. However, network K-function is a computationally expensive operation that is not feasible to support large-scale datasets, let alone to generate a network K-function plot. To handle this issue, we develop two efficient algorithms, namely count augmentation (CA) and neighbor sharing (NS), which can reduce the worst-case time complexity for computing network K-functions. In addition, we incorporate the advanced shortest path sharing (ASPS) approach into these two methods to further lower the worst-case time complexity for generating network K-function plots. Experiment results on four large-scale location datasets (up to 7.33 million data points) show that our methods can achieve up to 165.85x speedup compared with the state-of-the-art methods. </p>
         <div style="display: flex;">
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/2.png`" alt="" class="gimg1" :preview-src-list="['/academicpage/image/2.png']"/>
+            <el-image :src="`/academicpage/image/pro3_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro3_1.png']"/>
+          </div>
+          <div class="image-container" data-text="Click to view">
+            <el-image :src="`/academicpage/image/pro3_2.png`" fit="cover" alt="" class="gimg2" :preview-src-list="['/academicpage/image/pro3_2.png']"/>
+          </div>
+          <div class="image-container" data-text="Click to view">
+            <el-image :src="`/academicpage/image/pro3_3.png`" fit="cover" alt="" class="gimg3" :preview-src-list="['/academicpage/image/pro3_3.png']"/>
+          </div>
+        </div>
+      </div>
+      <div v-if="showGroup2" class="group4">
+        <p class="gtitle">SLAM: Efficient Sweep Line Algorithms for Kernel Density Visualization</p>
+        <p class="gintro">Kernel Density Visualization (KDV) has been extensively used in a wide range of applications, including traffic accident hotspot detection, crime hotspot detection, disease outbreak detection, and ecological modeling. However, KDV is a computationally expensive operation, which is not scalable to large datasets (e.g., million-scale data points) and high resolution sizes (e.g., 1920 × 1080). To significantly improve the efficiency for generating KDV, we develop two efficient Sweep Line AlgorithMs (SLAM), which can theoretically reduce the time complexity for generating KDV. By incorporating the resolution-aware optimization (RAO) into SLAM, we can further achieve the lowest time complexity for generating KDV. Our extensive experiments on four large-scale real datasets (up to 4.33 million data points) show that all our methods can achieve one to two-order-of-magnitude speedup in many test cases and efficiently support KDV with exploratory operations (e.g., zooming and panning) compared with the state-of-the-art solutions.</p>
+        <div style="display: flex;">
+          <div class="image-container" data-text="Click to view">
+            <el-image :src="`/academicpage/image/pro4_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro4_1.png']"/>
+          </div>
+          <div class="image-container" data-text="Click to view">
+            <el-image :src="`/academicpage/image/pro4_2.png`" fit="cover" alt="" class="gimg2" :preview-src-list="['/academicpage/image/pro4_2.png']"/>
           </div>
         </div>
       </div>
@@ -121,6 +139,7 @@
               <el-button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</el-button>
               <el-button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</el-button>
               <el-button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</el-button>
+              <el-button class="abutton" :class="{'selecttab': activetab === 4}" @click="setActiveTab(4)">Patents</el-button>
             </div>
             <div class="dblp">
               <a href="https://dblp.org/pid/166/7652.html" target="_blank" style="color: #2F81FC;">[DBLP]</a>&nbsp;
@@ -304,6 +323,18 @@
                 International Symposium on Spatial and Temporal Databases (SSTD), 2015.
               </p>
             </div>
+            <div v-if="activetab === 4" class="atext">
+              <p>
+                Tsz Nam Chan, Pak Lon Ip, , Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
+                A Method, System, and Terminal for Spatiotemporal Kernel Density Visualization via PREFIX-Matrix Structure. (一种基于前缀矩阵的时空核密度可视化方法、系统及终端)<br>
+                Chinese Patent (Submitted soon)
+              </p>
+              <p>
+                Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.<br>
+                A Method and System for Generating Line Density Visualization via Length-Aggregation-based Grid Structure. (一种基于长度聚合的网格结构生成线密度的方法及系统)<br>
+                Chinese Patent (Under review) (Protected (if granted) starting from 30th October 2024)
+              </p>
+            </div>
           </el-col>
         </el-row>
       </div>
@@ -320,6 +351,7 @@
           <tr>
             <td class="tdtitle">Major Service Award</td>
             <td class="tdtext">
+              <span>Recognition of Outstanding Reviewer in SIGKDD 2025 (2024 Aug Cycle)</span><br>
               <span>Outstanding Reviewer Award in IEEE International Conference on Data Engineering (ICDE) 2024</span>
             </td>
           </tr>
@@ -331,7 +363,18 @@
               <span>Artificial Intelligence Journal (AIJ)</span><br>
               <span>IEEE Transactions on Computers (TC)</span><br>
               <span>World Wide Web Journal (WWWJ)</span><br>
-              <span v-if="showjr">111<br></span>
+              <span v-if="showjr">ACM Transactions on Spatial Algorithms and Systems (TSAS)<br></span>
+              <span v-if="showjr">SoftwareX Journal<br></span>
+              <span v-if="showjr">Pattern Recognition (PR)<br></span>
+              <span v-if="showjr">Data and Knowledge Engineering (DKE)<br></span>
+              <span v-if="showjr">Digital Signal Processing (DSP)<br></span>
+              <span v-if="showjr">Journal of Computer Science and Technology (JCST)<br></span>
+              <span v-if="showjr">The Journal of Supercomputing<br></span>
+              <span v-if="showjr">Cities Journal<br></span>
+              <span v-if="showjr">Remote Sensing Journal<br></span>
+              <span v-if="showjr">Engineering Applications of Artificial Intelligence Journal<br></span>
+              <span v-if="showjr">Sensors Journal<br></span>
+              <span v-if="showjr">Entropy Journal<br></span>
               <button class="showjrbutton" @click="showjrfun">
                 {{ showjr ? 'FOLD' : 'MORE'}}
                 <img v-if="showjr" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
@@ -352,7 +395,16 @@
               <span>IEEE International Conference on Data Engineering (ICDE) Year: 2022, 2024, 2025</span><br>
               <span>Proceedings of International Conference on Extending Database Technology (EDBT) Year: 2023</span><br>
               <span>Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD) Year: 2024, 2025</span><br>
-              <span>International Joint Conference on Artificial Intelligence (IJCAI) Year: 2020</span>
+              <span>International Joint Conference on Artificial Intelligence (IJCAI) Year: 2020</span><br>
+              <span v-if="showcpc">International Conference on Scientific and Statistical Database Management (SSDBM) Year: 2024<br></span>
+              <span v-if="showcpc">Asian Conference on Machine Learning (ACML) Year: 2024<br></span>
+              <span v-if="showcpc">International Conference on Database Systems for Advanced Applications (DASFAA) Year: 2021 to 2024<br></span>
+              <span v-if="showcpc">International Conference on Web Information Systems Engineering (WISE) Year: 2019 to 2024<br></span>
+              <button class="showcpcbutton" @click="showcpcfun">
+                {{ showcpc ? 'FOLD' : 'MORE'}}
+                <img v-if="showcpc" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
+                <img v-else src="/image/icon_open.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
+              </button>
             </td>
           </tr>
           <tr>
@@ -506,6 +558,7 @@ import '/d:/VS code/academicpage/app/assets/fonts/fonts.css';
 
 const showGroup2 = ref(false);
 const showjr = ref(false);
+const showcpc = ref(false);
 const activetab = ref(1);
 const teachingcard = ref(0);
 
@@ -515,6 +568,10 @@ function toggleGroup2() {
 
 function showjrfun() {
   showjr.value = !showjr.value;
+}
+
+function showcpcfun() {
+  showcpc.value = !showcpc.value;
 }
 
 const setActiveTab = (id: number) => {
@@ -819,21 +876,24 @@ const foldteaching = () => {
   width: 373px;
   height: 270px;
   border-radius: 16px 16px 16px 16px;
+  /* object-fit: cover; */
 }
 .gimg2 {
   margin-top: 24px;
-  margin-left: 2%;
+  margin-left: 5px;
   /* transform: translateX(-50%); */
   width: 373px;
   height: 270px;
   border-radius: 16px 16px 16px 16px;
+  /* object-fit: cover; */
 }
 .gimg3 {
   margin-top: 24px;
-  margin-left: 2%;
+  margin-left: 5px;
   width: 373px;
   height: 270px;
   border-radius: 16px 16px 16px 16px;
+  /* object-fit: cover; */
 }
 .group2 {
   position: relative;
@@ -842,6 +902,12 @@ const foldteaching = () => {
   /* height: 586px; */
 }
 .group3 {
+  position: relative;
+  margin: 24px 0 0 0;
+  width: 100%;
+  /* height: 586px; */
+}
+.group4 {
   position: relative;
   margin: 24px 0 0 0;
   width: 100%;
@@ -860,7 +926,7 @@ const foldteaching = () => {
   position: relative;
   margin-top: 80px;
   max-width: 1152px;
-  height: 735px;
+  height: 835px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -900,7 +966,7 @@ const foldteaching = () => {
   position: absolute;
   top: 91px;
   width: 100%;
-  height: 644px;
+  height: 744px;
   background: rgba(196,196,196,0);
   border-radius: 16px 16px 16px 16px;
   border: 4px solid #000000;
@@ -920,14 +986,14 @@ const foldteaching = () => {
   color: #000000;
   background: #FFFFFF;
   border-radius: 32px 32px 32px 32px;
-  border: 4px solid rgba(0,0,0,0);
+  /* border: 4px solid rgba(0,0,0,0); */
   cursor: pointer;
 }
 .selecttab {
-  color: #000000;
-  background: #FFFFFF;
+  color: #000000 !important;
+  background: #FFFFFF !important;
   border-radius: 32px 32px 32px 32px;
-  border: 4px solid #000000;
+  border: 4px solid #000000 !important;
 }
 .dblp {
   width: 271px;
@@ -1018,6 +1084,14 @@ td span {
   text-indent: -1em;
 }
 .showjrbutton {
+  display: flex;
+  height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2F81FC;
+  line-height: 30px;
+}
+.showcpcbutton {
   display: flex;
   height: 30px;
   font-weight: normal;
