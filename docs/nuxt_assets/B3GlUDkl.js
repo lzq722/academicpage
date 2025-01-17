@@ -1,0 +1,1 @@
+import{v as t,x as o,A as n,as as c}from"./lkPcPD1h.js";import{_}from"./DlAUqK2U.js";const a={};function r(s,f){const e=c;return t(),o("div",null,[n(e)])}const p=_(a,[["render",r]]);export{p as default};

@@ -161,175 +161,143 @@
               <p>PI: HKBU Start-up Grant, 120,000 HKD</p>
             </div>
             <div v-if="activetab === 3" class="atext">
-              <p>
-                Tsz Nam Chan, Pak Lon Ip, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
+              <p>Tsz Nam Chan, Pak Lon Ip, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
                 Large-scale Spatiotemporal Kernel Density Visualization<br>
                 IEEE International Conference on Data Engineering (ICDE), 2025.
               </p>
-              <p>
-                Weike Tang, Dingming Wu, Tsz Nam Chan, Kezhong Lu.<br>
+              <p>Weike Tang, Dingming Wu, Tsz Nam Chan, Kezhong Lu.<br>
                 Spatially Compact Dense Block Mining in Spatial Tensors<br>
                 Proceedings of ACM Conference on Knowledge Discovery and Data Mining (SIGKDD), 2025.
               </p>
-              <p>
-                Bo Guo, Zhihai Huang, Haitao Luo, Perpetual Hope Akwensi, Ruisheng Wang, Bo Huang, Tsz Nam Chan.<br>
+              <p>Bo Guo, Zhihai Huang, Haitao Luo, Perpetual Hope Akwensi, Ruisheng Wang, Bo Huang, Tsz Nam Chan.<br>
                 An Enhanced Network for Extracting Tunnel Lining Defects using Transformer Encoder and Aggregate Decoder<br>
                 International Journal of Applied Earth Observation and Geoinformation (IJAEOG).
               </p>
-              <p>
-                Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.
+              <p>Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.
                 LARGE: A Length-Aggregation-based Grid Structure for Line Density Visualization
                 Proceedings of the VLDB Endowment (PVLDB), 2024. (Presented in VLDB 2025)
               </p>
-              <p>
-                Siyue Wu, Dingming Wu, Junyi Quan, Tsz Nam Chan, Kezhong Lu.<br>
+              <p>Siyue Wu, Dingming Wu, Junyi Quan, Tsz Nam Chan, Kezhong Lu.<br>
                 Efficient and Accurate PageRank Approximation on Large Graphs<br>
                 Proceedings of ACM Conference on Management of Data (SIGMOD), 2025.<br>
                 Appear in the new ACM journal "Proceedings of the ACM on Management of Data (PACMMOD)".
               </p>
-              <p>
-                Pak Lon Ip, Shenghui Zhang, Xuekai Wei, Tsz Nam Chan, Leong Hou U.<br>
+              <p>Pak Lon Ip, Shenghui Zhang, Xuekai Wei, Tsz Nam Chan, Leong Hou U.<br>
                 HFGNN: Efficient Graph Neural Networks using Hub-Fringe Structures<br>
                 IEEE International Conference on Data Mining (ICDM), 2024.
               </p>
-              <p>
-                Renchi Yang, Yidu Wu, Xiaoyang Lin, Qichen Wang, Tsz Nam Chan, Jieming Shi.<br>
+              <p>Renchi Yang, Yidu Wu, Xiaoyang Lin, Qichen Wang, Tsz Nam Chan, Jieming Shi.<br>
                 Effective Clustering on Large Attributed Bipartite Graphs<br>
                 Proceedings of ACM Conference on Knowledge Discovery and Data Mining (SIGKDD), 2024.
               </p>
-              <p>
-                Tsz Nam Chan, Rui Zang, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu.<br>
+              <p>Tsz Nam Chan, Rui Zang, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu.<br>
                 LION: Fast and High-Resolution Network Kernel Density Visualization<br>
                 Proceedings of the VLDB Endowment (PVLDB), 2024. (Code) (Powerpoint Presentation) (Poster Presentation)
               </p>
-              <p>
-                Shunran Zhang, Xiubo Zhang, Tsz Nam Chan, Shenghui Zhang, Leong Hou U.<br>
+              <p>Shunran Zhang, Xiubo Zhang, Tsz Nam Chan, Shenghui Zhang, Leong Hou U.<br>
                 A Computation-aware Shape Loss Function for Point Cloud Completion<br>
                 Annual AAAI Conference on Artificial Intelligence (AAAI), 2024. (Poster Presentation)
               </p>
-              <p>
-                Tsz Nam Chan, Zhe Li, Leong Hou U, Reynold Cheng.<br>
+              <p>Tsz Nam Chan, Zhe Li, Leong Hou U, Reynold Cheng.<br>
                 PLAME: Piecewise-Linear Approximate Measure for Additive Kernel SVM<br>
                 IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)<br>
                 Extended abstract in IEEE International Conference on Data Engineering (ICDE), 2024. (Poster Presentation)
               </p>
-              <p>
-                Yun Peng, Byron Choi, Tsz Nam Chan, Jianye Yang, Jianliang Xu.<br>
+              <p>Yun Peng, Byron Choi, Tsz Nam Chan, Jianye Yang, Jianliang Xu.<br>
                 Efficient Approximate Nearest Neighbor Search in Multi-dimensional Databases<br>
                 Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Code) (Short Video)<br>
                 Appear in the new ACM journal "Proceedings of the ACM on Management of Data (PACMMOD)".
               </p>
-              <p>
-                Tsz Nam Chan, Leong Hou U, Yun Peng, Byron Choi, Jianliang Xu.<br>
+              <p>Tsz Nam Chan, Leong Hou U, Yun Peng, Byron Choi, Jianliang Xu.<br>
                 Fast Network K-function-based Spatial Analysis<br>
                 Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
                 (Video Presentation) (Powerpoint Presentation) (Technical Report) (Poster Presentation)
               </p>
-              <p>
-                Jie Chen, Zaifeng Yang, Tsz Nam Chan, Hui Li, Junhui Hou, Lap-Pui Chau.<br>
+              <p>Jie Chen, Zaifeng Yang, Tsz Nam Chan, Hui Li, Junhui Hou, Lap-Pui Chau.<br>
                 Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration<br>
                 IEEE Transactions on Image Processing (TIP).
               </p>
-              <p>
-                Yun Peng, Byron Choi, Tsz Nam Chan, Jianliang Xu.<br>
+              <p>Yun Peng, Byron Choi, Tsz Nam Chan, Jianliang Xu.<br>
                 LAN: Learning-based Approximate k-Nearest Neighbor Search in Graph Databases<br>
                 IEEE International Conference on Data Engineering (ICDE), 2022. (Code)
               </p>
-              <p>
-                Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu.<br>
+              <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu.<br>
                 SLAM: Efficient Sweep Line Algorithms for Kernel Density Visualization<br>
                 Proceedings of ACM Conference on Management of Data (SIGMOD), 2022. (Code)<br>
                 (Video Presentation) (Powerpoint Presentation)
               </p>
-              <p>
-                Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
+              <p>Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
                 SWS: A Complexity-Optimized Solution for Spatial-Temporal Kernel Density Visualization<br>
                 Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
                 (Video Presentation) (Powerpoint Presentation) (Technical Report) (Poster Presentation)
               </p>
-              <p>
-                Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
+              <p>Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
                 SAFE: A Share-and-Aggregate Bandwidth Exploration Framework for Kernel Density Visualization<br>
                 Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
                 (Video Presentation) (Powerpoint Presentation) (Poster Presentation)
               </p>
-              <p>
-                Zhe Li, Man Lung Yiu, Tsz Nam Chan.<br>
+              <p>Zhe Li, Man Lung Yiu, Tsz Nam Chan.<br>
                 PAW: Data Partitioning Meets Workload Variance<br>
                 IEEE International Conference on Data Engineering (ICDE), 2022. (Simulation Code) (Spark Code)
               </p>
-              <p>
-                Tsz Nam Chan, Zhe Li, Leong Hou U, Jianliang Xu, Reynold Cheng.<br>
+              <p>Tsz Nam Chan, Zhe Li, Leong Hou U, Jianliang Xu, Reynold Cheng.<br>
                 Fast Augmentation Algorithms for Network Kernel Density Visualization<br>
                 Proceedings of the VLDB Endowment (PVLDB), 2021. (Code)<br>
                 (Video Presentation) (Powerpoint Presentation) (Remark)
               </p>
-              <p>
-                Zhe Li, Tsz Nam Chan, Man Lung Yiu, Christian S. Jensen.<br>
+              <p>Zhe Li, Tsz Nam Chan, Man Lung Yiu, Christian S. Jensen.<br>
                 PolyFit: Polynomial-based Indexing Approach for Fast Approximate Range Aggregate Queries<br>
                 Proceedings of International Conference on Extending Database Technology (EDBT), 2021.
               </p>
-              <p>
-                Hui Li, Tsz Nam Chan, Xianbiao Qi, Wuyuan Xie.<br>
+              <p>Hui Li, Tsz Nam Chan, Xianbiao Qi, Wuyuan Xie.<br>
                 Detail-Preserving Multi-Exposure Fusion with Edge-Preserving Structural Patch Decomposition<br>
                 IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). (Code)
               </p>
-              <p>
-                Zichen Zhu, Tsz Nam Chan, Reynold Cheng, Loc Do, Zhipeng Huang, Haoci Zhang.<br>
+              <p>Zichen Zhu, Tsz Nam Chan, Reynold Cheng, Loc Do, Zhipeng Huang, Haoci Zhang.<br>
                 Effective and Efficient Discovery of Top-k Meta Paths in Heterogeneous Information Networks<br>
                 IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)
               </p>
-              <p>
-                Tsz Nam Chan, Leong Hou U, Reynold Cheng, Man Lung Yiu, Shivansh Mittal.<br>
+              <p>Tsz Nam Chan, Leong Hou U, Reynold Cheng, Man Lung Yiu, Shivansh Mittal.<br>
                 Efficient Algorithms for Kernel Aggregation Queries<br>
                 IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)
               </p>
-              <p>
-                Tsz Nam Chan, Reynold Cheng, Man Lung Yiu.<br>
+              <p>Tsz Nam Chan, Reynold Cheng, Man Lung Yiu.<br>
                 QUAD: Quadratic-Bound-based Kernel Density Visualization<br>
                 Proceedings of ACM Conference on Management of Data (SIGMOD), 2020. (Code)<br>
                 (Video Presentation) (Powerpoint Presentation) (Technical Report)
               </p>
-              <p>
-                Tsz Nam Chan.<br>
+              <p>Tsz Nam Chan.<br>
                 Similarity Measures: Algorithms and Applications<br>
                 PhD Thesis.
               </p>
-              <p>
-                Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
+              <p>Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
                 The Power of Bounds: Answering Approximate Earth Mover's Distance with Parametric Bounds<br>
                 IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)<br>
                 Extended abstract in IEEE International Conference on Data Engineering (ICDE), 2020. (Video Presentation)
               </p>
-              <p>
-                Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
+              <p>Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
                 KARL: Fast Kernel Aggregation Queries<br>
                 IEEE International Conference on Data Engineering (ICDE), 2019. (Code) (Poster Presentation)
               </p>
-              <p>
-                Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
+              <p>Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
                 Efficient Sub-Window Nearest Neighbor Search on Matrix<br>
                 IEEE Transactions on Knowledge and Data Engineering (TKDE).
               </p>
-              <p>
-                Hui Li, Tsz Nam Chan, Man Lung Yiu, Nikos Mamoulis.<br>
+              <p>Hui Li, Tsz Nam Chan, Man Lung Yiu, Nikos Mamoulis.<br>
                 FEXIPRO: Fast and Exact Inner Product Retrieval in Recommender Systems<br>
                 Proceedings of ACM Conference on Management of Data (SIGMOD), 2017. (Code)
               </p>
-              <p>
-                Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
+              <p>Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
                 A Progressive Approach for Similarity Search on Matrix<br>
                 International Symposium on Spatial and Temporal Databases (SSTD), 2015.
               </p>
             </div>
             <div v-if="activetab === 4" class="atext">
-              <p>
-                Tsz Nam Chan, Pak Lon Ip, , Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
+              <p>Tsz Nam Chan, Pak Lon Ip, , Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
                 A Method, System, and Terminal for Spatiotemporal Kernel Density Visualization via PREFIX-Matrix Structure. (一种基于前缀矩阵的时空核密度可视化方法、系统及终端)<br>
                 Chinese Patent (Submitted soon)
               </p>
-              <p>
-                Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.<br>
+              <p>Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.<br>
                 A Method and System for Generating Line Density Visualization via Length-Aggregation-based Grid Structure. (一种基于长度聚合的网格结构生成线密度的方法及系统)<br>
                 Chinese Patent (Under review) (Protected (if granted) starting from 30th October 2024)
               </p>
@@ -465,13 +433,11 @@
       <div class="tutorials">
         <p class="ctitle">Tutorials</p>
         <div class="ctext">
-          <p>
-            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
             Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
             Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.
           </p>
-          <p>
-            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
             Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
             IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)
           </p>
@@ -526,13 +492,11 @@
       <div v-if="teachingcard === 3" class="coursebig">
         <p class="titlebig">Tutorials</p>
         <div class="textbig">
-          <p>
-            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
             Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
             Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.
           </p>
-          <p>
-            Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
             Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
             IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)
           </p>
@@ -1016,10 +980,11 @@ const foldteaching = () => {
 }
 .atext p::before {
   content: '·';
+  margin-left: -0.3em;
 }
 .atext p {
-  text-indent: -1em;
   padding-left: 1em;
+  text-indent: 0;
 }
 .ps {
   position: relative;
@@ -1172,9 +1137,9 @@ td span {
 }
 .ctext p::before {
   content: '·';
+  margin-left: -0.3em;
 }
 .ctext p {
-  text-indent: -1em;
   padding-left: 1em;
 }
 .at {
@@ -1269,9 +1234,9 @@ td span {
 }
 .textbig p::before {
   content: '·';
+  margin-left: -0.3em;
 }
 .textbig p {
-  text-indent: -1em;
   padding-left: 1em;
 }
 .more {

@@ -767,10 +767,11 @@ const foldteaching = () => {
 }
 .atext p::before {
   content: '·';
+  margin-left: -0.3em;
 }
 .atext p {
-  text-indent: -1em;
   padding-left: 1em;
+  text-indent: 0;
 }
 .ps {
   position: relative;
@@ -920,9 +921,9 @@ td span {
 }
 .ctext p::before {
   content: '·';
+  margin-left: -0.3em;
 }
 .ctext p {
-  text-indent: -1em;
   padding-left: 1em;
 }
 .at {
