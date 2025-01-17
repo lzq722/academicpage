@@ -47,7 +47,7 @@
       <div class="line2" />
       <div class="teacher1" @click="navigateTochan">
         <div class="teacherbg">
-          <p class="tname">Prof. Tsz Nam Chan</p>
+          <p class="tname">Tsz Nam Chan</p>
           <p class="tintro">
             Distinguished Professor<br>
             BEng, PhD PolyU (HK), SrMIEEE, MACM<br>
@@ -58,7 +58,7 @@
       </div>
       <div class="teacher2" @click="navigateTowu">
         <div class="teacherbg">
-          <p class="tname">Dr. Dingming Wu</p>
+          <p class="tname">Dingming Wu</p>
           <p class="tintro">
             Associate Professor<br>
             B. Sc. HUST, M. Sc. PKU, Ph. D. AAU (DK)

@@ -3,7 +3,7 @@
   <div class="bg">
     <div class="top">
       <div class="topcontainer">
-        <div class="tname">Prof. Tsz Nam Chan (Edison)</div>
+        <div class="tname">Tsz Nam Chan (Edison)</div>
         <div class="tintro">Distinguished Professor<br>College of Computer Science and Software Engineering Shenzhen University</div>
         <div class="tlocation">
           <img src="/image/icon_address.png" alt="" class="icon_address">
@@ -67,7 +67,7 @@
         languages, query processing, data mining, and indexing.
       </p>
       <div class="group">
-        <p class="gtitle">A Length-Aggregation-based Grid Structure for Line Density Visualization</p>
+        <p class="gtitle">LARGE: A Length-Aggregation-based Grid Structure for Line Density Visualization</p>
         <p class="gintro">Line Density Visualization (LDV) is an important operation of geospatial analysis, which has been extensively used in many application domains, e.g., urban planning, criminology, and transportation science. However, LDV is computationally demanding. Therefore, existing exact solutions are not scalable (or even not feasible) to support large-scale datasets and high resolution sizes for generating LDV. To handle the efficiency issues, we develop the first solution to approximately compute LDV with an 𝜖-relative error guarantee, which consists of two main parts. First, we develop the new indexing structure, called length-aggregation-based grid structure (LARGE). Second, based on LARGE, we develop two types of fast bound functions, namely (1) square-shaped lower and upper bound functions and (2) arbitrary-shaped lower and upper bound functions, which can filter a large portion of unnecessary computations. By theoretically analyzing the tightness of our bound functions and experimentally comparing our solution with existing exact solutions on four large-scale datasets, we demonstrate that our solution can be scalable to generate high-resolution LDVs using large-scale datasets. In particular, our solution achieves up to 291.8x speedups over the state-of-the-art solutions. </p>
         <div style="display: flex;">
           <div class="image-container" data-text="Click to view">
@@ -118,9 +118,8 @@
         </div>
       </div>
       <p style="display: flex; margin-top: 24px; height: 30px; line-height: 30px; color: #2F81FC; font-weight: 400; font-size: 14px;">
-        If you want to view more projects, please click
         <button class="toggle-button" @click="toggleGroup2" >
-            &nbsp;{{ showGroup2 ? 'FOLD' : 'MORE' }}
+            {{ showGroup2 ? 'FOLD' : 'If you want to view more projects, please click MORE' }}
             <img v-if="showGroup2" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
             <img v-else src="/image/icon_open.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
         </button>

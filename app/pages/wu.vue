@@ -64,9 +64,8 @@
         <img src="/image/2.png" alt="" class="gimg1">
       </div>
       <p style="display: flex; margin-top: 24px; height: 30px; line-height: 30px; color: #2F81FC; font-weight: 400; font-size: 14px;">
-        If you want to view more projects, please click
         <button class="toggle-button" @click="toggleGroup" >
-            &nbsp;{{ showGroup ? 'FOLD' : 'MORE' }}
+            {{ showGroup ? 'FOLD' : 'If you want to view more projects, please click MORE' }}
             <img v-if="showGroup" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
             <img v-else src="/image/icon_open.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
         </button>

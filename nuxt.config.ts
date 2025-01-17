@@ -27,7 +27,13 @@ export default defineNuxtConfig({
           content: 'ElementPlus + Nuxt3',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap'
+        }
+      ],
     },
     baseURL: '/academicpage/',
     buildAssetsDir: 'nuxt_assets',
