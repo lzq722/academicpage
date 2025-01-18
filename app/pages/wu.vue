@@ -81,9 +81,9 @@
           <el-col :span="2" />
           <el-col :span="8">
             <div style="display: flex; flex-direction: column; gap: 72px; margin-top: 80px;">
-              <el-button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</el-button>
-              <el-button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</el-button>
-              <el-button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</el-button>
+              <button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</button>
+              <button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</button>
+              <button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</button>
             </div>
             <div class="dblp">
               <a href="https://dblp.org/pid/81/6181.html" target="_blank" style="color: #2F81FC;">[DBLP]</a>&nbsp;
@@ -766,8 +766,8 @@ const foldteaching = () => {
   
 }
 .atext p::before {
-  content: '·';
-  margin-left: -0.3em;
+  content: '· ';
+  margin-left: -0.6em;
 }
 .atext p {
   padding-left: 1em;
@@ -829,7 +829,7 @@ tr {
   margin-bottom: 64px;
 }
 td span::before {
-  content: '·';
+  content: '· ';
 }
 td span {
   text-indent: -1em;
@@ -920,8 +920,8 @@ td span {
   /* line-height: 28px; */
 }
 .ctext p::before {
-  content: '·';
-  margin-left: -0.3em;
+  content: '· ';
+  margin-left: -0.6em;
 }
 .ctext p {
   padding-left: 1em;
@@ -1023,10 +1023,10 @@ td span {
   /* line-height: 28px; */
 }
 .textbig p::before {
-  content: '·';
+  content: '· ';
+  margin-left: -0.6em;
 }
 .textbig p {
-  text-indent: -1em;
   padding-left: 1em;
 }
 .more {

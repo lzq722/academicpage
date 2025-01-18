@@ -135,10 +135,12 @@
           <el-col :span="2" />
           <el-col :span="8">
             <div style="display: flex; flex-direction: column; gap: 72px; margin-top: 80px;">
-              <el-button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</el-button>
-              <el-button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</el-button>
-              <el-button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</el-button>
-              <el-button class="abutton" :class="{'selecttab': activetab === 4}" @click="setActiveTab(4)">Patents</el-button>
+              <button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</button>
+              <button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</button>
+              <button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</button>
+              <button class="abutton" :class="{'selecttab': activetab === 4}" @click="setActiveTab(4)">Patents</button>
+              <button class="abutton" :class="{'selecttab': activetab === 5}" @click="setActiveTab(5)">Tutorials</button>
+              <button class="abutton" :class="{'selecttab': activetab === 6}" @click="setActiveTab(6)">Demo Publications</button>
             </div>
             <div class="dblp">
               <a href="https://dblp.org/pid/166/7652.html" target="_blank" style="color: #2F81FC;">[DBLP]</a>&nbsp;
@@ -302,6 +304,27 @@
                 Chinese Patent (Under review) (Protected (if granted) starting from 30th October 2024)
               </p>
             </div>
+            <div v-if="activetab === 5" class="atext">
+              <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+                Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.</p>
+              <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
+                Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
+                IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)</p>
+            </div>
+            <div v-if="activetab === 6" class="atext">
+              <p>Tsz Nam Chan, Rui Zang, Pak Lon Ip, Leong Hou U, Jianliang Xu.<br>
+                PyNKDV: An Efficient Network Kernel Density Visualization Library for Geospatial Analytic Systems (Library Homepage)<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Poster Presentation)</p>
+              <p>Tsz Nam Chan, Pak Lon Ip, Kaiyan Zhao, Leong Hou U, Byron Choi, Jianliang Xu.<br>
+                LIBKDV: A Versatile Kernel Density Visualization Library for Geospatial Analytics (Library Homepage)<br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. (Video Presentation)<br>
+                Impact case 1: Used in the Macau COVID-19 HotSpot Map (Project Website) (News) (Video News (in Cantonese))<br>
+                Impact case 2: Used in the Hong Kong COVID-19 HotSpot Map (Project Website) (News) (News (in Chinese))</p>
+              <p>Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Weng Hou Tong, Shivansh Mittal, Ye Li, Reynold Cheng.<br>
+                KDV-Explorer: A Near Real-Time Kernel Density Visualization System for Spatial Analysis (Project Homepage)<br>
+                Proceedings of the VLDB Endowment (PVLDB), 2021. (Video Presentation)</p>
+            </div>
           </el-col>
         </el-row>
       </div>
@@ -431,16 +454,12 @@
         </button>
       </div>
       <div class="tutorials">
-        <p class="ctitle">Tutorials</p>
+        <p class="ctitle">Students</p>
         <div class="ctext">
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
-            Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
-            Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.
-          </p>
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
-            Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
-            IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)
-          </p>
+          <p>Hongwei Ye, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
+          <p>Yue Zhong, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
+          <p>Bojian Zhu, undergraduate research assistant in HKBU (From June 2023 to August 2024) (Coauthored two VLDB papers with me)</p>
+          <p>Rui Zang, undergraduate research assistant in HKBU (From May 2023 to July 2023) (Coauthored one VLDB paper and one SIGMOD demo paper with me)</p>
         </div>
         <button class="more" style="display: flex;" @click="moreteaching(3)">
           MORE
@@ -490,16 +509,12 @@
         </button>
       </div>
       <div v-if="teachingcard === 3" class="coursebig">
-        <p class="titlebig">Tutorials</p>
+        <p class="titlebig">Students</p>
         <div class="textbig">
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
-            Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
-            Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.
-          </p>
-          <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
-            Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
-            IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)
-          </p>
+          <p>Hongwei Ye, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
+          <p>Yue Zhong, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
+          <p>Bojian Zhu, undergraduate research assistant in HKBU (From June 2023 to August 2024) (Coauthored two VLDB papers with me)</p>
+          <p>Rui Zang, undergraduate research assistant in HKBU (From May 2023 to July 2023) (Coauthored one VLDB paper and one SIGMOD demo paper with me)</p>
         </div>
         <button class="fold" style="display: flex;" @click="foldteaching">
           FOLD
@@ -889,7 +904,7 @@ const foldteaching = () => {
   position: relative;
   margin-top: 80px;
   max-width: 1152px;
-  height: 835px;
+  height: 1135px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -929,7 +944,7 @@ const foldteaching = () => {
   position: absolute;
   top: 91px;
   width: 100%;
-  height: 744px;
+  height: 1044px;
   background: rgba(196,196,196,0);
   border-radius: 16px 16px 16px 16px;
   border: 4px solid #000000;
@@ -970,7 +985,7 @@ const foldteaching = () => {
 }
 .atext {
   margin-top: 80px;
-  height: 492px;
+  height: 756px;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -979,8 +994,8 @@ const foldteaching = () => {
   scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
 .atext p::before {
-  content: '·';
-  margin-left: -0.3em;
+  content: '· ';
+  margin-left: -0.6em;
 }
 .atext p {
   padding-left: 1em;
@@ -1042,7 +1057,7 @@ tr {
   margin-bottom: 64px;
 }
 td span::before {
-  content: '·';
+  content: '· ';
 }
 td span {
   text-indent: -1em;
@@ -1136,8 +1151,8 @@ td span {
   overflow: hidden;
 }
 .ctext p::before {
-  content: '·';
-  margin-left: -0.3em;
+  content: '· ';
+  margin-left: -0.6em;
 }
 .ctext p {
   padding-left: 1em;
@@ -1233,8 +1248,8 @@ td span {
   line-height: 30px;
 }
 .textbig p::before {
-  content: '·';
-  margin-left: -0.3em;
+  content: '· ';
+  margin-left: -0.6em;
 }
 .textbig p {
   padding-left: 1em;

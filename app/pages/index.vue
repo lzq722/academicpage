@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="about">
-      <p class="asubtitle">About the Database Group</p>
+      <p class="asubtitle">About Us</p>
       <div class="dgimg">
         <el-carousel
           width="788px"
@@ -27,7 +27,7 @@
       </div>
       <div class="dgoverlay"></div>
       <p class="dgWord">
-        This database group is affiliated with Big Data Institude (led by Prof. (Joshua) Zhexue Huang) in Shenzhen University.Currently, we have the following directions： 
+        This Data Management & Intelligence Group is affiliated with Big Data Institude (led by Prof. (Joshua) Zhexue Huang) in Shenzhen University.Currently, we have the following directions： 
         <br><br>
         <span class="dgword">
           Efficient Algorithms for Geographic Information Systems<br>
