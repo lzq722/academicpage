@@ -164,166 +164,167 @@
             </div>
             <div v-if="activetab === 3" class="atext">
               <p>Tsz Nam Chan, Pak Lon Ip, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
-                Large-scale Spatiotemporal Kernel Density Visualization<br>
+                <a href="https://edisonchan-szu.github.io/publication/empty.pdf" target="_blank">Large-scale Spatiotemporal Kernel Density Visualization</a><br>
                 IEEE International Conference on Data Engineering (ICDE), 2025.
               </p>
               <p>Weike Tang, Dingming Wu, Tsz Nam Chan, Kezhong Lu.<br>
-                Spatially Compact Dense Block Mining in Spatial Tensors<br>
+                <a href="https://edisonchan-szu.github.io/publication/empty.pdf" target="_blank">Spatially Compact Dense Block Mining in Spatial Tensors</a><br>
                 Proceedings of ACM Conference on Knowledge Discovery and Data Mining (SIGKDD), 2025.
               </p>
               <p>Bo Guo, Zhihai Huang, Haitao Luo, Perpetual Hope Akwensi, Ruisheng Wang, Bo Huang, Tsz Nam Chan.<br>
-                An Enhanced Network for Extracting Tunnel Lining Defects using Transformer Encoder and Aggregate Decoder<br>
+                <a href="https://edisonchan-szu.github.io/publication/Tunnel.pdf" target="_blank">An Enhanced Network for Extracting Tunnel Lining Defects using Transformer Encoder and Aggregate Decoder</a><br>
                 International Journal of Applied Earth Observation and Geoinformation (IJAEOG).
               </p>
-              <p>Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.
-                LARGE: A Length-Aggregation-based Grid Structure for Line Density Visualization
+              <p>Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.<br>
+                <a href="https://edisonchan-szu.github.io/publication/LARGE.pdf" target="_blank">LARGE: A Length-Aggregation-based Grid Structure for Line Density Visualization</a><br>
                 Proceedings of the VLDB Endowment (PVLDB), 2024. (Presented in VLDB 2025)
               </p>
               <p>Siyue Wu, Dingming Wu, Junyi Quan, Tsz Nam Chan, Kezhong Lu.<br>
-                Efficient and Accurate PageRank Approximation on Large Graphs<br>
+                <a href="https://edisonchan-szu.github.io/publication/PageRank_Approx.pdf" target="_blank">Efficient and Accurate PageRank Approximation on Large Graphs</a><br>
                 Proceedings of ACM Conference on Management of Data (SIGMOD), 2025.<br>
                 Appear in the new ACM journal "Proceedings of the ACM on Management of Data (PACMMOD)".
               </p>
               <p>Pak Lon Ip, Shenghui Zhang, Xuekai Wei, Tsz Nam Chan, Leong Hou U.<br>
-                HFGNN: Efficient Graph Neural Networks using Hub-Fringe Structures<br>
+                <a href="https://edisonchan-szu.github.io/publication/empty.pdf" target="_blank">HFGNN: Efficient Graph Neural Networks using Hub-Fringe Structures</a><br>
                 IEEE International Conference on Data Mining (ICDM), 2024.
               </p>
               <p>Renchi Yang, Yidu Wu, Xiaoyang Lin, Qichen Wang, Tsz Nam Chan, Jieming Shi.<br>
-                Effective Clustering on Large Attributed Bipartite Graphs<br>
+                <a href="https://edisonchan-szu.github.io/publication/ABG_clustering.pdf" target="_blank">Effective Clustering on Large Attributed Bipartite Graphs</a><br>
                 Proceedings of ACM Conference on Knowledge Discovery and Data Mining (SIGKDD), 2024.
               </p>
               <p>Tsz Nam Chan, Rui Zang, Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu.<br>
-                LION: Fast and High-Resolution Network Kernel Density Visualization<br>
-                Proceedings of the VLDB Endowment (PVLDB), 2024. (Code) (Powerpoint Presentation) (Poster Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/LION.pdf" target="_blank">LION: Fast and High-Resolution Network Kernel Density Visualization</a><br>
+                Proceedings of the VLDB Endowment (PVLDB), 2024. <a href="https://github.com/edisonchan2013928/LION" target="_blank">(Code)</a> <a href="https://edisonchan-szu.github.io/publication/LION.pptx" target="_blank">(Powerpoint Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/LION_Poster.pptx">(Poster Presentation)</a>
               </p>
               <p>Shunran Zhang, Xiubo Zhang, Tsz Nam Chan, Shenghui Zhang, Leong Hou U.<br>
-                A Computation-aware Shape Loss Function for Point Cloud Completion<br>
-                Annual AAAI Conference on Artificial Intelligence (AAAI), 2024. (Poster Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/EMD_shape_loss.pdf" target="_blank">A Computation-aware Shape Loss Function for Point Cloud Completion</a><br>
+                Annual AAAI Conference on Artificial Intelligence (AAAI), 2024. <a href="https://edisonchan-szu.github.io/publication/Point_Cloud_Completion_AAAI24.pdf" target="_blank"> (Poster Presentation)</a>
               </p>
               <p>Tsz Nam Chan, Zhe Li, Leong Hou U, Reynold Cheng.<br>
-                PLAME: Piecewise-Linear Approximate Measure for Additive Kernel SVM<br>
-                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)<br>
-                Extended abstract in IEEE International Conference on Data Engineering (ICDE), 2024. (Poster Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/PLAME.pdf" target="_blank">PLAME: Piecewise-Linear Approximate Measure for Additive Kernel SVM</a><br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). <a href="https://github.com/edisonchan2013928/PLAME-Code" target="_blank">(Code)</a><br>
+                <a href="https://edisonchan-szu.github.io/publication/PLAME_TKDE_poster.pdf" target="_blank">Extended abstract</a> in IEEE International Conference on Data Engineering (ICDE), 2024. <a href="https://edisonchan-szu.github.io/publication/PLAME_Poster.pdf" target="_blank">(Poster Presentation)</a>
               </p>
               <p>Yun Peng, Byron Choi, Tsz Nam Chan, Jianye Yang, Jianliang Xu.<br>
-                Efficient Approximate Nearest Neighbor Search in Multi-dimensional Databases<br>
-                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Code) (Short Video)<br>
+                <a href="https://edisonchan-szu.github.io/publication/tau-MNG.pdf" target="_blank">Efficient Approximate Nearest Neighbor Search in Multi-dimensional Databases</a><br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. <a href="https://github.com/csypeng/taumng_sigmod" target="_blank">(Code)</a> (Short Video)<br>
                 Appear in the new ACM journal "Proceedings of the ACM on Management of Data (PACMMOD)".
               </p>
               <p>Tsz Nam Chan, Leong Hou U, Yun Peng, Byron Choi, Jianliang Xu.<br>
-                Fast Network K-function-based Spatial Analysis<br>
-                Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
-                (Video Presentation) (Powerpoint Presentation) (Technical Report) (Poster Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/Network-K-function.pdf" target="_blank">Fast Network K-function-based Spatial Analysis</a><br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. <a href="https://github.com/edisonchan2013928/Network-K-function" target="_blank">(Code)</a><br>
+                <a href="https://edisonchan-szu.github.io/publication/Network K-function.mp4" target="_blank">(Video Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/Network K-function.pptx">(Powerpoint Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/network_K_function_TR.pdf" target="_blank">(Technical Report)</a> <a href="https://edisonchan-szu.github.io/publication/Network_K_function_Poster.pdf" target="_blank">(Poster Presentation)</a>
               </p>
               <p>Jie Chen, Zaifeng Yang, Tsz Nam Chan, Hui Li, Junhui Hou, Lap-Pui Chau.<br>
-                Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration<br>
+                <a href="https://ieeexplore.ieee.org/abstract/document/9740005" target="_blank">Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration</a><br>
                 IEEE Transactions on Image Processing (TIP).
               </p>
               <p>Yun Peng, Byron Choi, Tsz Nam Chan, Jianliang Xu.<br>
-                LAN: Learning-based Approximate k-Nearest Neighbor Search in Graph Databases<br>
-                IEEE International Conference on Data Engineering (ICDE), 2022. (Code)
+                <a href="https://edisonchan-szu.github.io/publication/LAN.pdf" target="_blank">LAN: Learning-based Approximate k-Nearest Neighbor Search in Graph Databases</a><br>
+                IEEE International Conference on Data Engineering (ICDE), 2022. <a href="https://github.com/csypeng/LAN" target="_blank">(Code)</a>
               </p>
               <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu.<br>
-                SLAM: Efficient Sweep Line Algorithms for Kernel Density Visualization<br>
-                Proceedings of ACM Conference on Management of Data (SIGMOD), 2022. (Code)<br>
-                (Video Presentation) (Powerpoint Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/SLAM.pdf" target="_blank">SLAM: Efficient Sweep Line Algorithms for Kernel Density Visualization</a><br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2022. <a href="https://github.com/edisonchan2013928/SLAM" target="_blank">(Code)</a><br>
+                <a href="https://www.youtube.com/watch?v=aOl0RigDuAg" target="_blank">(Video Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/SLAM_presentation_v2.pptx">(Powerpoint Presentation)</a>
               </p>
               <p>Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
-                SWS: A Complexity-Optimized Solution for Spatial-Temporal Kernel Density Visualization<br>
-                Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
-                (Video Presentation) (Powerpoint Presentation) (Technical Report) (Poster Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/SWS.pdf" target="_blank">SWS: A Complexity-Optimized Solution for Spatial-Temporal Kernel Density Visualization</a><br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. <a href="https://github.com/STKDV/STKDV" target="_blank">(Code)</a><br>
+                <a href="https://edisonchan-szu.github.io/publication/SWS.mp4">(Video Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/SWS.pptx">(Powerpoint Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/SWS_STKDV_TR.pdf" target="_blank">(Technical Report)</a> <a href="https://edisonchan-szu.github.io/publication/SWS_Poster.pdf" target="_blank">(Poster Presentation)</a>
               </p>
               <p>Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Byron Choi, Jianliang Xu.<br>
-                SAFE: A Share-and-Aggregate Bandwidth Exploration Framework for Kernel Density Visualization<br>
-                Proceedings of the VLDB Endowment (PVLDB), 2022. (Code)<br>
-                (Video Presentation) (Powerpoint Presentation) (Poster Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/SAFE.pdf" target="_blank">SAFE: A Share-and-Aggregate Bandwidth Exploration Framework for Kernel Density Visualization</a><br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. <a href="https://github.com/edisonchan2013928/SAFE" target="_blank">(Code)</a><br>
+                <a href="https://edisonchan-szu.github.io/publication/SAFE.mp4">(Video Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/SAFE.pptx">(Powerpoint Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/SAFE_Poster.pdf" target="_blank">(Poster Presentation)</a>
               </p>
               <p>Zhe Li, Man Lung Yiu, Tsz Nam Chan.<br>
-                PAW: Data Partitioning Meets Workload Variance<br>
-                IEEE International Conference on Data Engineering (ICDE), 2022. (Simulation Code) (Spark Code)
+                <a href="https://edisonchan-szu.github.io/publication/PAW.pdf" target="_blank">PAW: Data Partitioning Meets Workload Variance</a><br>
+                IEEE International Conference on Data Engineering (ICDE), 2022. <a href="https://github.com/cloudray8580/NORA_Simulation" target="_blank">(Simulation Code)</a> <a href="https://github.com/cloudray8580/NORA_SPARK" target="_blank">(Spark Code)</a>
               </p>
               <p>Tsz Nam Chan, Zhe Li, Leong Hou U, Jianliang Xu, Reynold Cheng.<br>
-                Fast Augmentation Algorithms for Network Kernel Density Visualization<br>
-                Proceedings of the VLDB Endowment (PVLDB), 2021. (Code)<br>
-                (Video Presentation) (Powerpoint Presentation) (Remark)
+                <a href="https://edisonchan-szu.github.io/publication/NKDV.pdf" target="_blank">Fast Augmentation Algorithms for Network Kernel Density Visualization</a><br>
+                Proceedings of the VLDB Endowment (PVLDB), 2021. <a href="https://github.com/edisonchan2013928/Network-Kernel-Density-Visualization-NKDV-Code" target="_blank">(Code)</a><br>
+                <a href="https://www.youtube.com/watch?v=CHnepJYxnRA&feature=youtu.be" target="_blank">(Video Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/NKDV_PVLDB_v2.pptx">(Powerpoint Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/Remark_NKDV.txt" target="_blank">(Remark)</a>
               </p>
               <p>Zhe Li, Tsz Nam Chan, Man Lung Yiu, Christian S. Jensen.<br>
-                PolyFit: Polynomial-based Indexing Approach for Fast Approximate Range Aggregate Queries<br>
+                <a href="https://edisonchan-szu.github.io/publication/PolyFit.pdf" target="_blank">PolyFit: Polynomial-based Indexing Approach for Fast Approximate Range Aggregate Queries</a><br>
                 Proceedings of International Conference on Extending Database Technology (EDBT), 2021.
               </p>
               <p>Hui Li, Tsz Nam Chan, Xianbiao Qi, Wuyuan Xie.<br>
-                Detail-Preserving Multi-Exposure Fusion with Edge-Preserving Structural Patch Decomposition<br>
-                IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). (Code)
+                <a href="https://edisonchan-szu.github.io/publication/MESPD_Final.pdf" target="_blank">Detail-Preserving Multi-Exposure Fusion with Edge-Preserving Structural Patch Decomposition</a><br>
+                IEEE Transactions on Circuits and Systems for Video Technology (TCSVT). <a href="https://github.com/xiaohuiben/MESPD_TCSVT-2021" target="_blank">(Code)</a>
               </p>
               <p>Zichen Zhu, Tsz Nam Chan, Reynold Cheng, Loc Do, Zhipeng Huang, Haoci Zhang.<br>
-                Effective and Efficient Discovery of Top-k Meta Paths in Heterogeneous Information Networks<br>
-                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)
+                <a href="https://ieeexplore.ieee.org/document/9253703" target="_blank">Effective and Efficient Discovery of Top-k Meta Paths in Heterogeneous Information Networks</a><br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). <a href="https://github.com/littlepig2013/topk-meta-path-query" target="_blank">(Code)</a>
               </p>
               <p>Tsz Nam Chan, Leong Hou U, Reynold Cheng, Man Lung Yiu, Shivansh Mittal.<br>
-                Efficient Algorithms for Kernel Aggregation Queries<br>
-                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)
+                <a href="https://edisonchan-szu.github.io/publication/KARL_AK.pdf" target="_blank">Efficient Algorithms for Kernel Aggregation Queries</a><br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). <a href="https://github.com/edisonchan2013928/Fast-Prediction-for-Additive-Kernels-Using-KARL" target="_blank">(Code)</a>
               </p>
               <p>Tsz Nam Chan, Reynold Cheng, Man Lung Yiu.<br>
-                QUAD: Quadratic-Bound-based Kernel Density Visualization<br>
-                Proceedings of ACM Conference on Management of Data (SIGMOD), 2020. (Code)<br>
-                (Video Presentation) (Powerpoint Presentation) (Technical Report)
+                <a href="https://edisonchan-szu.github.io/publication/QUAD.pdf" target="_blank">QUAD: Quadratic-Bound-based Kernel Density Visualization</a><br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2020. <a href="https://github.com/edisonchan2013928/QUAD-for-Kernel-Density-Visualization-KDV-" target="_blank">(Code)</a><br>
+                <a href="https://www.youtube.com/watch?v=4-3pYkPbgBo&feature=youtu.be" target="_blank">(Video Presentation)</a> <a href="https://edisonchan-szu.github.io/publication/QUAD_presentation_v5.pptx">(Powerpoint Presentation)</a> <a href="https://www.cs.hku.hk/data/techreps/document/TR-2019-05.pdf" target="_blank">(Technical Report)</a>
               </p>
               <p>Tsz Nam Chan.<br>
-                Similarity Measures: Algorithms and Applications<br>
+                <a href="https://ira.lib.polyu.edu.hk/handle/10397/80535" target="_blank">Similarity Measures: Algorithms and Applications</a><br>
                 PhD Thesis.
               </p>
               <p>Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
-                The Power of Bounds: Answering Approximate Earth Mover's Distance with Parametric Bounds<br>
-                IEEE Transactions on Knowledge and Data Engineering (TKDE). (Code)<br>
-                Extended abstract in IEEE International Conference on Data Engineering (ICDE), 2020. (Video Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/EMD.pdf" target="_blank">The Power of Bounds: Answering Approximate Earth Mover's Distance with Parametric Bounds</a><br>
+                IEEE Transactions on Knowledge and Data Engineering (TKDE). <a href="https://github.com/edisonchan2013928/EMD_Code" target="_blank">(Code)</a><br>
+                <a href="https://edisonchan-szu.github.io/publication/EMD_extended_abstract.pdf" target="_blank">Extended abstract</a> in IEEE International Conference on Data Engineering (ICDE), 2020. <a href="https://www.youtube.com/watch?v=Zgov0uNxZQ4" target="_blank">(Video Presentation)</a>
               </p>
               <p>Tsz Nam Chan, Man Lung Yiu, Leong Hou U.<br>
-                KARL: Fast Kernel Aggregation Queries<br>
-                IEEE International Conference on Data Engineering (ICDE), 2019. (Code) (Poster Presentation)
+                <a href="https://edisonchan-szu.github.io/publication/KARL.pdf" target="_blank">KARL: Fast Kernel Aggregation Queries</a><br>
+                IEEE International Conference on Data Engineering (ICDE), 2019. <a href="https://github.com/edisonchan2013928/KARL-Fast-Kernel-Aggregation-Queries" target="_blank">(Code)</a> <a href="https://edisonchan-szu.github.io/publication/KARL_Poster.pdf" target="_blank">(Poster Presentation)</a>
               </p>
               <p>Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
-                Efficient Sub-Window Nearest Neighbor Search on Matrix<br>
+                <a href="https://edisonchan-szu.github.io/publication/Matrix_NN.pdf" target="_blank">Efficient Sub-Window Nearest Neighbor Search on Matrix</a><br>
                 IEEE Transactions on Knowledge and Data Engineering (TKDE).
               </p>
               <p>Hui Li, Tsz Nam Chan, Man Lung Yiu, Nikos Mamoulis.<br>
-                FEXIPRO: Fast and Exact Inner Product Retrieval in Recommender Systems<br>
-                Proceedings of ACM Conference on Management of Data (SIGMOD), 2017. (Code)
+                <a href="https://edisonchan-szu.github.io/publication/FEXIPRO.pdf" target="_blank">FEXIPRO: Fast and Exact Inner Product Retrieval in Recommender Systems</a><br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2017. <a href="https://github.com/Hui-Li/MFRetrieval" target="_blank">(Code)</a>
               </p>
               <p>Tsz Nam Chan, Man Lung Yiu, Kien A. Hua.<br>
-                A Progressive Approach for Similarity Search on Matrix<br>
+                <a href="https://edisonchan-szu.github.io/publication/Matrix_NN_conf.pdf" target="_blank">A Progressive Approach for Similarity Search on Matrix</a><br>
                 International Symposium on Spatial and Temporal Databases (SSTD), 2015.
               </p>
             </div>
             <div v-if="activetab === 4" class="atext">
               <p>Tsz Nam Chan, Pak Lon Ip, , Bojian Zhu, Leong Hou U, Dingming Wu, Jianliang Xu, Christian S. Jensen.<br>
                 A Method, System, and Terminal for Spatiotemporal Kernel Density Visualization via PREFIX-Matrix Structure. (一种基于前缀矩阵的时空核密度可视化方法、系统及终端)<br>
-                Chinese Patent (Submitted soon)
+                Chinese Patent <a href="https://edisonchan-szu.github.io/publication/PREFIX_patent_protected.pdf" target="_blank">(Protected (if granted)</a> starting from 31st December 2024)
               </p>
               <p>Tsz Nam Chan, Bojian Zhu, Dingming Wu, Yun Peng, Leong Hou U.<br>
                 A Method and System for Generating Line Density Visualization via Length-Aggregation-based Grid Structure. (一种基于长度聚合的网格结构生成线密度的方法及系统)<br>
-                Chinese Patent (Under review) (Protected (if granted) starting from 30th October 2024)
+                Chinese Patent <a href="https://edisonchan-szu.github.io/publication/LARGE_granted.pdf" target="_blank">(Granted)</a> <a href="https://edisonchan-szu.github.io/publication/LARGE_patent_protected.pdf" target="_blank">(Protected</a> starting from 30th October 2024)
               </p>
             </div>
             <div v-if="activetab === 5" class="atext">
               <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
-                Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities (1.5 hours)<br>
-                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023.</p>
+                <a href="https://edisonchan-szu.github.io/publication/LSGA_tutorial.pdf" target="_blank">Large-scale Geospatial Analytics: Problems, Challenges, and Opportunities</a> (1.5 hours)<br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. <a href="https://edisonchan-szu.github.io/publication/SIGMOD23-Tutorial-short-video.mp4" target="_blank">(Short Video)</a> <a href="https://github.com/edisonchan2013928/Tutorial-slides/blob/main/LSGA_SIGMOD2023_Tutorial.pdf" target="_blank">(Tutorial Slides)</a></p>
               <p>Tsz Nam Chan, Leong Hou U, Byron Choi, Jianliang Xu, Reynold Cheng.<br>
-                Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications (1.5 hours)<br>
-                IEEE International Conference on Mobile Data Management (MDM), 2023. (Tutorial Slides)</p>
+                <a href="https://edisonchan-szu.github.io/publication/KDV_tutorial.pdf" target="_blank">Kernel Density Visualization for Big Geospatial Data: Algorithms and Applications</a> (1.5 hours)<br>
+                IEEE International Conference on Mobile Data Management (MDM), 2023. <a href="https://github.com/edisonchan2013928/Tutorial-slides/blob/main/KDV_tutorial_slides.pptx" target="_blank">(Tutorial Slides)</a></p>
             </div>
             <div v-if="activetab === 6" class="atext">
               <p>Tsz Nam Chan, Rui Zang, Pak Lon Ip, Leong Hou U, Jianliang Xu.<br>
-                PyNKDV: An Efficient Network Kernel Density Visualization Library for Geospatial Analytic Systems (Library Homepage)<br>
-                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. (Short Video) (Poster Presentation)</p>
+                <a href="https://edisonchan-szu.github.io/publication/PyNKDV.pdf" target="_blank">PyNKDV: An Efficient Network Kernel Density Visualization Library for Geospatial Analytic Systems</a><br>
+                <a href="https://github.com/edisonchan2013928/PyNKDV" target="_blank">(Library Homepage)</a><br>
+                Proceedings of ACM Conference on Management of Data (SIGMOD), 2023. <a href="https://edisonchan-szu.github.io/publication/SIGMOD23-Demo-short-video.mp4" target="_blank">(Short Video)</a> <a href="https://edisonchan-szu.github.io/publication/PyNKDV_poster.pdf" target="_blank">(Poster Presentation)</a></p>
               <p>Tsz Nam Chan, Pak Lon Ip, Kaiyan Zhao, Leong Hou U, Byron Choi, Jianliang Xu.<br>
-                LIBKDV: A Versatile Kernel Density Visualization Library for Geospatial Analytics (Library Homepage)<br>
-                Proceedings of the VLDB Endowment (PVLDB), 2022. (Video Presentation)<br>
-                Impact case 1: Used in the Macau COVID-19 HotSpot Map (Project Website) (News) (Video News (in Cantonese))<br>
-                Impact case 2: Used in the Hong Kong COVID-19 HotSpot Map (Project Website) (News) (News (in Chinese))</p>
+                <a href="https://edisonchan-szu.github.io/publication/LIBKDV.pdf" target="_blank">LIBKDV: A Versatile Kernel Density Visualization Library for Geospatial Analytics</a> <a href="https://github.com/libkdv/libkdv" target="_blank">(Library Homepage)</a><br>
+                Proceedings of the VLDB Endowment (PVLDB), 2022. <a href="https://edisonchan-szu.github.io/system/Video/LIBKDV_Video_final.mp4" target="_blank">(Video Presentation)</a><br>
+                Impact case 1: Used in the Macau COVID-19 HotSpot Map <a href="https://degroup.cis.um.edu.mo/covid-19/" target="_blank">(Project Website)</a> <a href="https://www.einnews.com/pr_news/581503973/um-covid-19-research-team-proposes-key-points-for-combating-epidemic" target="_blank">(News)</a> <a href="https://www.tdm.com.mo/zh-hant/news-detail/718799?date=" target="_blank">(Video News (in Cantonese))</a><br>
+                Impact case 2: Used in the Hong Kong COVID-19 HotSpot Map <a href="https://covid19.comp.hkbu.edu.hk/" target="_blank">(Project Website)</a> <a href="https://www.thestandard.com.hk/breaking-news/section/4/197114/HKBU-led-research-team-launches-Hong-Kong-COVID-19-hotspot-map" target="_blank">(News)</a> <a href="https://hk.on.cc/hk/bkn/cnt/news/20221114/bkn-20221114134328250-1114_00822_001.html" target="_blank">(News (in Chinese))</a></p>
               <p>Tsz Nam Chan, Pak Lon Ip, Leong Hou U, Weng Hou Tong, Shivansh Mittal, Ye Li, Reynold Cheng.<br>
-                KDV-Explorer: A Near Real-Time Kernel Density Visualization System for Spatial Analysis (Project Homepage)<br>
-                Proceedings of the VLDB Endowment (PVLDB), 2021. (Video Presentation)</p>
+                <a href="https://edisonchan-szu.github.io/publication/KDV-Explorer.pdf" target="_blank">KDV-Explorer: A Near Real-Time Kernel Density Visualization System for Spatial Analysis</a> <a href="https://edisonchan-szu.github.io/system/KDV-Explorer.html" target="_blank">(Project Homepage)</a><br>
+                Proceedings of the VLDB Endowment (PVLDB), 2021. <a href="https://www.youtube.com/watch?v=cHoILdTuz_o&feature=youtu.be" target="_blank">(Video Presentation)</a></p>
             </div>
           </el-col>
         </el-row>
@@ -657,7 +658,7 @@ const foldteaching = () => {
   position: absolute;
   top: 89px;
   right: 0;
-  width: 191px;
+  width: 276px;
   height: 276px;
   object-fit: cover;
   mask-image: radial-gradient(circle, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 71%);
@@ -994,8 +995,10 @@ const foldteaching = () => {
   scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
 .atext p::before {
-  content: '· ';
-  margin-left: -0.6em;
+  content: '·';
+  margin-left: -0.3em;
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 .atext p {
   padding-left: 1em;
@@ -1057,7 +1060,9 @@ tr {
   margin-bottom: 64px;
 }
 td span::before {
-  content: '· ';
+  content: '·';
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 td span {
   text-indent: -1em;
@@ -1092,7 +1097,7 @@ td span {
   height: 30px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 35px;
 }
 .teaching {
   position: relative;
@@ -1151,8 +1156,10 @@ td span {
   overflow: hidden;
 }
 .ctext p::before {
-  content: '· ';
-  margin-left: -0.6em;
+  content: '·';
+  margin-left: -0.3em;
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 .ctext p {
   padding-left: 1em;
@@ -1248,8 +1255,10 @@ td span {
   line-height: 30px;
 }
 .textbig p::before {
-  content: '· ';
-  margin-left: -0.6em;
+  content: '·';
+  margin-left: -0.3em;
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 .textbig p {
   padding-left: 1em;

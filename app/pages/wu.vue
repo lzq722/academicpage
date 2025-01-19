@@ -766,8 +766,10 @@ const foldteaching = () => {
   
 }
 .atext p::before {
-  content: '· ';
-  margin-left: -0.6em;
+  content: '·';
+  margin-left: -0.3em;
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 .atext p {
   padding-left: 1em;
@@ -829,7 +831,9 @@ tr {
   margin-bottom: 64px;
 }
 td span::before {
-  content: '· ';
+  content: '·';
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 td span {
   text-indent: -1em;
@@ -856,7 +860,7 @@ td span {
   height: 30px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 35px;
 }
 .teaching {
   position: relative;
@@ -920,8 +924,10 @@ td span {
   /* line-height: 28px; */
 }
 .ctext p::before {
-  content: '· ';
-  margin-left: -0.6em;
+  content: '·';
+  margin-left: -0.3em;
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 .ctext p {
   padding-left: 1em;
@@ -970,6 +976,15 @@ td span {
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
+}
+.booktext p::before {
+  content: '·';
+  margin-left: -0.3em;
+  font-size: 3em;
+  vertical-align: -0.2em;
+}
+.booktext p {
+  padding-left: 1em;
 }
 .overlay {
   display: none;  /* 默认隐藏 */
@@ -1023,8 +1038,10 @@ td span {
   /* line-height: 28px; */
 }
 .textbig p::before {
-  content: '· ';
-  margin-left: -0.6em;
+  content: '·';
+  margin-left: -0.3em;
+  font-size: 3em;
+  vertical-align: -0.2em;
 }
 .textbig p {
   padding-left: 1em;

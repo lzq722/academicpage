@@ -192,7 +192,7 @@ const navigateTowu = () => {
 }
 
 .about {
-  max-width: 1920px;
+  max-width: 1152px;
   width: 100%;
   height: 460px;
   margin-left: auto;
@@ -201,12 +201,12 @@ const navigateTowu = () => {
 }
 .asubtitle {
   position: absolute;
-  margin-top: -56px;
-  margin-left: 144px;
+  margin-top: -64px;
+  /* margin-left: 144px; */
   width: auto;
   height: 32px;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 32px;
   line-height: 32px;
 }
 .dgoverlay{
@@ -218,17 +218,18 @@ const navigateTowu = () => {
 }
 
 .dgimg {
-  width: 788px;
+  width: 610px;
   height: 460px;
   background: #F1F7FA;
   position: absolute;
   mask-image: linear-gradient( 91deg, #FFFFFF 0%, #FFFFFF 83%, rgba(255,255,255,0) 100%);
+  border-radius: 15px 0px 0px 15px;
 }
 
 .dgWord {
-  margin: 55px 0 46px 728px;
+  margin: 36px 0 36px 633px;
   position: absolute;
-  height: 359px;
+  height: 389px;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
@@ -359,7 +360,8 @@ const navigateTowu = () => {
   margin-left: 272px;
   width: calc(100% - 272px);
   height: 714px;
-  background: linear-gradient( 90deg, rgba(255,255,255,0) 0%, #D0DCE7 100%);
+  background: linear-gradient( 90deg, rgba(255,255,255,0) 0%, #D8EDFF 100%);
+  border-radius: 0px 10px 10px 0px;
 }
 
 .rtitle {
