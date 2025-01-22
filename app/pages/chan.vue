@@ -527,7 +527,7 @@
       <p class="endtitle">How to be Productive in Research?</p>
       <p class="endtext">If you want to be productive in research, you need to read this document (by Prof. Dimitris Papadias in HKUST), read this Zhihu blog (written in Chinese), and watch this video (by Prof. Baochun Li in the University of Toronto).</p>
     </div>
-    <p class="welcome">Welcome to the Database Group in Shenzhen University (SZU).</p>
+    <p class="welcome">Welcome to the Data Management & Intelligence Group in Shenzhen University (SZU).</p>
   </div>
 </template>
 
@@ -995,7 +995,7 @@ const foldteaching = () => {
   scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
 .atext p::before {
-  content: '·';
+  content: '· ';
   margin-left: -0.3em;
   font-size: 3em;
   vertical-align: -0.2em;
@@ -1060,7 +1060,7 @@ tr {
   margin-bottom: 64px;
 }
 td span::before {
-  content: '·';
+  content: '· ';
   font-size: 3em;
   vertical-align: -0.2em;
 }
@@ -1156,7 +1156,7 @@ td span {
   overflow: hidden;
 }
 .ctext p::before {
-  content: '·';
+  content: '· ';
   margin-left: -0.3em;
   font-size: 3em;
   vertical-align: -0.2em;
@@ -1255,7 +1255,7 @@ td span {
   line-height: 30px;
 }
 .textbig p::before {
-  content: '·';
+  content: '· ';
   margin-left: -0.3em;
   font-size: 3em;
   vertical-align: -0.2em;

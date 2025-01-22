@@ -27,7 +27,7 @@
       </div>
       <div class="dgoverlay"></div>
       <p class="dgWord">
-        This Data Management & Intelligence Group is affiliated with Big Data Institude (led by Prof. (Joshua) Zhexue Huang) in Shenzhen University.Currently, we have the following directions： 
+        Research directions:
         <br><br>
         <span class="dgword">
           Efficient Algorithms for Geographic Information Systems<br>
@@ -81,7 +81,7 @@
         <span style="color: #0072CB;">(1) edisonchan2013928@gmail.com (Dr. Tsz Nam Chan)</span> and
         <span style="color: #0072CB;">(2) dingming.wu@gmail.com (Dr. Dingming Wu).</span>
       </p>
-      <p class="rsubtitle">Welcome to the Database Group in Shenzhen University (SZU).</p>
+      <p class="rsubtitle">Welcome to the Data Management & Intelligence Group in Shenzhen University (SZU).</p>
       <img src="/image/pic_recruitment.png" alt="" class="rimg">
     </div>
   </div>
