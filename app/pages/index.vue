@@ -70,37 +70,16 @@
     <div class="recruitment">
       <div class="recruitmentbg" />
       <p class="rtitle">Recruitment</p>
-      <p class="rintro">
-        Our Group is seeking qualified applicants for the positions of Assistant Professor, Associate Researcher, and Postdoc. We welcome motivated individuals who meet the following qualifications:
-<br><br>
-        (1) Strong Academic Background:
-         <div class="ctext">
-          <p>Candidates should have a robust track record in database research or closely related areas.
-</p>
-          <p>Evidence of excellence in research is required, such as publications in top-tier conferences and journals (e.g., CCF-A venues, publications ranked in CSranking, or similar highly regarded outlets).
-</p>
-        </div>
-        <br><br>
-        (2) Independent Research Capability:
-       <div class="ctext">
-          <p>Applicants must demonstrate the ability to initiate and conduct independent, innovative research.
-</p>
-          <p>Experience in designing and leading research projects is highly desirable.
-</p>
-        </div>
-<br><br>
-        (3) Excellent Communication and Presentation Skills:
-<div class="ctext">
-          <p>The ability to effectively communicate complex ideas and research findings is essential.
-</p>
-          <p>Strong presentation skills are expected, as successful candidates will represent the group at academic conferences and other professional events.
-</p>
-        </div>
-      </p>
+      <div class="rintro">
+        Our Group is seeking qualified applicants for the positions of Assistant Professor, Associate Researcher, and Postdoc. We welcome motivated individuals who meet the following qualifications:<br><br>
+        (1) Strong Academic Background:Candidates should have a robust track record in data management research or closely related areas, such as publications in top-tier conferences and journals.<br><br>
+        (2) Independent Research Capability:Applicants should demonstrate the ability to initiate and conduct independent, innovative research.<br><br>
+        (3) Excellent Communication and Presentation Skills:The ability to effectively communicate complex ideas and research findings is essential.
+      </div>
       <p class="rinvite">
-        If you are interested in joining us, please contact us via these two email addresses: 
-        <span style="color: #0072CB;">edisonchan2013928@gmail.com (Dr. Tsz Nam Chan)</span> and
-        <span style="color: #0072CB;">dingming.wu@gmail.com (Dr. Dingming Wu).</span>
+        If you are interested in joining us, please contact us via these two email addresses, which are
+        <span style="color: #0072CB;">(1) edisonchan2013928@gmail.com (Dr. Tsz Nam Chan)</span> and
+        <span style="color: #0072CB;">(2) dingming.wu@gmail.com (Dr. Dingming Wu).</span>
       </p>
       <p class="rsubtitle">Welcome to the Data Management & Intelligence Group in Shenzhen University (SZU).</p>
       <img src="/image/pic_recruitment.png" alt="" class="rimg">
@@ -127,11 +106,6 @@ const navigateTowu = () => {
   font-family: Inter, Inter;
   color: #000000;
   overflow-x: hidden;
-}
-.bg {
-  width: 100%;
-  height: 3210px;
-  background: #F1F7FA;
 }
 .home{
   width: 100%;
@@ -370,7 +344,7 @@ const navigateTowu = () => {
   margin-top: 96px;
   width: 1152px;
   max-width: 100%;
-  height: 809px;
+  height: 829px;
   /* background:#91C7F5; */
   margin-left: auto;
   margin-right: auto;
@@ -380,7 +354,7 @@ const navigateTowu = () => {
   position: absolute;
   margin-left: 272px;
   width: calc(100% - 272px);
-  height: 714px;
+  height: 734px;
   background: linear-gradient( 90deg, rgba(255,255,255,0) 0%, #D8EDFF 100%);
   border-radius: 0px 10px 10px 0px;
 }
@@ -404,10 +378,17 @@ const navigateTowu = () => {
   color: #000000;
   line-height: 30px;
 }
-
+.rintro p::before {
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
+}
+.rintro p {
+  padding-left: 1em;
+}
 .rinvite {
   position: absolute;
-  margin-top: 583px;
+  margin-top: 603px;
   width: calc(100% - 164px);
   height: 59px;
   font-weight: 400;

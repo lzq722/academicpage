@@ -131,8 +131,8 @@
           <tr>
             <td class="tdtitle">Journal Referee</td>
             <td class="tdtext">
-              <span>The International Journal on Very Large Data Bases (VLDBJ)</span><br>
-              <span>IEEE Transactions on Knowledge and Data Engineering (TKDE)</span><br>
+              <p>The International Journal on Very Large Data Bases (VLDBJ)</p>
+              <p>IEEE Transactions on Knowledge and Data Engineering (TKDE)</p>
               <!-- <span v-if="showjr">111<br></span> -->
               <!-- <button class="showjrbutton" @click="showjrfun"> -->
                 <!-- {{ showjr ? 'FOLD' : 'MORE'}} -->
@@ -150,10 +150,10 @@
           <tr>
             <td class="tdtitle">Conference Program Committee/Reviewer</td>
             <td class="tdtext">
-              <span>Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD) 2025, 2024</span><br>
-              <span>IEEE International Conference on Data Engineering (ICDE) 2025, 2022</span><br>
-              <span>AAAI Conference on Artificial Intelligence 2024, 2022</span><br>
-              <span>International Joint Conference on Artificial Intelligence (IJCAI) 2021</span><br>
+              <p>Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD) 2025, 2024</p>
+              <p>IEEE International Conference on Data Engineering (ICDE) 2025, 2022</p>
+              <p>AAAI Conference on Artificial Intelligence 2024, 2022</p>
+              <p>International Joint Conference on Artificial Intelligence (IJCAI) 2021</p>
             </td>
           </tr>
           <!-- <tr> -->
@@ -766,14 +766,12 @@ const foldteaching = () => {
   
 }
 .atext p::before {
-  content: '· ';
-  margin-left: -0.3em;
-  font-size: 3em;
-  vertical-align: -0.2em;
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
 .atext p {
   padding-left: 1em;
-  text-indent: 0;
 }
 .ps {
   position: relative;
@@ -830,12 +828,12 @@ const foldteaching = () => {
 tr {
   margin-bottom: 64px;
 }
-td span::before {
-  content: '· ';
-  font-size: 3em;
-  vertical-align: -0.2em;
+td p::before {
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
-td span {
+td p {
   text-indent: -1em;
 }
 .showjrbutton {
@@ -924,10 +922,9 @@ td span {
   /* line-height: 28px; */
 }
 .ctext p::before {
-  content: '· ';
-  margin-left: -0.3em;
-  font-size: 3em;
-  vertical-align: -0.2em;
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
 .ctext p {
   padding-left: 1em;
@@ -978,10 +975,9 @@ td span {
   line-height: 30px;
 }
 .booktext p::before {
-  content: '· ';
-  margin-left: -0.3em;
-  font-size: 3em;
-  vertical-align: -0.2em;
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
 .booktext p {
   padding-left: 1em;
@@ -1038,10 +1034,9 @@ td span {
   /* line-height: 28px; */
 }
 .textbig p::before {
-  content: '· ';
-  margin-left: -0.3em;
-  font-size: 3em;
-  vertical-align: -0.2em;
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
 .textbig p {
   padding-left: 1em;

@@ -11,7 +11,7 @@
         </div>
         <div class="temail">
           <img src="/image/icon_email.png" alt="" class="icon_email">
-          <span class="emailtext">edisonchan2013928@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disonchan@szu.edu.cn</span>
+          <span class="emailtext">edisonchan2013928@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;edisonchan@szu.edu.cn</span>
         </div>
         <img src="/image/chan.png" alt="" class="teacherimg" />
       </div>
@@ -342,30 +342,30 @@
           <tr>
             <td class="tdtitle">Major Service Award</td>
             <td class="tdtext">
-              <span>Recognition of Outstanding Reviewer in SIGKDD 2025 (2024 Aug Cycle)</span><br>
-              <span>Outstanding Reviewer Award in IEEE International Conference on Data Engineering (ICDE) 2024</span>
+              <p>Recognition of Outstanding Reviewer in SIGKDD 2025 (2024 Aug Cycle)</p>
+              <p>Outstanding Reviewer Award in IEEE International Conference on Data Engineering (ICDE) 2024</p>
             </td>
           </tr>
           <tr>
             <td class="tdtitle">Journal Referee</td>
             <td class="tdtext">
-              <span>The International Journal on Very Large Data Bases (VLDBJ)</span><br>
-              <span>IEEE Transactions on Knowledge and Data Engineering (TKDE)</span><br>
-              <span>Artificial Intelligence Journal (AIJ)</span><br>
-              <span>IEEE Transactions on Computers (TC)</span><br>
-              <span>World Wide Web Journal (WWWJ)</span><br>
-              <span v-if="showjr">ACM Transactions on Spatial Algorithms and Systems (TSAS)<br></span>
-              <span v-if="showjr">SoftwareX Journal<br></span>
-              <span v-if="showjr">Pattern Recognition (PR)<br></span>
-              <span v-if="showjr">Data and Knowledge Engineering (DKE)<br></span>
-              <span v-if="showjr">Digital Signal Processing (DSP)<br></span>
-              <span v-if="showjr">Journal of Computer Science and Technology (JCST)<br></span>
-              <span v-if="showjr">The Journal of Supercomputing<br></span>
-              <span v-if="showjr">Cities Journal<br></span>
-              <span v-if="showjr">Remote Sensing Journal<br></span>
-              <span v-if="showjr">Engineering Applications of Artificial Intelligence Journal<br></span>
-              <span v-if="showjr">Sensors Journal<br></span>
-              <span v-if="showjr">Entropy Journal<br></span>
+              <p>The International Journal on Very Large Data Bases (VLDBJ)</p>
+              <p>IEEE Transactions on Knowledge and Data Engineering (TKDE)</p>
+              <p>Artificial Intelligence Journal (AIJ)</p>
+              <p>IEEE Transactions on Computers (TC)</p>
+              <p>World Wide Web Journal (WWWJ)</p>
+              <p v-if="showjr">ACM Transactions on Spatial Algorithms and Systems (TSAS)</p>
+              <p v-if="showjr">SoftwareX Journal</p>
+              <p v-if="showjr">Pattern Recognition (PR)</p>
+              <p v-if="showjr">Data and Knowledge Engineering (DKE)</p>
+              <p v-if="showjr">Digital Signal Processing (DSP)</p>
+              <p v-if="showjr">Journal of Computer Science and Technology (JCST)</p>
+              <p v-if="showjr">The Journal of Supercomputing</p>
+              <p v-if="showjr">Cities Journal</p>
+              <p v-if="showjr">Remote Sensing Journal</p>
+              <p v-if="showjr">Engineering Applications of Artificial Intelligence Journal</p>
+              <p v-if="showjr">Sensors Journal</p>
+              <p v-if="showjr">Entropy Journal</p>
               <button class="showjrbutton" @click="showjrfun">
                 {{ showjr ? 'FOLD' : 'MORE'}}
                 <img v-if="showjr" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
@@ -376,21 +376,21 @@
           <tr>
             <td class="tdtitle">Conference Program Organizer</td>
             <td class="tdtext">
-              <span>International Conference on Mobile Data Management (MDM) Year: 2021 to 2024 proceedings chair</span>
+              <p>International Conference on Mobile Data Management (MDM) Year: 2021 to 2024 proceedings chair</p>
             </td>
           </tr>
           <tr>
             <td class="tdtitle">Conference Program Committee/Reviewer</td>
             <td class="tdtext">
-              <span>International Conference on Very Large Data Bases (VLDB) Year: 2022 to 2024 (demo), 2025 (research)</span><br>
-              <span>IEEE International Conference on Data Engineering (ICDE) Year: 2022, 2024, 2025</span><br>
-              <span>Proceedings of International Conference on Extending Database Technology (EDBT) Year: 2023</span><br>
-              <span>Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD) Year: 2024, 2025</span><br>
-              <span>International Joint Conference on Artificial Intelligence (IJCAI) Year: 2020</span><br>
-              <span v-if="showcpc">International Conference on Scientific and Statistical Database Management (SSDBM) Year: 2024<br></span>
-              <span v-if="showcpc">Asian Conference on Machine Learning (ACML) Year: 2024<br></span>
-              <span v-if="showcpc">International Conference on Database Systems for Advanced Applications (DASFAA) Year: 2021 to 2024<br></span>
-              <span v-if="showcpc">International Conference on Web Information Systems Engineering (WISE) Year: 2019 to 2024<br></span>
+              <p>International Conference on Very Large Data Bases (VLDB) Year: 2022 to 2024 (demo), 2025 (research)</p>
+              <p>IEEE International Conference on Data Engineering (ICDE) Year: 2022, 2024, 2025</p>
+              <p>Proceedings of International Conference on Extending Database Technology (EDBT) Year: 2023</p>
+              <p>Special Interest Group on Knowledge Discovery and Data Mining (SIGKDD) Year: 2024, 2025</p>
+              <p>International Joint Conference on Artificial Intelligence (IJCAI) Year: 2020</p>
+              <p v-if="showcpc">International Conference on Scientific and Statistical Database Management (SSDBM) Year: 2024</p>
+              <p v-if="showcpc">Asian Conference on Machine Learning (ACML) Year: 2024</p>
+              <p v-if="showcpc">International Conference on Database Systems for Advanced Applications (DASFAA) Year: 2021 to 2024</p>
+              <p v-if="showcpc">International Conference on Web Information Systems Engineering (WISE) Year: 2019 to 2024</p>
               <button class="showcpcbutton" @click="showcpcfun">
                 {{ showcpc ? 'FOLD' : 'MORE'}}
                 <img v-if="showcpc" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
@@ -401,10 +401,10 @@
           <tr>
             <td class="tdtitle">Conference Program Session Chair</td>
             <td class="tdtext">
-              <span>International Conference on Very Large Data Bases (VLDB) Year: 2020, 2022</span><br>
-              <span>IEEE International Conference on Data Engineering (ICDE) Year: 2021, 2024</span><br>
-              <span>International Joint Conference on Web and Big Data (APWeb-WAIM) Year: 2021</span><br>
-              <span>International Conference on Web Information Systems Engineering (WISE) Year: 2021</span>
+              <p>International Conference on Very Large Data Bases (VLDB) Year: 2020, 2022</p>
+              <p>IEEE International Conference on Data Engineering (ICDE) Year: 2021, 2024</p>
+              <p>International Joint Conference on Web and Big Data (APWeb-WAIM) Year: 2021</p>
+              <p>International Conference on Web Information Systems Engineering (WISE) Year: 2021</p>
             </td>
           </tr>
         </tbody>
@@ -995,14 +995,12 @@ const foldteaching = () => {
   scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
 .atext p::before {
-  content: '· ';
-  margin-left: -0.3em;
-  font-size: 3em;
-  vertical-align: -0.2em;
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
 .atext p {
   padding-left: 1em;
-  text-indent: 0;
 }
 .ps {
   position: relative;
@@ -1059,13 +1057,13 @@ const foldteaching = () => {
 tr {
   margin-bottom: 64px;
 }
-td span::before {
-  content: '· ';
-  font-size: 3em;
-  vertical-align: -0.2em;
+td p::before {
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
-td span {
-  text-indent: -1em;
+td p {
+  padding-left: 1em;
 }
 .showjrbutton {
   display: flex;
@@ -1156,10 +1154,9 @@ td span {
   overflow: hidden;
 }
 .ctext p::before {
-  content: '· ';
-  margin-left: -0.3em;
-  font-size: 3em;
-  vertical-align: -0.2em;
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
 .ctext p {
   padding-left: 1em;
@@ -1255,10 +1252,9 @@ td span {
   line-height: 30px;
 }
 .textbig p::before {
-  content: '· ';
-  margin-left: -0.3em;
-  font-size: 3em;
-  vertical-align: -0.2em;
+  content: '•\00a0\00a0';
+  margin-left: -1.1em;
+  vertical-align: 0.1em;
 }
 .textbig p {
   padding-left: 1em;
