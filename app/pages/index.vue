@@ -73,9 +73,29 @@
       <p class="rintro">
         Our Group is seeking qualified applicants for the positions of Assistant Professor, Associate Researcher, and Postdoc. We welcome motivated individuals who meet the following qualifications:
 <br><br>
-        (1) should have strong academic background in database research or other related fields (e.g., publish papers in prestigious conferences and journals (e.g., CCF: A and CSranking)<br><br>
-        (2) must show independent research skills and<br><br>
-        (3) must show strong presentation skills. Applicants who successfully join this research group are expected to work with us and other members in Big Data Institute.
+        (1) Strong Academic Background:
+         <div class="ctext">
+          <p>Candidates should have a robust track record in database research or closely related areas.
+</p>
+          <p>Evidence of excellence in research is required, such as publications in top-tier conferences and journals (e.g., CCF-A venues, publications ranked in CSranking, or similar highly regarded outlets).
+</p>
+        </div>
+        <br><br>
+        (2) Independent Research Capability:
+       <div class="ctext">
+          <p>Applicants must demonstrate the ability to initiate and conduct independent, innovative research.
+</p>
+          <p>Experience in designing and leading research projects is highly desirable.
+</p>
+        </div>
+<br><br>
+        (3) Excellent Communication and Presentation Skills:
+<div class="ctext">
+          <p>The ability to effectively communicate complex ideas and research findings is essential.
+</p>
+          <p>Strong presentation skills are expected, as successful candidates will represent the group at academic conferences and other professional events.
+</p>
+        </div>
       </p>
       <p class="rinvite">
         If you are interested in joining us, please contact us via these two email addresses: 
