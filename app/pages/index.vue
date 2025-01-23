@@ -71,15 +71,15 @@
       <div class="recruitmentbg" />
       <p class="rtitle">Recruitment</p>
       <div class="rintro">
-        Our Group is seeking qualified applicants for the positions of Assistant Professor, Associate Researcher, and Postdoc. We welcome motivated individuals who meet the following qualifications:<br><br>
-        (1) Strong Academic Background:Candidates should have a robust track record in data management research or closely related areas, such as publications in top-tier conferences and journals.<br><br>
-        (2) Independent Research Capability:Applicants should demonstrate the ability to initiate and conduct independent, innovative research.<br><br>
-        (3) Excellent Communication and Presentation Skills:The ability to effectively communicate complex ideas and research findings is essential.
+        Our group is seeking qualified applicants for the positions of Assistant Professor, Associate Researcher, and Postdoc. We welcome motivated individuals who meet the following qualifications:<br><br>
+        (1) Strong Academic Background: Candidates should have a robust track record in data management research or closely related areas, such as publications in top-tier conferences and journals.<br><br>
+        (2) Independent Research Capability: Agpplicants should demonstrate the ability to initiate and conduct independent, innovative research.<br><br>
+        (3) Excellent Communication and Presentation Skills: The ability to effectively communicate complex ideas and research findings is essential.
       </div>
       <p class="rinvite">
-        If you are interested in joining us, please contact us via these two email addresses, which are
-        <span style="color: #0072CB;">(1) edisonchan2013928@gmail.com (Dr. Tsz Nam Chan)</span> and
-        <span style="color: #0072CB;">(2) dingming.wu@gmail.com (Dr. Dingming Wu).</span>
+        If you are interested in joining us, please contact us via these two email addresses:
+        <span style="color: #0072CB;"> edisonchan2013928@gmail.com (Dr. Tsz Nam Chan)</span> and
+        <span style="color: #0072CB;"> dingming.wu@gmail.com (Dr. Dingming Wu).</span>
       </p>
       <p class="rsubtitle">Welcome to the Data Management & Intelligence Group in Shenzhen University (SZU).</p>
       <img src="/image/pic_recruitment.png" alt="" class="rimg">
