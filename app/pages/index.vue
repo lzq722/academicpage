@@ -71,32 +71,16 @@
       <div class="recruitmentbg" />
       <p class="rtitle">Recruitment</p>
       <p class="rintro">
-        Our Group is seeking qualified applicants for the positions of Assistant Professor, Associate Researcher, and Postdoc. We welcome motivated individuals who meet the following qualifications:
+        Our group is seeking qualified applicants for the positions of Assistant Professor, Associate Researcher, and Postdoc. We welcome motivated individuals who meet the following qualifications:
 <br><br>
-        (1) Strong Academic Background:
-         <div class="ctext">
-          <p>Candidates should have a robust track record in database research or closely related areas.
-</p>
-          <p>Evidence of excellence in research is required, such as publications in top-tier conferences and journals (e.g., CCF-A venues, publications ranked in CSranking, or similar highly regarded outlets).
-</p>
-        </div>
-        <br><br>
-        (2) Independent Research Capability:
-       <div class="ctext">
-          <p>Applicants must demonstrate the ability to initiate and conduct independent, innovative research.
-</p>
-          <p>Experience in designing and leading research projects is highly desirable.
-</p>
-        </div>
-<br><br>
-        (3) Excellent Communication and Presentation Skills:
-<div class="ctext">
-          <p>The ability to effectively communicate complex ideas and research findings is essential.
-</p>
-          <p>Strong presentation skills are expected, as successful candidates will represent the group at academic conferences and other professional events.
-</p>
-        </div>
-      </p>
+        <p>(1) Strong Academic Background: Candidates should have a robust track record in data management research or closely related areas, such as publications in top-tier conferences and journals.
+        </p><br><br>
+        <p>(2) Independent Research Capability: Applicants should demonstrate the ability to initiate and conduct independent, innovative research.
+Experience in designing and leading research projects is highly desirable.
+</p><br><br>
+        <p>(3) Excellent Communication and Presentation Skills: The ability to effectively communicate complex ideas and research findings is essential.
+Strong presentation skills are expected.
+      </p></p>
       <p class="rinvite">
         If you are interested in joining us, please contact us via these two email addresses: 
         <span style="color: #0072CB;">edisonchan2013928@gmail.com (Dr. Tsz Nam Chan)</span> and
