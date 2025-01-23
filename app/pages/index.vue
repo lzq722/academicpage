@@ -378,14 +378,6 @@ const navigateTowu = () => {
   color: #000000;
   line-height: 30px;
 }
-.rintro p::before {
-  content: '•\00a0\00a0';
-  margin-left: -1.1em;
-  vertical-align: 0.1em;
-}
-.rintro p {
-  padding-left: 1em;
-}
 .rinvite {
   position: absolute;
   margin-top: 603px;
