@@ -996,15 +996,12 @@ td p {
   z-index: 999;  /* 确保遮罩层在内容层之上 */
 }
 .coursebig {
-  /* display: block; */
   position: fixed;
   width: 83%;
   height: 80%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* margin-top: 40px; */
-  /* min-height: 554px; */
+  top: 10%;
+  left: 8.5%;
+  /* transform: translate(-50%, -50%); */
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
   z-index: 1000;
@@ -1053,11 +1050,10 @@ td p {
   line-height: 30px;
 }
 .fold {
-  /* position: absolute; */
-  margin-top: 28px;
-  margin-left: 85%;
+  position: fixed;
+  bottom: 10%;
+  right: 15%;
   padding-bottom: 24px;
-  /* height: 30px; */
   font-weight: normal;
   font-size: 14px;
   color: #2F81FC;
