@@ -87,6 +87,7 @@
               <button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</button>
               <button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</button>
               <button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</button>
+              <button class="abutton" :class="{'selecttab': activetab === 4}" @click="setActiveTab(4)">Patents</button>
             </div>
             <div class="dblp">
               <a href="https://dblp.org/pid/81/6181.html" target="_blank" style="color: #2F81FC;">[DBLP]</a>&nbsp;
@@ -111,6 +112,20 @@
               <p>Dingming Wu, Ilkcan Keles, Song Wu, Hao Zhou, Simonas Saltenis, Christian S. Jensen, Kezhong Lu: Density-Based Top-K Spatial Textual Clusters Retrieval. IEEE Trans. Knowl. Data Eng. 34(11): 5263-5277 (2022)</p>
               <p>Dingming Wu, Hao Zhou, Jieming Shi, Nikos Mamoulis: Top-k relevant semantic place retrieval on spatiotemporal RDF data. VLDB J. 29(4): 893-917 (2020)</p>
               <p>Dingming Wu, Jieming Shi, Nikos Mamoulis: Density-Based Place Clustering Using Geo-Social Network Data. IEEE Trans. Knowl. Data Eng. 30(5): 838-851 (2018)</p>
+            </div>
+            <div v-if="activetab === 4" class="atext">
+              <p>发明名称：基于深度学习的多模型推进式配电网故障识别方法及系统，发明人：高翔；黄经研；邱泽鹏；李跃芹；谭武汉；郭铮宇；吴定明，专利号：ZL 202410055975.8，授权公布日：2024.06.11</p>
+              <p>发明名称：一种频繁子图挖掘方法和终端设备，发明人：张钊奋；吴定明；吴亿欣；陆克中；黄哲学，专利号：ZL 202310430972.3，授权公布日：2023.11.28</p>
+              <p>发明名称：知识图谱嵌入模型训练方法、装置、电子设备及介质，发明人：吴定明；周钰棋；陆克中；詹金颖，专利号：ZL 202111472336.4，授权公布日：2022.05.20</p>
+              <p>发明名称：RDF数据中天际线位置节点查询方法、装置和设备，发明人：吴定明；张钊奋；陆克中，专利号：ZL 202210026117.1，授权公布日：2022.05.17</p>
+              <p>发明名称：一种活动与同伴的检索方法及系统，发明人：吴定明；朱艺；黄哲学，专利号：ZL 201810294059.4，授权公布日：2021.08.06</p>
+              <p>发明名称：基于分类树的最大多样频繁模式的挖掘方法及装置，发明人：吴定明；罗德新；黄哲学，专利号：ZL 201710821358.4，授权公布日：2020.12.04</p>
+              <!-- <p>发明名称：基于深度学习的多模型推进式配电网故障识别方法及系统，<br>发明人：高翔；黄经研；邱泽鹏；李跃芹；谭武汉；郭铮宇；吴定明，<br>专利号：ZL 202410055975.8，<br>授权公布日：2024.06.11</p> -->
+              <!-- <p>发明名称：一种频繁子图挖掘方法和终端设备，<br>发明人：张钊奋；吴定明；吴亿欣；陆克中；黄哲学，<br>专利号：ZL 202310430972.3，<br>授权公布日：2023.11.28</p> -->
+              <!-- <p>发明名称：知识图谱嵌入模型训练方法、装置、电子设备及介质，<br>发明人：吴定明；周钰棋；陆克中；詹金颖，<br>专利号：ZL 202111472336.4，<br>授权公布日：2022.05.20</p> -->
+              <!-- <p>发明名称：RDF数据中天际线位置节点查询方法、装置和设备，<br>发明人：吴定明；张钊奋；陆克中，<br>专利号：ZL 202210026117.1，<br>授权公布日：2022.05.17</p> -->
+              <!-- <p>发明名称：一种活动与同伴的检索方法及系统，<br>发明人：吴定明；朱艺；黄哲学，<br>专利号：ZL 201810294059.4，<br>授权公布日：2021.08.06</p> -->
+              <!-- <p>发明名称：基于分类树的最大多样频繁模式的挖掘方法及装置，<br>发明人：吴定明；罗德新；黄哲学，<br>专利号：ZL 201710821358.4，<br>授权公布日：2020.12.04</p> -->
             </div>
           </el-col>
         </el-row>
@@ -678,7 +693,7 @@ const foldteaching = () => {
   position: relative;
   margin-top: 80px;
   max-width: 1152px;
-  height: 735px;
+  height: 855px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -718,7 +733,7 @@ const foldteaching = () => {
   position: absolute;
   top: 91px;
   width: 100%;
-  height: 644px;
+  height: 764px;
   background: rgba(196,196,196,0);
   border-radius: 16px 16px 16px 16px;
   border: 4px solid #000000;
