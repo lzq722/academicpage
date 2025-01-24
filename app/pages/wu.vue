@@ -42,7 +42,10 @@
         <p class="gintro">PageRank is a commonly used measurement in a wide range of applications, including search engines, recommendation systems, and social networks. However, this measurement suffers from huge computational overhead, which cannot be scaled to large graphs. Although many approximate algorithms have been proposed for computing PageRank values, these algorithms are either (i) not efficient or (ii) not accurate. Worse still, some of them cannot provide estimated PageRank values for all the vertices. In this paper, we first propose the CUR-Trans algorithm, which can reduce the time complexity for computing PageRank values and has lower error bound than existing matrix approximation-based PageRank algorithms. Then, we develop the T2-Approx algorithm to further reduce the time complexity for computing this measurement. Experiment results on three large-scale graphs show that both the CUR-Trans algorithm and the T2-Approx algorithm achieve the lowest response time for computing PageRank values with the best accuracy (for the CUR-Trans algorithm) or the competitive accuracy (for the T2-Approx algorithm). Besides, the two proposed algorithms are able to provide estimated PageRank values for all the vertices.</p>
         <div style="display: flex; position: relative;">
           <div class="image-container" data-text="Click to view">
-            <el-image :src="`/academicpage/image/project1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/project1.png']"/>
+            <el-image :src="`/academicpage/image/project1_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/project1_1.png']"/>
+          </div>
+          <div class="image-container" data-text="Click to view">
+            <el-image :src="`/academicpage/image/project1_2.png`" fit="cover" alt="" class="gimg2" :preview-src-list="['/academicpage/image/project1_2.png']"/>
           </div>
         </div>
       </div>
@@ -92,8 +95,8 @@
           </el-col>
           <el-col :span="12">
             <div v-if="activetab === 1" class="atext">
-              <p>2021年广东省计算机学会优秀论文二等奖，Density-Based Place Clustering Using Geo-Social Network Data. IEEE Trans. Knowl. Data Eng. 30(5): 838-851 (2018)</p>
               <p>2023年广东省计算机学会优秀论文二等奖，Density-Based Top-K Spatial Textual Clusters Retrieval. IEEE Trans. Knowl. Data Eng. 34(11): 5263-5277 (2022)</p>
+              <p>2021年广东省计算机学会优秀论文二等奖，Density-Based Place Clustering Using Geo-Social Network Data. IEEE Trans. Knowl. Data Eng. 30(5): 838-851 (2018)</p>
             </div>
             <div v-if="activetab === 2" class="atext">
               <p>项目名称：面向超大图数据分析的多样本分布式计算方法与算法研究，经费来源：国家自然科学基金面上项目，起止时间：2024-01至2027-12。</p>
@@ -834,7 +837,7 @@ td p::before {
   vertical-align: 0.1em;
 }
 td p {
-  text-indent: -1em;
+  padding-left: 1em;
 }
 .showjrbutton {
   display: flex;
