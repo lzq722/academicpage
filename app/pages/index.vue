@@ -119,7 +119,7 @@ const navigateTowu = () => {
   width: 100%;
   max-width: 100%;
   height: 710px;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* text-align: center; */
 }
 
@@ -264,7 +264,7 @@ const navigateTowu = () => {
   position: absolute;
   margin-top: 21px;
   margin-left: 24px;
-  width: 100%;
+  /* width: 100%; */
   /* height: 32px; */
   font-weight: 600;
   font-size: 40px;
