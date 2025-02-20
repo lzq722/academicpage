@@ -21,7 +21,7 @@
           direction="vertical"
         >
           <el-carousel-item v-for="item in 3" :key="item">
-            <img :src="`/academicpage/image/${item}.png`" alt="" style="width: 100%; height: 100%;">
+            <img :src="`/academicpage/image/${item}.png`" alt="" style="width: 100%;">
           </el-carousel-item>
         </el-carousel>
       </div>
@@ -41,10 +41,12 @@
       </p>
     </div>
     <div class="member">
-      <img src="/image/pic_blue.png" alt="" class="ellipse">
-      <p class="mtitle">Faculty Members</p>
-      <div class="line1" />
-      <div class="line2" />
+      <div class="mTitle">
+        <img src="/image/pic_blue.png" alt="" class="ellipse">
+        <p class="mtitle">Faculty Members</p>
+        <div class="line1" />
+        <div class="line2" />
+      </div>
       <div class="teacher1" @click="navigateTochan">
         <div class="teacherbg">
           <p class="tname">Tsz Nam Chan</p>
@@ -118,6 +120,7 @@ const navigateTowu = () => {
   max-width: 100%;
   height: 710px;
   overflow: hidden;
+  /* text-align: center; */
 }
 
 .background-image {
@@ -138,15 +141,16 @@ const navigateTowu = () => {
 
 .title {
   position: absolute;
-  margin: 136px 0 211px 0;
+  margin: 136px 0 0 0;
   color: #000000;
-  width: 100%;
-  height: 363px;
+  width: auto;
+  /* height: 363px; */
   font-weight: 400;
   font-size: 300px;
   line-height: 352px;
   letter-spacing: 225px;
-  text-align: center;
+  margin-left: calc((100% - 1054px) / 2);
+  /* text-align: center; */
 }
 
 .title::after {
@@ -174,18 +178,6 @@ const navigateTowu = () => {
   width: 0;
   margin-right: -20px;
 }
-
-.subtitle2 {
-  position: absolute;
-  margin: 654px 0 24px 0;
-  margin-left: 8%;
-  width: auto;
-  height: 32px;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 32px;
-}
-
 .about {
   max-width: 1152px;
   width: 100%;
@@ -251,9 +243,17 @@ const navigateTowu = () => {
   margin-right: auto;
 }
 
+.mTitle {
+  /* position: absolute; */
+  margin-top: 21px;
+  width: 359px;
+  height: 77px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ellipse {
   position: absolute;
-  margin-left: 385px;
   width: 42px;
   height: 42px;
   /* background: linear-gradient( 331deg, rgba(255,255,255,0) 0%, #91C7F5 100%); */
@@ -263,24 +263,25 @@ const navigateTowu = () => {
 .mtitle {
   position: absolute;
   margin-top: 21px;
+  margin-left: 24px;
   width: 100%;
-  height: 32px;
+  /* height: 32px; */
   font-weight: 600;
   font-size: 40px;
   line-height: 32px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .line1 {
   position: absolute;
-  margin: 69px 0 0 711px;
+  margin: 69px 0 0 326px;
   width: 32px;
   border: 1px solid #000000;
 }
 
 .line2 {
   position: absolute;
-  margin: 77px 0 0 625px;
+  margin: 77px 0 0 240px;
   width: 118px;
   border: 1px solid #000000;
 }
@@ -405,5 +406,187 @@ const navigateTowu = () => {
   margin: 160px 0 0 633px;
   width: 519px;
   height: 388px;
+}
+@media (max-width: 480px) {
+  .home {
+    height: 4080px;
+  }
+  .image-container {
+    height: 694px;
+  }
+  .title {
+    /* width: auto; */
+    margin-top: 416px;
+    margin-left: calc((100% - 210px) / 2);
+    font-size: 60px;
+    line-height: 68px;
+    letter-spacing: 45px;
+    font-weight: 500;
+  }
+  .subtitle {
+    margin-top: 516px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 500;
+  }
+  .about {
+    width: 100%;
+    height: 861px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .asubtitle {
+    margin-top: -42px;
+    margin-left: -256px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .dgoverlay {
+    width: 0px;
+    height: 0px;
+  }
+  .dgimg {
+    width: 100%;
+    height: 283px;
+    border-radius: 0;
+    mask-image: none;
+  }
+  .dgWord {
+    margin: 227px 0 0 0;
+    padding: 32px 24px 0 24px;
+    width: 304px;
+    height: 634px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .member {
+    margin-top: 104px;
+    height: 990px;
+  }
+  .mTitle {
+    width: 179px;
+    height: 38px;
+  }
+  .ellipse {
+    width: 20px;
+    height: 20px;
+  }
+  .mtitle {
+    margin-top: 6px;
+    margin-left: 11px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .line1 {
+    width: 17px;
+    margin: 32px 0 0 162px;
+  }
+  .line2 {
+    width: 89px;
+    margin: 38px 0 0 90px;
+  }
+  .teacher1 {
+    position: relative;
+    margin-top: 86px;
+    width: 304px;
+    height: 360px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .teacher2 {
+    position: relative;
+    margin-top: 86px;
+    width: 304px;
+    height: 360px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .teacherimg {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-left: 89px;
+    mask-image: none;
+  }
+  .teacherbg {
+    width: 100%;
+    margin-top: 64px;
+    height: 360px;
+    border-radius: 10;
+  }
+  .tname {
+    margin-top: 88px;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-left: 83px;
+  }
+  .tintro {
+    width: 255px;
+    height: 149px;
+    margin-top: 148px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 25px;
+  }
+  .recruitment {
+    margin-top: 72px;
+    width: 100%;
+    height: 1210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .recruitmentbg {
+    width: 0;
+    height: 0;
+    border-radius: 0;
+  }
+  .rtitle {
+    position: relative;
+    font-weight: 600;
+    margin-top: 0;
+    margin-left: -190px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .rimg {
+    position: relative;
+    margin-top: 24px;
+    width: 100%;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+  }
+  .rintro {
+    margin-top: 370px;
+    width: 304px;
+    height: 509px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .rinvite {
+    margin-top: 1033px;
+    width: 304px;
+    height: 59px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .rsubtitle {
+    margin-top: 0;
+    width: 304px;
+    font-size: 10px;
+    line-height: 26px;
+    font-weight: 400;
+  }
 }
 </style>
