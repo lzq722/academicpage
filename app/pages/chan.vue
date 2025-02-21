@@ -11,7 +11,8 @@
         </div>
         <div class="temail">
           <img src="/image/icon_email.png" alt="" class="icon_email">
-          <span class="emailtext">edisonchan2013928@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;edisonchan@szu.edu.cn</span>
+          <span class="emailtext">edisonchan2013928@gmail.com</span>
+          <span class="emailtext2">edisonchan@szu.edu.cn</span>
         </div>
         <img src="/image/chan.png" alt="" class="teacherimg" />
       </div>
@@ -69,7 +70,7 @@
       <div class="group">
         <p class="gtitle">LARGE: A Length-Aggregation-based Grid Structure for Line Density Visualization</p>
         <p class="gintro">Line Density Visualization (LDV) is an important operation of geospatial analysis, which has been extensively used in many application domains, e.g., urban planning, criminology, and transportation science. However, LDV is computationally demanding. Therefore, existing exact solutions are not scalable (or even not feasible) to support large-scale datasets and high resolution sizes for generating LDV. To handle the efficiency issues, we develop the first solution to approximately compute LDV with an 𝜖-relative error guarantee, which consists of two main parts. First, we develop the new indexing structure, called length-aggregation-based grid structure (LARGE). Second, based on LARGE, we develop two types of fast bound functions, namely (1) square-shaped lower and upper bound functions and (2) arbitrary-shaped lower and upper bound functions, which can filter a large portion of unnecessary computations. By theoretically analyzing the tightness of our bound functions and experimentally comparing our solution with existing exact solutions on four large-scale datasets, we demonstrate that our solution can be scalable to generate high-resolution LDVs using large-scale datasets. In particular, our solution achieves up to 291.8x speedups over the state-of-the-art solutions. </p>
-        <div style="display: flex;">
+        <div style="display: flex;" class="gimgs">
           <div class="image-container" data-text="Click to view">
             <el-image :src="`/academicpage/image/pro1_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro1_1.png']"/>
           </div>
@@ -81,7 +82,7 @@
       <div class="group2">
         <p class="gtitle">LION: Fast and High-Resolution Network Kernel Density Visualization</p>
         <p class="gintro">Network Kernel Density Visualization (NKDV) has often been used in a wide range of applications, e.g., criminology, transportation science, and urban planning. However, NKDV is computationally expensive, which cannot be scalable to large-scale datasets and high resolution sizes. Although a recent work, called aggregate distance augmentation (ADA), has been developed for improving the efficiency to generate NKDV, this method is still slow and does not take the resolution size into account for optimizing the efficiency. In this paper, we develop a new solution, called LION, which can reduce the worst-case time complexity for generating high-resolution NKDV, without increasing the space complexity. Experiment results on four large-scale location datasets verify that LION can achieve 2.86x to 35.36x speedup compared with the stateof-the-art ADA method. </p>
-        <div style="display: flex;">
+        <div style="display: flex;" class="gimgs">
           <div class="image-container" data-text="Click to view">
             <el-image :src="`/academicpage/image/pro2_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro2_1.png']"/>
           </div>
@@ -93,7 +94,7 @@
       <div v-if="showGroup2" class="group3">
         <p class="gtitle">Fast Network K-function-based Spatial Analysis</p>
         <p class="gintro">Network K-function has been the de facto operation for analyzing point patterns in spatial networks, which is widely used in many communities, including geography, ecology, transportation science, social science, and criminology. To analyze a location dataset, domain experts need to generate a network K-function plot that involves computing multiple network K-functions. However, network K-function is a computationally expensive operation that is not feasible to support large-scale datasets, let alone to generate a network K-function plot. To handle this issue, we develop two efficient algorithms, namely count augmentation (CA) and neighbor sharing (NS), which can reduce the worst-case time complexity for computing network K-functions. In addition, we incorporate the advanced shortest path sharing (ASPS) approach into these two methods to further lower the worst-case time complexity for generating network K-function plots. Experiment results on four large-scale location datasets (up to 7.33 million data points) show that our methods can achieve up to 165.85x speedup compared with the state-of-the-art methods. </p>
-        <div style="display: flex;">
+        <div style="display: flex;" class="gimgs">
           <div class="image-container" data-text="Click to view">
             <el-image :src="`/academicpage/image/pro3_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro3_1.png']"/>
           </div>
@@ -108,7 +109,7 @@
       <div v-if="showGroup2" class="group4">
         <p class="gtitle">SLAM: Efficient Sweep Line Algorithms for Kernel Density Visualization</p>
         <p class="gintro">Kernel Density Visualization (KDV) has been extensively used in a wide range of applications, including traffic accident hotspot detection, crime hotspot detection, disease outbreak detection, and ecological modeling. However, KDV is a computationally expensive operation, which is not scalable to large datasets (e.g., million-scale data points) and high resolution sizes (e.g., 1920 × 1080). To significantly improve the efficiency for generating KDV, we develop two efficient Sweep Line AlgorithMs (SLAM), which can theoretically reduce the time complexity for generating KDV. By incorporating the resolution-aware optimization (RAO) into SLAM, we can further achieve the lowest time complexity for generating KDV. Our extensive experiments on four large-scale real datasets (up to 4.33 million data points) show that all our methods can achieve one to two-order-of-magnitude speedup in many test cases and efficiently support KDV with exploratory operations (e.g., zooming and panning) compared with the state-of-the-art solutions.</p>
-        <div style="display: flex;">
+        <div style="display: flex;" class="gimgs">
           <div class="image-container" data-text="Click to view">
             <el-image :src="`/academicpage/image/pro4_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/pro4_1.png']"/>
           </div>
@@ -120,8 +121,8 @@
       <p style="display: flex; margin-top: 24px; height: 30px; line-height: 30px; color: #2F81FC; font-weight: 400; font-size: 14px;">
         <button class="toggle-button" @click="toggleGroup2" >
             {{ showGroup2 ? 'FOLD' : 'If you want to view more projects, please click MORE' }}
-            <img v-if="showGroup2" src="/image/icon_fold.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
-            <img v-else src="/image/icon_open.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 10px;">
+            <img v-if="showGroup2" src="/image/icon_fold.png" alt="" class="tbbutton2">
+            <img v-else src="/image/icon_open.png" alt="" class=tbbutton>
         </button>
       </p>
     </div>
@@ -132,9 +133,9 @@
       <div class="aline2" />
       <div class="achievements">
         <el-row>
-          <el-col :span="2" />
-          <el-col :span="8">
-            <div style="display: flex; flex-direction: column; gap: 72px; margin-top: 80px;">
+          <el-col :span="2" :xs="0"/>
+          <el-col :span="8" :xs="24">
+            <div class="abuttons">
               <button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</button>
               <button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</button>
               <button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</button>
@@ -147,7 +148,7 @@
               <a href="https://scholar.google.com.hk/citations?user=b2AOUEEAAAAJ&hl=en"  target="_blank" style="color: #2F81FC;">[Google Scholar]</a>
             </div>
           </el-col>
-          <el-col :span="12">
+          <el-col :span="12" :xs="24">
             <div v-if="activetab === 1" class="atext">
               <p>IEEE Senior Member (Awarded in 2024)</p>
               <p>National Science Fund for Excellent Young Scientists (Overseas) (国家海外优青) (Awarded in 2023)</p>
@@ -337,7 +338,7 @@
         <div class="pline1" />
         <div class="pline2" />
       </div>
-      <table style="border-collapse:separate; border-spacing:0px 64px;">
+      <table style="border-collapse:separate; border-spacing:0px 24px;">
         <tbody>
           <tr>
             <td class="tdtitle">Major Service Award</td>
@@ -422,52 +423,52 @@
         <div class="pline2" />
       </div>
       <div class="card">
-      <div class="course">
-        <p class="ctitle">Courses</p>
-        <div class="ctext">
-          <p>SZU Professional English (for PhD Students) (Spring 2024)</p>
-          <p>SZU Software Testing (Spring 2024)</p>
-          <p>HKBU COMP 7640 Database Systems and Administration (Spring 2023)</p>
-          <p>HKBU COMP 7930 Big Data Analytics (Spring 2021, Spring 2022)</p>
-          <p>HKBU COMP 4035 Database System Implementation (Fall 2020, Fall 2021, Fall 2022)</p>
+        <div class="course">
+          <p class="ctitle">Courses</p>
+          <div class="ctext">
+            <p>SZU Professional English (for PhD Students) (Spring 2024)</p>
+            <p>SZU Software Testing (Spring 2024)</p>
+            <p>HKBU COMP 7640 Database Systems and Administration (Spring 2023)</p>
+            <p>HKBU COMP 7930 Big Data Analytics (Spring 2021, Spring 2022)</p>
+            <p>HKBU COMP 4035 Database System Implementation (Fall 2020, Fall 2021, Fall 2022)</p>
+          </div>
+          <button class="more1" style="display: flex;" @click="moreteaching(1)">
+            MORE
+            <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+          </button>
         </div>
-        <!-- <button class="more" style="display: flex;" @click="moreteaching(1)"> -->
-          <!-- MORE -->
-          <!-- <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;"> -->
-        <!-- </button> -->
-      </div>
-      <div class="at">
-        <p class="ctitle">Academic Talks</p>
-        <div class="ctext">
-          <p>What Should You Think to Perfectly Present Research Papers? (November 2024), Duke Kunshan University (China)</p>
-          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (November 2024), Hangzhou Dianzi University (China)</p>
-          <p>LION: Fast and High-Resolution Network Kernel Density Visualization (November 2024), Zhejiang University of Science and Technology (China)</p>
-          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Hong Kong University of Science and Technology (Guangzhou) (China)</p>
-          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Guangzhou University (China)</p>
-          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2023), Zhejiang University of Science and Technology (China)</p>
-          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (April 2023), Nanyang Technological University (Singapore)</p>
-          <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2022), Shandong University (China)</p>
-          <p>A Complexity-Optimized Solution for Large-scale Kernel Density Visualization (December 2022), Shenzhen University (China)</p>
+        <div class="at">
+          <p class="ctitle">Academic Talks</p>
+          <div class="ctext">
+            <p>What Should You Think to Perfectly Present Research Papers? (November 2024), Duke Kunshan University (China)</p>
+            <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (November 2024), Hangzhou Dianzi University (China)</p>
+            <p>LION: Fast and High-Resolution Network Kernel Density Visualization (November 2024), Zhejiang University of Science and Technology (China)</p>
+            <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Hong Kong University of Science and Technology (Guangzhou) (China)</p>
+            <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (October 2024), Guangzhou University (China)</p>
+            <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2023), Zhejiang University of Science and Technology (China)</p>
+            <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (April 2023), Nanyang Technological University (Singapore)</p>
+            <p>Complexity-Optimized Algorithms for Large-scale Kernel Density Visualization (December 2022), Shandong University (China)</p>
+            <p>A Complexity-Optimized Solution for Large-scale Kernel Density Visualization (December 2022), Shenzhen University (China)</p>
+          </div>
+          <button class="more2" style="display: flex;" @click="moreteaching(2)">
+            MORE
+            <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+          </button>
         </div>
-        <button class="more" style="display: flex;" @click="moreteaching(2)">
-          MORE
-          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
-        </button>
-      </div>
-      <div class="tutorials">
-        <p class="ctitle">Students</p>
-        <div class="ctext">
-          <p>Hongwei Ye, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
-          <p>Yue Zhong, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
-          <p>Bojian Zhu, undergraduate research assistant in HKBU (From June 2023 to August 2024) (Coauthored two VLDB papers with me)</p>
-          <p>Rui Zang, undergraduate research assistant in HKBU (From May 2023 to July 2023) (Coauthored one VLDB paper and one SIGMOD demo paper with me)</p>
+        <div class="tutorials">
+          <p class="ctitle">Students</p>
+          <div class="ctext">
+            <p>Hongwei Ye, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
+            <p>Yue Zhong, master student in SZU (Cosupervised with Prof. Joshua Zhexue Huang)</p>
+            <p>Bojian Zhu, undergraduate research assistant in HKBU (From June 2023 to August 2024) (Coauthored two VLDB papers with me)</p>
+            <p>Rui Zang, undergraduate research assistant in HKBU (From May 2023 to July 2023) (Coauthored one VLDB paper and one SIGMOD demo paper with me)</p>
+          </div>
+          <button class="more3" style="display: flex;" @click="moreteaching(3)">
+            MORE
+            <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+          </button>
         </div>
-        <button class="more" style="display: flex;" @click="moreteaching(3)">
-          MORE
-          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
-        </button>
       </div>
-    </div>
       <!-- <div class="book"> -->
         <!-- <p class="booktitle">Book</p> -->
         <!-- <div class="booktext"> -->
@@ -654,6 +655,11 @@ const foldteaching = () => {
   width: 300px;
   left: 46px;
 }
+.emailtext2 {
+  position: absolute;
+  width: 300px;
+  left: 316px;
+}
 .teacherimg {
   position: absolute;
   top: 89px;
@@ -814,7 +820,7 @@ const foldteaching = () => {
   /* height: 586px; */
 }
 .gtitle {
-  height: 29px;
+  /* height: 29px; */
   font-weight: 600;
   font-size: 16px;
   color: #2F81FC;
@@ -901,6 +907,18 @@ const foldteaching = () => {
   font-size: 16px;
   color: #2F81FC;
 }
+.tbbutton {
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+.tbbutton2 {
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+  margin-top: 10px;
+}
 .achievement {
   position: relative;
   margin-top: 80px;
@@ -949,6 +967,12 @@ const foldteaching = () => {
   background: rgba(196,196,196,0);
   border-radius: 16px 16px 16px 16px;
   border: 4px solid #000000;
+}
+.abuttons {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-top: 80px;
 }
 .abutton {
   margin-left: 0;
@@ -1122,7 +1146,7 @@ td p {
 .card {
   position: relative;
   width: 100%;
-  height: 594px;
+  /* height: 594px; */
 }
 .course {
   position: absolute;
@@ -1207,14 +1231,14 @@ td p {
   line-height: 30px;
 }
 .overlay {
-  display: none;  /* 默认隐藏 */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
-  z-index: 999;  /* 确保遮罩层在内容层之上 */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 .coursebig {
   position: fixed;
@@ -1226,7 +1250,7 @@ td p {
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
   z-index: 1000;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   scrollbar-width: thin;
   scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
@@ -1257,7 +1281,24 @@ td p {
 .textbig p {
   padding-left: 1em;
 }
-.more {
+.more1 {
+  margin-left: 75%;
+  height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2F81FC;
+  line-height: 30px;
+  visibility: hidden;
+}
+.more2 {
+  margin-left: 75%;
+  height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2F81FC;
+  line-height: 30px;
+}
+.more3 {
   margin-left: 75%;
   height: 30px;
   font-weight: normal;
@@ -1311,5 +1352,420 @@ td p {
   font-size: 12px;
   color: rgba(0,0,0,0.6);
   line-height: 14px;
+}
+@media (max-width: 480px) {
+  .top {
+    height: 555px;
+  }
+  .topcontainer {
+    max-width: 100%;
+    height: 555px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+  }
+  .teacherimg {
+    top: 32px;
+    right: calc((100% - 120px)/2);
+    width: 120px;
+    height: 120px;
+  }
+  .tname {
+    top: 168px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .tintro {
+    top: 218px;
+    left: calc((100% - 257px)/2);
+    width: 257px;
+    height: 119px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .tlocation {
+    top: 361px;
+    left: calc((100% - 257px)/2);
+    width: 257px;
+    height: 62px;
+  }
+  .icon_address {
+    left: calc((100% - 24px)/2);
+    width: 24px;
+    height: 24px;
+  }
+  .locationtext {
+    top: 32px;
+    left: 0;
+    width: 257px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .temail {
+    margin-top: 58px;
+    left: calc((100% - 257px)/2);
+    width: 257px;
+    height: 62px;
+  }
+  .icon_email {
+    left: calc((100% - 24px)/2);
+    width: 24px;
+    height: 24px;
+  }
+  .emailtext {
+    top: 32px;
+    left: 0;
+    width: 257px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .emailtext2 {
+    top: 57px;
+    left: 0;
+    width: 257px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .text {
+    max-width: 304px;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .research {
+    max-width: 304px;
+    /* height: 1831px; */
+  }
+  .rtitle {
+    width: 137px;
+    height: 29px;
+    margin-left: calc((100% - 137px)/2);
+  }
+  .rellipse {
+    width: 20px;
+    height: 20px;
+  }
+  .title {
+    top: 3px;
+    left: 13px;
+    width: 137px;
+    height: 29px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .rline1 {
+    top: 23px;
+    width: 17px;
+  }
+  .rline2 {
+    top: 29px;
+    width: 72px;
+  }
+  .ri {
+    margin-top: 53px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .rifield {
+    margin-top: 103px;
+    height: 300px;
+  }
+  .rectangle1 {
+    margin-top: 10px;
+  }
+  .rectangle2 {
+    margin-top: 40px;
+  }
+  .rectangle3 {
+    margin-top: 220px;
+  }
+  .rectangle4 {
+    margin-top: 250px;
+  }
+  .ritext {
+    height: 300px;
+  }
+  .Long-Term-Goal {
+    margin-top: 427px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .ltgtext {
+    margin-top: 477px;
+    height: 359px;
+  }
+  .Selected-projects {
+    margin-top: 860px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .sptext {
+    margin-top: 910px;
+    height: 179px;
+  }
+  .group {
+    top: 1105px;
+    /* height: 586px; */
+  }
+  .gtitle {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .gintro {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .group2 {
+    margin-top: 1150px;
+    /* height: 586px; */
+  }
+  .gimgs {
+    overflow-x: scroll;
+  }
+  .gimg1 {
+    width: 304px;
+    height: 220px;
+  }
+  .gimg2 {
+    margin-left: 5px;
+    width: 304px;
+    height: 220px;
+  }
+  .gimg3 {
+    margin-left: 5px;
+    width: 304px;
+    height: 220px;
+  }
+  .image-container::before {
+    display: none;
+  }
+  .toggle-button {
+    width: 228px;
+    height: 60px;
+    margin-left: calc((100% - 228px)/2);
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .tbbutton {
+    margin-top: 40px;
+    margin-left: 0;
+    transform: translateX(-10px);
+  }
+  .achievement {
+    max-width: 304px;
+    height: 1250px;
+  }
+  .aellipse {
+    width: 20px;
+    height: 20px;
+    margin-left: calc((100% - 185px)/2);
+  }
+  .atitle {
+    width: 137px;
+    height: 29px;
+    top: 3px;
+    left: calc((100% - 185px) / 2 + 13px);
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .aline1 {
+    top: 23px;
+    left: calc((100% - 185px) / 2 + 168px);
+    width: 17px;
+  }
+  .aline2 {
+    top: 29px;
+    left: calc((100% - 185px) / 2 + 113px);
+    width: 72px;
+  }
+  .achievements {
+    top: 71px;
+    width: 100%;
+    height: 1144px;
+  }
+  .abuttons {
+    margin-top: 40px;
+    gap: 24px;
+  }
+  .abutton {
+    width: 240px;
+    height: 60px;
+    margin-left: calc((100% - 240px)/2);
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .dblp {
+    width: 176px;
+    margin-top: 24px;
+    margin-left: calc((100% - 176px)/2);
+    height: 29px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .atext {
+    width: 256px;
+    margin-top: 40px;
+    margin-left: calc((100% - 256px)/2);
+    height: 480px;
+  }
+  .ps {
+    margin-top: 40px;
+    max-width: 304px;
+  }
+  .pstitle {
+    margin-top: 40px;
+    width: 255px;
+    height: 29px;
+    margin-left: calc((100% - 255px)/2);
+  }
+  .pellipse {
+    width: 20px;
+    height: 20px;
+  }
+  .ptitle {
+    width: 229px;
+    height: 26px;
+    top: 3px;
+    left: 13px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .pline1 {
+    top: 23px;
+    right: 0;
+    width: 17px;
+  }
+  .pline2 {
+    top: 29px;
+    right: 0;
+    width: 72px;
+  }
+  td {
+    display: block;
+  }
+  .tdtitle {
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .tdtext {
+    height: auto;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .teaching {
+    margin-top: 40px;
+    max-width: 304px;
+    /* height: 1650px; */
+  }
+  .teachingtitle {
+    width: 135px;
+    height: 42px;
+    margin-left: calc((100% - 135px)/2);
+  }
+  .tellipse {
+    width: 20px;
+    height: 20px;
+  }
+  .course {
+    position: relative;
+    width: 304px;
+    max-height: 505px;
+    margin-top: 32px;
+  }
+  .at {
+    position: relative;
+    left: 0;
+    width: 304px;
+    max-height: 505px;
+    margin-top: 32px;
+  }
+  .tutorials {
+    position: relative;
+    left: 0;
+    width: 304px;
+    max-height: 505px;
+    margin-top: 32px;
+  }
+  .ctitle {
+    position: relative;
+    margin-top: 0;
+    top: 32px;
+    width: 100%;
+    margin-left: 0;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .more1 {
+    visibility: visible;
+  }
+  .coursebig {
+    position: fixed;
+    width: 304px;
+    /* height: 505px; */
+    top: 32px;
+    left: calc((100% - 304px)/2);
+    /* overflow-x: none; */
+  }
+  .titlebig {
+    margin-left: 0;
+    width: 100%;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .textbig {
+    margin-top: 54px;
+    padding-top: 0;
+    margin-inline: 24px;
+    height: 75%;
+    font-size: 14px;
+    line-height: 30px;
+    overflow-x: scroll;
+  }
+  .fold {
+    bottom: 17%;
+    right: 23%;
+    padding-bottom: 24px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .end {
+    width: 304px;
+    height: 370px;
+  }
+  .endtitle {
+    margin-top: 40px;
+    margin-left: calc((100% - 210px)/2);
+    width: 210px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .endtext {
+    margin-top: 24px;
+    margin-inline: 24px;
+    height: 59px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .welcome {
+    margin-top: 40px;
+    margin-left: calc((100% - 298px)/2);
+    width: 298px;
+    height: 26px;
+    font-size: 10px;
+    /* line-height: 26px; */
+  }
 }
 </style>

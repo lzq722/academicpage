@@ -529,7 +529,7 @@ const navigateTowu = () => {
   .tintro {
     width: 255px;
     height: 149px;
-    margin-top: 148px;
+    margin-top: 163px;
     font-size: 14px;
     line-height: 30px;
     font-weight: 400;

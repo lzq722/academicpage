@@ -40,7 +40,7 @@
       <div class="group">
         <p class="gtitle">Efficient and Accurate PageRank Approximation on Large Graphs</p>
         <p class="gintro">PageRank is a commonly used measurement in a wide range of applications, including search engines, recommendation systems, and social networks. However, this measurement suffers from huge computational overhead, which cannot be scaled to large graphs. Although many approximate algorithms have been proposed for computing PageRank values, these algorithms are either (i) not efficient or (ii) not accurate. Worse still, some of them cannot provide estimated PageRank values for all the vertices. In this paper, we first propose the CUR-Trans algorithm, which can reduce the time complexity for computing PageRank values and has lower error bound than existing matrix approximation-based PageRank algorithms. Then, we develop the T2-Approx algorithm to further reduce the time complexity for computing this measurement. Experiment results on three large-scale graphs show that both the CUR-Trans algorithm and the T2-Approx algorithm achieve the lowest response time for computing PageRank values with the best accuracy (for the CUR-Trans algorithm) or the competitive accuracy (for the T2-Approx algorithm). Besides, the two proposed algorithms are able to provide estimated PageRank values for all the vertices.</p>
-        <div style="display: flex; position: relative;">
+        <div style="display: flex; position: relative;" class="gimgs">
           <div class="image-container" data-text="Click to view">
             <el-image :src="`/academicpage/image/project1_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/project1_1.png']"/>
           </div>
@@ -52,7 +52,7 @@
       <div class="group2">
         <p class="gtitle">Efficient Skyline Keyword-Based Tree Retrieval on Attributed Graphs</p>
         <p class="gintro">Attributed graphs are graphs, where the vertices have attributes. Such graphs encompass, e.g., social network graph, citation graphs, and knowledge graphs, which have numerous real-world applications. Keyword-based search is a prominent and user-friendly way of querying attributed graphs. One widely used approach to keyword search adopts tree-based query semantics that relies on scoring functions that aggregate distances from a root to keyword-matched vertices. However, it is non-trivial to design scoring functions that capture different users’ keyword preferences. This study defines and solves the skyline KTree retrieval problem that combines keyword querying with skyline functionality on attributed graphs. The result of a skyline KTree query is independent of scoring functions. Hence, no matter which keywords are preferred, users can always find their favorite KTrees in a result. To enable efficient skyline KTree retrieval, we propose algorithm FilterRefine that first identifies candidate results and then uses them for search space pruning. Computing distances between keywords and vertices is expensive and dominates the computational cost of FilterRefine. Inspired by subspace skyline query techniques, we convert the skyline KTree retrieval problem into a multi-dimensional subspace skyline problem and propose algorithm MultiDiSkylineOpt. This algorithm is able to reuse skylines in subspaces and uses bounds on all dimensions to accelerate distance computation. Experimental results on real datasets show that a baseline algorithm cannot report results within a 500 second cut-off time, while the proposed algorithms are able to compute results in reasonable time. In particular, MultiDiSkylineOpt is able to efficiently retrieve skyline KTrees on large graphs with millions of nodes and hundreds of millions of edges.</p>
-        <div style="display: flex;">
+        <div style="display: flex;" class="gimgs">
           <div class="image-container" data-text="Click to view">
             <el-image :src="`/academicpage/image/project2_1.png`" fit="cover" alt="" class="gimg1" :preview-src-list="['/academicpage/image/project2_1.png']"/>
           </div>
@@ -81,9 +81,9 @@
       <div class="aline2" />
       <div class="achievements">
         <el-row>
-          <el-col :span="2" />
-          <el-col :span="8">
-            <div style="display: flex; flex-direction: column; gap: 72px; margin-top: 80px;">
+          <el-col :span="2" :xs="0"/>
+          <el-col :span="8" :xs="24">
+            <div class="abuttons">
               <button class="abutton" :class="{'selecttab': activetab === 1}" @click="setActiveTab(1)">Research Awards</button>
               <button class="abutton" :class="{'selecttab': activetab === 2}" @click="setActiveTab(2)">Research Grants</button>
               <button class="abutton" :class="{'selecttab': activetab === 3}" @click="setActiveTab(3)">Research Publications</button>
@@ -94,7 +94,7 @@
               <a href="https://scholar.google.com/citations?user=oRbQlsEAAAAJ&hl=en" target="_blank" style="color: #2F81FC;">[Google Scholar]</a>
             </div>
           </el-col>
-          <el-col :span="12">
+          <el-col :span="12"  :xs="24">
             <div v-if="activetab === 1" class="atext">
               <p>2023年广东省计算机学会优秀论文二等奖，Density-Based Top-K Spatial Textual Clusters Retrieval. IEEE Trans. Knowl. Data Eng. 34(11): 5263-5277 (2022)</p>
               <p>2021年广东省计算机学会优秀论文二等奖，Density-Based Place Clustering Using Geo-Social Network Data. IEEE Trans. Knowl. Data Eng. 30(5): 838-851 (2018)</p>
@@ -138,7 +138,7 @@
         <div class="pline1" />
         <div class="pline2" />
       </div>
-      <table style="border-collapse:separate; border-spacing:0px 64px;">
+      <table style="border-collapse:separate; border-spacing:0px 24px;">
         <tbody>
           <!-- <tr>
             <td class="tdtitle">Major Service Award</td>
@@ -198,66 +198,66 @@
         <div class="pline2" />
       </div>
       <div class="card">
-      <div class="course">
-        <p class="ctitle">Courses</p>
-        <div class="ctext">
-          <p>Design and Analysis of Algorithms (Spring 2024-2019, Fall 2018-2016)</p>
-          <p>Data Structures (Fall 2024-2019)</p>
-          <p>Big Data Processing and Analytics (Spring 2019)</p>
-          <p>Introdution to Big Data (Fall 2018-2017)</p>
-          <p>Information Retrieval (Spring 2018-2017)</p>
-          <p>Search Engine Technology (Fall 2016)</p>
+        <div class="course">
+          <p class="ctitle">Courses</p>
+          <div class="ctext">
+            <p>Design and Analysis of Algorithms (Spring 2024-2019, Fall 2018-2016)</p>
+            <p>Data Structures (Fall 2024-2019)</p>
+            <p>Big Data Processing and Analytics (Spring 2019)</p>
+            <p>Introdution to Big Data (Fall 2018-2017)</p>
+            <p>Information Retrieval (Spring 2018-2017)</p>
+            <p>Search Engine Technology (Fall 2016)</p>
+          </div>
+          <button class="more1" style="display: flex;" @click="moreteaching(1)">
+            MORE
+            <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+          </button>
         </div>
-        <!-- <button class="more" style="display: flex;" @click="moreteaching(1)"> -->
-          <!-- MORE -->
-          <!-- <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;"> -->
-        <!-- </button> -->
-      </div>
-      <div class="at">
-        <p class="ctitle">Awards</p>
-        <div class="ctext">
-          <p>2024年第九届全国计算机类课程实验教学案例评选优秀案例，一等奖</p>
-          <p>2023年广东省一流本科课程，算法设计与分析</p>
-          <p>2021年深圳大学教育教学成果(高等教育类)，一等奖，产教融合理念下校企双主体协同培养计算机工程硕士的创新与实践</p>
+        <div class="at">
+          <p class="ctitle">Awards</p>
+          <div class="ctext">
+            <p>2024年第九届全国计算机类课程实验教学案例评选优秀案例，一等奖</p>
+            <p>2023年广东省一流本科课程，算法设计与分析</p>
+            <p>2021年深圳大学教育教学成果(高等教育类)，一等奖，产教融合理念下校企双主体协同培养计算机工程硕士的创新与实践</p>
+          </div>
+          <button class="more2" style="display: flex;" @click="moreteaching(2)">
+            MORE
+            <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+          </button>
         </div>
-        <!-- <button class="more" style="display: flex;" @click="moreteaching(2)"> -->
-          <!-- MORE -->
-          <!-- <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;"> -->
-        <!-- </button> -->
-      </div>
-      <div class="tutorials">
-        <p class="ctitle">Students</p>
-        <div class="ctext">
-          <h1>在读学生</h1>
-          <p>博士生：伍斯玥</p>
-          <p>硕士生：全俊熠，卓仙鸿，黄经研，唐伟科，刘洋，吴浩钊，黄爽怡，王凯涛，熊国伟，李可欣，骆逸文，黄伊桦，廖明申</p>
-          <br>
-          <h1>毕业学生</h1>
-          <p>赖新颖，华为</p>
-          <p>吕华彬，九维数据技术有限公司</p>
-          <p>袁楚杰，字节跳动</p>
-          <p>张钊奋，深圳杉岩数据技术有限公司，优秀毕业生</p>
-          <p>朱思潼，公务员（国家税务总局广州市税务局）</p>
-          <p>李密，招银网络科技有限公司</p>
-          <p>杜国良，广州凯媒通讯技术有限公司</p>
-          <p>吴亿欣，中国人寿保险股份有限公司</p>
-          <p>周钰琪，公务员（深圳市社会保险基金管理局宝安分局）</p>
-          <p>吴松，读博（Utrecht University, Netherlands）</p>
-          <p>林俊杰，招银网络科技有限公司</p>
-          <p>陈萌，上海微创医疗机器人</p>
-          <p>詹金颖，华为</p>
-          <p>李昕宸，读博（深圳大学）</p>
-          <p>侯灿，建信金融科技公司</p>
-          <p>周豪，华为</p>
-          <p>罗德新，腾讯</p>
-          <p>朱艺，字节跳动，优秀毕业生</p>
+        <div class="tutorials">
+          <p class="ctitle">Students</p>
+          <div class="ctext">
+            <h1>在读学生</h1>
+            <p>博士生：伍斯玥</p>
+            <p>硕士生：全俊熠，卓仙鸿，黄经研，唐伟科，刘洋，吴浩钊，黄爽怡，王凯涛，熊国伟，李可欣，骆逸文，黄伊桦，廖明申</p>
+            <br>
+            <h1>毕业学生</h1>
+            <p>赖新颖，华为</p>
+            <p>吕华彬，九维数据技术有限公司</p>
+            <p>袁楚杰，字节跳动</p>
+            <p>张钊奋，深圳杉岩数据技术有限公司，优秀毕业生</p>
+            <p>朱思潼，公务员（国家税务总局广州市税务局）</p>
+            <p>李密，招银网络科技有限公司</p>
+            <p>杜国良，广州凯媒通讯技术有限公司</p>
+            <p>吴亿欣，中国人寿保险股份有限公司</p>
+            <p>周钰琪，公务员（深圳市社会保险基金管理局宝安分局）</p>
+            <p>吴松，读博（Utrecht University, Netherlands）</p>
+            <p>林俊杰，招银网络科技有限公司</p>
+            <p>陈萌，上海微创医疗机器人</p>
+            <p>詹金颖，华为</p>
+            <p>李昕宸，读博（深圳大学）</p>
+            <p>侯灿，建信金融科技公司</p>
+            <p>周豪，华为</p>
+            <p>罗德新，腾讯</p>
+            <p>朱艺，字节跳动，优秀毕业生</p>
+          </div>
+          <button class="more3" style="display: flex;" @click="moreteaching(3)">
+            MORE
+            <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
+          </button>
         </div>
-        <button class="more" style="display: flex;" @click="moreteaching(3)">
-          MORE
-          <img src="/image/icon_open2.png" alt="" style="width: 10px; height: 10px; margin-left: 6px; margin-top: 11px;">
-        </button>
       </div>
-    </div>
       <div class="book">
         <p class="booktitle">Books</p>
         <div class="booktext">
@@ -612,7 +612,7 @@ const foldteaching = () => {
   /* height: 586px; */
 }
 .gtitle {
-  height: 29px;
+  /* height: 29px; */
   font-weight: 600;
   font-size: 16px;
   color: #2F81FC;
@@ -737,6 +737,12 @@ const foldteaching = () => {
   background: rgba(196,196,196,0);
   border-radius: 16px 16px 16px 16px;
   border: 4px solid #000000;
+}
+.abuttons {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  margin-top: 80px;
 }
 .abutton {
   margin-left: 0;
@@ -903,7 +909,7 @@ td p {
 .card {
   position: relative;
   width: 100%;
-  height: 594px;
+  /* height: 594px; */
 }
 .course {
   position: absolute;
@@ -1001,14 +1007,14 @@ td p {
   padding-left: 1em;
 }
 .overlay {
-  display: none;  /* 默认隐藏 */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* 半透明黑色背景 */
-  z-index: 999;  /* 确保遮罩层在内容层之上 */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 .coursebig {
   position: fixed;
@@ -1020,7 +1026,7 @@ td p {
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
   z-index: 1000;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   scrollbar-width: thin;
   scrollbar-color: rgba(0,0,0,0.2) rgba(0,0,0,0);
 }
@@ -1056,7 +1062,25 @@ td p {
 .textbig p {
   padding-left: 1em;
 }
-.more {
+.more1 {
+  margin-left: 75%;
+  height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2F81FC;
+  line-height: 30px;
+  visibility: hidden;
+}
+.more2 {
+  margin-left: 75%;
+  height: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2F81FC;
+  line-height: 30px;
+  visibility: hidden;
+}
+.more3 {
   margin-left: 75%;
   height: 30px;
   font-weight: normal;
@@ -1110,5 +1134,390 @@ td p {
   font-size: 12px;
   color: rgba(0,0,0,0.6);
   line-height: 14px;
+}
+@media (max-width: 480px) {
+  .top {
+    height: 525px;
+  }
+  .topcontainer {
+    max-width: 100%;
+    height: 525px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+  }
+  .teacherimg {
+    top: 32px;
+    right: calc((100% - 120px)/2);
+    width: 120px;
+    height: 120px;
+  }
+  .tname {
+    top: 168px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .tintro {
+    top: 218px;
+    left: calc((100% - 257px)/2);
+    width: 257px;
+    height: 119px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .tlocation {
+    top: 361px;
+    left: calc((100% - 257px)/2);
+    width: 257px;
+    height: 62px;
+  }
+  .icon_address {
+    left: calc((100% - 24px)/2);
+    width: 24px;
+    height: 24px;
+  }
+  .locationtext {
+    top: 32px;
+    left: 0;
+    width: 257px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .temail {
+    margin-top: 58px;
+    left: calc((100% - 257px)/2);
+    width: 257px;
+    height: 62px;
+  }
+  .icon_email {
+    left: calc((100% - 24px)/2);
+    width: 24px;
+    height: 24px;
+  }
+  .emailtext {
+    top: 32px;
+    left: 0;
+    width: 257px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .text {
+    max-width: 304px;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .research {
+    max-width: 304px;
+    /* height: 1831px; */
+  }
+  .rtitle {
+    width: 137px;
+    height: 29px;
+    margin-left: calc((100% - 137px)/2);
+  }
+  .rellipse {
+    width: 20px;
+    height: 20px;
+  }
+  .title {
+    top: 3px;
+    left: 13px;
+    width: 137px;
+    height: 29px;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .rline1 {
+    top: 23px;
+    width: 17px;
+  }
+  .rline2 {
+    top: 29px;
+    width: 72px;
+  }
+  .ri {
+    margin-top: 53px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .rifield {
+    margin-top: 103px;
+    height: 300px;
+  }
+  .rectangle1 {
+    margin-top: 10px;
+  }
+  .rectangle2 {
+    margin-top: 40px;
+  }
+  .rectangle3 {
+    margin-top: 220px;
+  }
+  .rectangle4 {
+    margin-top: 250px;
+  }
+  .ritext {
+    height: 300px;
+  }
+  .Long-Term-Goal {
+    margin-top: 427px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .ltgtext {
+    margin-top: 477px;
+    height: 359px;
+  }
+  .Selected-projects {
+    margin-top: 330px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .group {
+    top: 385px;
+    /* height: 586px; */
+  }
+  .gtitle {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .gintro {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .group2 {
+    margin-top: 400px;
+    /* height: 586px; */
+  }
+  .gimgs {
+    overflow-x: scroll;
+  }
+  .gimg1 {
+    width: 304px;
+    height: 220px;
+  }
+  .gimg2 {
+    margin-left: 5px;
+    width: 304px;
+    height: 220px;
+  }
+  .gimg3 {
+    margin-left: 5px;
+    width: 304px;
+    height: 220px;
+  }
+  .image-container::before {
+    display: none;
+  }
+  .toggle-button {
+    width: 228px;
+    height: 60px;
+    margin-left: calc((100% - 228px)/2);
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .achievement {
+    max-width: 304px;
+    height: 1100px;
+  }
+  .aellipse {
+    width: 20px;
+    height: 20px;
+    margin-left: calc((100% - 185px)/2);
+  }
+  .atitle {
+    width: 137px;
+    height: 29px;
+    top: 3px;
+    left: calc((100% - 185px) / 2 + 13px);
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .aline1 {
+    top: 23px;
+    left: calc((100% - 185px) / 2 + 168px);
+    width: 17px;
+  }
+  .aline2 {
+    top: 29px;
+    left: calc((100% - 185px) / 2 + 113px);
+    width: 72px;
+  }
+  .achievements {
+    top: 71px;
+    width: 100%;
+    height: 964px;
+  }
+  .abuttons {
+    margin-top: 40px;
+    gap: 24px;
+  }
+  .abutton {
+    width: 240px;
+    height: 60px;
+    margin-left: calc((100% - 240px)/2);
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .dblp {
+    width: 176px;
+    margin-top: 24px;
+    margin-left: calc((100% - 176px)/2);
+    height: 29px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .atext {
+    width: 256px;
+    margin-top: 40px;
+    margin-left: calc((100% - 256px)/2);
+    height: 480px;
+  }
+  .ps {
+    margin-top: 40px;
+    max-width: 304px;
+  }
+  .pstitle {
+    margin-top: 40px;
+    width: 255px;
+    height: 29px;
+    margin-left: calc((100% - 255px)/2);
+  }
+  .pellipse {
+    width: 20px;
+    height: 20px;
+  }
+  .ptitle {
+    width: 229px;
+    height: 26px;
+    top: 3px;
+    left: 13px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .pline1 {
+    top: 23px;
+    right: 0;
+    width: 17px;
+  }
+  .pline2 {
+    top: 29px;
+    right: 0;
+    width: 72px;
+  }
+  td {
+    display: block;
+  }
+  .tdtitle {
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .tdtext {
+    height: auto;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .teaching {
+    margin-top: 40px;
+    max-width: 304px;
+    /* height: 1650px; */
+  }
+  .teachingtitle {
+    width: 135px;
+    height: 42px;
+    margin-left: calc((100% - 135px)/2);
+  }
+  .tellipse {
+    width: 20px;
+    height: 20px;
+  }
+  .course {
+    position: relative;
+    width: 304px;
+    max-height: 505px;
+    margin-top: 32px;
+  }
+  .at {
+    position: relative;
+    left: 0;
+    width: 304px;
+    max-height: 505px;
+    margin-top: 32px;
+  }
+  .tutorials {
+    position: relative;
+    left: 0;
+    width: 304px;
+    max-height: 505px;
+    margin-top: 32px;
+  }
+  .ctitle {
+    position: relative;
+    margin-top: 0;
+    top: 32px;
+    width: 100%;
+    margin-left: 0;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .more1 {
+    visibility: visible;
+  }
+  .book {
+    /* position: relative; */
+    width: 304px;
+    margin-top: 16px;
+    height: 370px;
+  }
+  .coursebig {
+    position: fixed;
+    width: 304px;
+    /* height: 505px; */
+    top: 32px;
+    left: calc((100% - 304px)/2);
+    /* overflow-x: none; */
+  }
+  .titlebig {
+    margin-left: 0;
+    width: 100%;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .textbig {
+    margin-top: 54px;
+    padding-top: 0;
+    margin-inline: 24px;
+    height: 75%;
+    font-size: 14px;
+    line-height: 30px;
+    overflow-x: scroll;
+  }
+  .fold {
+    bottom: 17%;
+    right: 23%;
+    padding-bottom: 24px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .welcome {
+    margin-top: 40px;
+    margin-left: calc((100% - 298px)/2);
+    width: 298px;
+    height: 26px;
+    font-size: 10px;
+    /* line-height: 26px; */
+  }
 }
 </style>
