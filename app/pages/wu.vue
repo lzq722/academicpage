@@ -336,7 +336,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import '/d:/VS code/academicpage/app/assets/fonts/fonts.css';
+import 'assets/fonts/fonts.css';
 
 // const showGroup = ref(false);
 // const showjr = ref(false);
@@ -888,7 +888,7 @@ td p {
   position: relative;
   margin-top: 40px;
   max-width: 1152px;
-  /* height: 645px; */
+  height: 845px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -974,7 +974,7 @@ td p {
 .book {
   /* position: absolute; */
   width: 100%;
-  margin-top: 16px;
+  margin-top: 616px;
   background: #FFFFFF;
   border-radius: 16px 16px 16px 16px;
 }
@@ -1428,7 +1428,7 @@ td p {
   .teaching {
     margin-top: 40px;
     max-width: 304px;
-    /* height: 1650px; */
+    height: 2050px;
   }
   .teachingtitle {
     width: 135px;
