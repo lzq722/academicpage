@@ -1044,10 +1044,11 @@ td p {
 .textbig {
   padding-top: 40px;
   margin-inline: 40px;
-  /* height: 356px; */
+  height: 75%;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
+  overflow-x: scroll;
 }
 .textbig h1 {
   font-weight: bold;
@@ -1063,6 +1064,7 @@ td p {
   padding-left: 1em;
 }
 .more1 {
+  margin-top: 28px;
   margin-left: 75%;
   height: 30px;
   font-weight: normal;
@@ -1072,6 +1074,7 @@ td p {
   visibility: hidden;
 }
 .more2 {
+  margin-top: 28px;
   margin-left: 75%;
   height: 30px;
   font-weight: normal;
@@ -1081,6 +1084,7 @@ td p {
   visibility: hidden;
 }
 .more3 {
+  margin-top: 28px;
   margin-left: 75%;
   height: 30px;
   font-weight: normal;
@@ -1091,7 +1095,7 @@ td p {
 .fold {
   position: fixed;
   bottom: 10%;
-  right: 15%;
+  right: 11%;
   padding-bottom: 24px;
   font-weight: normal;
   font-size: 14px;
